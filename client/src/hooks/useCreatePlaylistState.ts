@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { CreateNewPlaylist } from "../apiManager/RecordShop";
 import { SnackBarContext } from "../App";
-import { goToNewTabOnDesktop } from "../utils/browserUtils";
+import { goTo, goToNewTab, goToNewTabOnDesktop } from "../utils/browserUtils";
 import { useAuth } from "../context/AuthContext";
 import { Gig } from "../types/Gig";
 
@@ -31,31 +31,58 @@ export const useCreatePlaylistState = ({ dbCollectionName, numTopTracks, overrid
 
   const handleCreatePlaylist = async () => {
     setIsCreatingPlaylist(true);
-    await CreateNewPlaylist({
-      city: dbCollectionName,
-      token,
-      user_id: spotifyInfo.user_id,
-      numTopTracks,
-      overrideGigs,
-    })
-      .then((res) => {
-        if (res.status === 201) {
-          snackBar.setSnackBar({
-            showSnackbar: true,
-            setShowSnackbar: () => true,
-            message: "Successfully created a playlist!",
-            isError: false,
-          });
-          goToNewTabOnDesktop(res.data);
-        } else {
-          setIsErrorCreatingPlaylist(true);
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-        setIsErrorCreatingPlaylist(true);
+    try {
+      const playlistUrl = await CreateNewPlaylist({
+        city: dbCollectionName,
+        token,
+        user_id: spotifyInfo.user_id,
+        numTopTracks,
+        overrideGigs,
       });
-    setIsCreatingPlaylist(false);
+
+      console.log("Raw playlist URL:", playlistUrl);
+      console.log("URL type:", typeof playlistUrl);
+
+      // Ensure we have a valid URL
+      if (!playlistUrl || typeof playlistUrl !== 'string') {
+        throw new Error("Invalid playlist URL received");
+      }
+
+      // Show success message
+      snackBar.setSnackBar({
+        showSnackbar: true,
+        setShowSnackbar: () => true,
+        message: "Successfully created a playlist!",
+        isError: false,
+      });
+      
+      // Add a small delay before opening the URL
+      setTimeout(() => {
+        console.log("Attempting to open URL:", playlistUrl);
+        try {
+          // Try window.open first
+          const newWindow = window.open(playlistUrl, '_blank');
+          if (newWindow === null) {
+            // If window.open was blocked, fall back to location.assign
+            console.log("window.open blocked, trying location.assign...");
+            window.location.assign(playlistUrl);
+          }
+        } catch (e) {
+          console.error("Error opening URL:", e);
+          // Final fallback
+          window.location.href = playlistUrl;
+        }
+      }, 500); // 500ms delay
+    } catch (error) {
+      console.error("Error creating playlist:", error);
+      console.error("Error details:", {
+        message: error instanceof Error ? error.message : "Unknown error",
+        error
+      });
+      setIsErrorCreatingPlaylist(true);
+    } finally {
+      setIsCreatingPlaylist(false);
+    }
   };
 
   return {

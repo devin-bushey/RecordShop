@@ -62,30 +62,33 @@ export const ArtistsPage = () => {
 
   const handleCreatePlaylist = async () => {
     setIsCreatingPlaylist(true);
-    await CreateNewPlaylist({
-      city: origin,
-      token: token,
-      user_id: spotifyInfo.user_id,
-      numTopTracks: numTopTracks,
-    })
-      .then((res) => {
-        if (res.status === 201) {
-          snackBar.setSnackBar({
-            showSnackbar: true,
-            setShowSnackbar: () => true,
-            message: "Successfully created a playlist!",
-            isError: false,
-          });
-          goToNewTabOnDesktop(res.data);
-        } else {
-          setIsErrorCreatingPlaylist(true);
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-        setIsErrorCreatingPlaylist(true);
+    try {
+      const playlistUrl = await CreateNewPlaylist({
+        city: origin,
+        token,
+        user_id: spotifyInfo.user_id,
+        numTopTracks,
       });
-    setIsCreatingPlaylist(false);
+
+      snackBar.setSnackBar({
+        showSnackbar: true,
+        setShowSnackbar: () => true,
+        message: "Successfully created a playlist!",
+        isError: false,
+      });
+
+      // Add a small delay before opening the URL
+      setTimeout(() => {
+        if (playlistUrl && typeof playlistUrl === 'string') {
+          goToNewTabOnDesktop(playlistUrl);
+        }
+      }, 500);
+    } catch (error) {
+      console.error("Error creating playlist:", error);
+      setIsErrorCreatingPlaylist(true);
+    } finally {
+      setIsCreatingPlaylist(false);
+    }
   };
 
   const PlaylistCreation = (
