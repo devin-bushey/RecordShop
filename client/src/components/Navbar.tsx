@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
-import { AppBar, Toolbar, Button, Container, Box, IconButton, Menu, Typography } from "@mui/material";
+import { AppBar, Toolbar, Button, Container, Box, IconButton, Menu, Typography, Popover } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { COLOURS, primaryButtonColours, secondaryButtonColours } from "../theme/AppStyles";
 import spotifyIcon from "../spotifyLogos/Spotify_Icon_RGB_Black.png";
 import { redirectToAuth, logOut } from "../utils/spotifyAuthUtils";
 import { ContactUsModal } from "./ContactUsModal";
 import { ProfileMenu } from "./ProfileMenu";
+import { AboutUsContents } from "./AboutUsPopover";
 import useSpotifyAuth from "../hooks/useSpotifyAuth";
 
 type MenuProps = {
@@ -47,6 +48,15 @@ const Navbarr = () => {
 };
 
 const HeaderMenu = ({ openContactUsModal }: MenuProps) => {
+  const [aboutUsAnchor, setAboutUsAnchor] = useState<HTMLButtonElement | null>(null);
+  const handleAboutUsClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+    setAboutUsAnchor(event.currentTarget);
+  };
+  const handleAboutUsClose = () => {
+    setAboutUsAnchor(null);
+  };
+  const isAboutUsOpen = Boolean(aboutUsAnchor);
+
   const optionButtonAppearance = {
     my: 2,
     color: "black",
@@ -74,9 +84,24 @@ const HeaderMenu = ({ openContactUsModal }: MenuProps) => {
         {NavBarMenuOption("Cities", "/artists")}
         {NavBarMenuOption("Festivals", "/festivals")}
         {/* {NavBarMenuOption("Explore", "/explore")} */}
-        <Button sx={optionButtonAppearance} onClick={openContactUsModal}>
+        <Button sx={optionButtonAppearance} onClick={handleAboutUsClick}>
           Contact me
         </Button>
+        <Popover
+          open={isAboutUsOpen}
+          anchorEl={aboutUsAnchor}
+          onClose={handleAboutUsClose}
+          anchorOrigin={{
+            vertical: "bottom",
+            horizontal: "right",
+          }}
+          transformOrigin={{
+            vertical: "top",
+            horizontal: "right",
+          }}
+        >
+          <AboutUsContents />
+        </Popover>
       </Box>
 
       <ProfileMenuOption />
@@ -118,8 +143,8 @@ const ProfileMenuOption = () => {
 
 const DropdownMenu = ({ openContactUsModal }: MenuProps) => {
   const { isLoggedIntoSpotify } = useSpotifyAuth();
-
   const [navMenuAnchor, setNavMenuAnchor] = useState<null | HTMLElement>(null);
+  const [aboutUsAnchor, setAboutUsAnchor] = useState<HTMLButtonElement | null>(null);
 
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
     setNavMenuAnchor(event.currentTarget);
@@ -127,6 +152,13 @@ const DropdownMenu = ({ openContactUsModal }: MenuProps) => {
   const handleCloseNavMenu = () => {
     setNavMenuAnchor(null);
   };
+  const handleAboutUsClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+    setAboutUsAnchor(event.currentTarget);
+  };
+  const handleAboutUsClose = () => {
+    setAboutUsAnchor(null);
+  };
+  const isAboutUsOpen = Boolean(aboutUsAnchor);
 
   const optionButtonAppearance = {
     color: COLOURS.black,
@@ -224,13 +256,25 @@ const DropdownMenu = ({ openContactUsModal }: MenuProps) => {
 
           <Button
             sx={optionButtonAppearance}
-            onClick={() => {
-              openContactUsModal();
-              handleCloseNavMenu();
-            }}
+            onClick={handleAboutUsClick}
           >
             Contact me
           </Button>
+          <Popover
+            open={isAboutUsOpen}
+            anchorEl={aboutUsAnchor}
+            onClose={handleAboutUsClose}
+            anchorOrigin={{
+              vertical: "bottom",
+              horizontal: "right",
+            }}
+            transformOrigin={{
+              vertical: "top",
+              horizontal: "right",
+            }}
+          >
+            <AboutUsContents />
+          </Popover>
 
           {isLoggedIntoSpotify ? SignOutButton : SignInButton}
         </Box>
