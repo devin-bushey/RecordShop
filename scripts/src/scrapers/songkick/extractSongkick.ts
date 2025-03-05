@@ -2,6 +2,7 @@ import axios from "axios";
 import * as cheerio from "cheerio";
 import { buildArtist } from "../../model/Artist";
 import { Gig, buildGig } from "../../model/Gig";
+import { cleanArtistNames } from "../../utils/openai";
 require("dotenv").config({ path: "../.env" });
 
 /**
@@ -16,13 +17,14 @@ const URL_VICTORIA_PAGE_1 = "https://www.songkick.com/metro-areas/27399-canada-v
 
 export const extractSongkick = async ({ url = URL_VICTORIA_PAGE_1 }: { url?: string }) => {
   let gigs: Gig[] = [];
+  let rawGigs: { artistName: string; venue: string; date: Date | undefined }[] = [];
 
   await axios
     .get(url)
     .then((response: any) => {
       const $ = cheerio.load(response.data);
 
-      $(".event-listings-element").each(function (index, element) {
+      for (const element of $(".event-listings-element").toArray()) {
         let artistName = $(element).find("p.artists").text().trim();
         let artistNameReduced = "";
         const escape_chars = ["\n"];
@@ -41,21 +43,42 @@ export const extractSongkick = async ({ url = URL_VICTORIA_PAGE_1 }: { url?: str
 
         var venue = $(element).find(".venue-link").text().trim();
 
-        gigs.push(
-          buildGig({
-            artist: buildArtist({ name: artistName }),
-            venue: venue,
-            date: date,
-            popularity: index,
-          }),
-        );
-      });
-      return gigs;
+        rawGigs.push({
+          artistName: artistNameReduced,
+          venue,
+          date
+        });
+      }
+      return rawGigs;
     })
     .catch((error: any) => {
       console.log(error);
       console.log("Error extracting songkick");
     });
+
+  // Clean all artist names in a single OpenAI request
+  const cleanedArtists = await cleanArtistNames(rawGigs.map(gig => gig.artistName));
+
+  // Create gigs with cleaned artist names
+  for (let i = 0; i < rawGigs.length; i++) {
+    const rawGig = rawGigs[i];
+    const artistName = rawGig.artistName;
+    const artistsForGig = cleanedArtists[artistName] || [];
+
+    // Create a gig for each real artist
+    for (const cleanedArtist of artistsForGig) {
+      if (cleanedArtist.isRealArtist) {
+        gigs.push(
+          buildGig({
+            artist: buildArtist({ name: cleanedArtist.name }),
+            venue: rawGig.venue,
+            date: rawGig.date,
+            popularity: gigs.length,
+          }),
+        );
+      }
+    }
+  }
 
   console.log(JSON.stringify(gigs, null, 2));
   return JSON.stringify(gigs, null, 2);
