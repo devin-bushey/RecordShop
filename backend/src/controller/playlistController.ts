@@ -1,17 +1,9 @@
 import express from "express";
-import {
-  addPlaylistItems,
-  getPlaylist,
-  getPlaylistItems,
-  removePlaylistItems,
-} from "../helpers/spotifyPlaylistHelpers";
-import { Collection } from "mongodb";
-import { connectToDatabase } from "../database/connectToDatabase";
-import { Gig } from "../types/Gig";
-import { filterRecent } from "../helpers/filterRecent";
-import { sortByDate } from "../helpers/sortByDate";
+import { PlaylistService } from "../services/playlistService";
+import { ResponseUtils } from "../utils/responseUtils";
 
 export const playlistRouter = express.Router();
+const playlistService = PlaylistService.getInstance();
 
 /**
  * EXAMPLE USAGE:
@@ -39,90 +31,74 @@ export const playlistRouter = express.Router();
  * Lets do something cool with this.
  *
  */
-playlistRouter.route("/playlist/update").put(async (req, response) => {
-  const { token, userId, playlistName, collectionName } = req.body;
-
+playlistRouter.route("/playlist/update").put(async (req, res) => {
   try {
-    const playlist = await getPlaylist({
-      token: token,
-      user_id: userId,
-      playlistName: playlistName,
+    const { token, userId, playlistName, collectionName } = req.body;
+
+    const addedTracksCount = await playlistService.updatePlaylist({
+      token,
+      userId,
+      playlistName,
+      collectionName,
     });
 
-    if (!playlist) {
-      response.status(404).json(`Whoops! Playlist not found :(`);
-      return;
+    res.status(200).json(
+      ResponseUtils.success(`Successfully updated playlist: ${playlistName} with ${addedTracksCount} tracks`)
+    );
+  } catch (error) {
+    console.error("Error updating playlist:", error);
+    if (error instanceof Error && error.message === "Playlist not found") {
+      res.status(404).json(ResponseUtils.error("Playlist not found"));
+    } else if (error instanceof Error && error.message === "No gigs found in database collection") {
+      res.status(404).json(ResponseUtils.error("No gigs found in database collection"));
+    } else {
+      res.status(500).json(ResponseUtils.error(error instanceof Error ? error.message : "Failed to update playlist"));
+    }
+  }
+});
+
+playlistRouter.route("/playlist").get(async (req, res) => {
+  try {
+    const { token, userId, playlistName } = req.query;
+
+    if (!token || !userId || !playlistName || typeof token !== 'string' || typeof userId !== 'string' || typeof playlistName !== 'string') {
+      return res.status(400).json(ResponseUtils.error("Missing required parameters"));
     }
 
-    console.log(`Found playlist: ${playlistName}`);
-
-    // remove all existing tracks from playlist
-    const tracksFromUsersPlaylist = await getPlaylistItems({ token: token, playlistId: playlist.id });
-    await removePlaylistItems({ token: token, playlistId: playlist.id, tracks: tracksFromUsersPlaylist });
-
-    // add all future gig tracks to playlist
-    const gigsFromDatabase = await getAllFutureGigsFromCollection(collectionName);
-    console.log(`Found ${gigsFromDatabase?.length} in db collection`);
-
-    const addedTracksCount = await addPlaylistItems({
-      token: token,
-      playlistId: playlist.id,
-      tracks: gigsFromDatabase,
+    const playlist = await playlistService.getPlaylist({
+      token,
+      userId,
+      playlistName,
     });
 
-    response
-      .status(200)
-      .json(`Yassss! Successfully updated the playlist: ${playlistName} with ${addedTracksCount} tracks.`);
-  } catch (err) {
-    response.status(400).json(`Whoops! Something went wrong :(`);
+    res.status(200).json(ResponseUtils.success(playlist));
+  } catch (error) {
+    console.error("Error fetching playlist:", error);
+    if (error instanceof Error && error.message === "Playlist not found") {
+      res.status(404).json(ResponseUtils.error("Playlist not found"));
+    } else {
+      res.status(500).json(ResponseUtils.error(error instanceof Error ? error.message : "Failed to fetch playlist"));
+    }
   }
 });
 
-playlistRouter.route("/playlist").get(async (req, response) => {
-  const { token, userId, playlistName } = req.query;
-
+playlistRouter.route("/playlist/track").post(async (req, res) => {
   try {
-    const playlist = await getPlaylist({
-      token: token,
-      user_id: userId,
-      playlistName: playlistName,
-    });
+    const { token, playlistId, trackId } = req.body;
 
-    if (!playlist?.id) {
-      response.status(404).json(`Whoops! Playlist not found :(`);
-      return;
+    if (!token || !playlistId || !trackId) {
+      return res.status(400).json(ResponseUtils.error("Missing required parameters"));
     }
 
-    const tracksFromUsersPlaylist = await getPlaylistItems({ token: token, playlistId: playlist.id });
+    await playlistService.addTrack({
+      token,
+      playlistId,
+      trackId,
+    });
 
-    const playlistObj = {
-      id: playlist.id,
-      name: playlist.name,
-      image: playlist.image,
-      uri: playlist.uri,
-      tracks: tracksFromUsersPlaylist,
-    };
-
-    response.status(200).json(playlistObj);
-  } catch (err) {
-    response.status(400).json(`Whoops! Something went wrong :(`);
+    res.status(200).json(ResponseUtils.success(`Added track ${trackId} to playlist ${playlistId}`));
+  } catch (error) {
+    console.error("Error adding track to playlist:", error);
+    res.status(500).json(ResponseUtils.error(error instanceof Error ? error.message : "Failed to add track to playlist"));
   }
 });
-
-playlistRouter.route("/playlist/track").post(async (req, response) => {
-  const { token, playlistId, trackId } = req.body;
-  try {
-    await addPlaylistItems({ token: token, playlistId: playlistId, tracks: [trackId] });
-    response.status(200).json(`Yay, added ${trackId} to ${playlistId}`);
-  } catch (err) {
-    response.status(400).json(`Whoops! Something went wrong :(`);
-  }
-});
-
-const getAllFutureGigsFromCollection = async (collectionName: string): Promise<Gig[]> => {
-  const db_connect = await connectToDatabase();
-  const collection: Collection<Gig> = db_connect.collection(collectionName);
-  const gigs = await collection.find({ date: { $gte: new Date() } }).toArray();
-  const sortedGigs = sortByDate(gigs);
-  return sortedGigs;
-};

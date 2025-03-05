@@ -16,7 +16,10 @@ export const useGigsQuery = (queryKey: Festivals | Cities) => {
     try {
       return await getGigsFromRecordShop(queryKey);
     } catch (error) {
-      throw new Error("Error fetching gigs");
+      if (error instanceof Error) {
+        throw new Error(error.message);
+      }
+      throw new Error("An unexpected error occurred while fetching gigs");
     }
   };
 
