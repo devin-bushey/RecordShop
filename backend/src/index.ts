@@ -21,11 +21,11 @@ import { refreshTokenRouter } from "./refreshToken/refreshTokenRouter";
 app.use(helmet({
   contentSecurityPolicy: {
     directives: {
-      defaultSrc: ["'self'", "https://recordshop.cool"],
+      defaultSrc: ["'self'", "https://recordshop.cool", "https://record-shop-backend-n97z.onrender.com"],
       scriptSrc: ["'self'", "'unsafe-inline'", "https://recordshop.cool"],
       styleSrc: ["'self'", "'unsafe-inline'", "https://recordshop.cool"],
       imgSrc: ["'self'", "data:", "https:", "https://recordshop.cool"],
-      connectSrc: ["'self'", "https://accounts.spotify.com", "https://api.spotify.com", "https://recordshop.cool"],
+      connectSrc: ["'self'", "https://accounts.spotify.com", "https://api.spotify.com", "https://recordshop.cool", "https://record-shop-backend-n97z.onrender.com"],
       fontSrc: ["'self'", "https://recordshop.cool"],
       objectSrc: ["'none'"],
       mediaSrc: ["'self'", "https://recordshop.cool"],
@@ -34,12 +34,13 @@ app.use(helmet({
     }
   },
   crossOriginEmbedderPolicy: false,
-  crossOriginResourcePolicy: { policy: "cross-origin" }
+  crossOriginResourcePolicy: { policy: "cross-origin" },
+  crossOriginOpenerPolicy: { policy: "unsafe-none" }
 }));
 
 // Configure CORS with specific origin
 app.use(cors({
-  origin: ["https://recordshop.cool", "http://localhost:3000", "https://record-shop-backend-n97z.onrender.com"],
+  origin: ["https://recordshop.cool", "http://localhost:3000"],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization", "Origin", "Accept"],
   credentials: true,
