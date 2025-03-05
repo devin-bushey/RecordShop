@@ -47,7 +47,7 @@ export const AboutUsPopover = ({ pageClassName }: { pageClassName?: PageClassNam
   );
 };
 
-const AboutUsContents = ({ pageClassName }: { pageClassName?: PageClassName }) => {
+export const AboutUsContents = ({ pageClassName }: { pageClassName?: PageClassName }) => {
   const [isContactUsModalOpen, setIsContactUsModalOpen] = useState(false);
   const openContactUsModal = () => setIsContactUsModalOpen(true);
   const closeContactUsModal = () => setIsContactUsModalOpen(false);
