@@ -116,7 +116,35 @@ export const Settings = ({ numTopTracks, setNumTopTracks, iconColour, customSett
         </Grid>
       ))}
 
-      <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center', mt: 3 }}>
+      <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center', gap: 3, mt: 3 }}>
+        <Link 
+          href="/terms-of-use.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          sx={{
+            textDecoration: 'none',
+            '&:hover': {
+              textDecoration: 'none'
+            }
+          }}
+        >
+          <Typography 
+            className="unsubscribe-label"
+            sx={{ 
+              fontSize: "0.75rem",
+              color: '#1a1a1a',
+              opacity: 0.5,
+              transition: 'opacity 0.2s ease',
+              fontFamily: "'JetBrains Mono', monospace",
+              textAlign: 'center',
+              '&:hover': {
+                opacity: 0.8
+              }
+            }}
+          >
+            Terms of Use
+          </Typography>
+        </Link>
         <Link 
           href="https://www.spotify.com/account/apps"
           sx={{
