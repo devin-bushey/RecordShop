@@ -828,6 +828,34 @@
   {
     "artist": {
       "id": "",
+      "name": "Ziggy Alberts",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-21T00:00:00.000Z",
+    "venue": "Royal Theatre",
+    "isMissing": false,
+    "popularity": 59
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Ziggy Alberts",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-21T00:00:00.000Z",
+    "venue": "Royal Theatre",
+    "isMissing": false,
+    "popularity": 60
+  },
+  {
+    "artist": {
+      "id": "",
       "name": "Covenhoven",
       "topTracks": [],
       "uri": "",
@@ -837,7 +865,7 @@
     "date": "2025-05-24T00:00:00.000Z",
     "venue": "",
     "isMissing": false,
-    "popularity": 59
+    "popularity": 61
   },
   {
     "artist": {
@@ -851,7 +879,7 @@
     "date": "2025-05-28T00:00:00.000Z",
     "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 60
+    "popularity": 62
   },
   {
     "artist": {
@@ -865,7 +893,7 @@
     "date": "2025-05-28T00:00:00.000Z",
     "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 61
+    "popularity": 63
   },
   {
     "artist": {
@@ -879,7 +907,7 @@
     "date": "2025-05-30T00:00:00.000Z",
     "venue": "The Spiral Cafe",
     "isMissing": false,
-    "popularity": 62
+    "popularity": 64
   },
   {
     "artist": {
@@ -893,6 +921,6 @@
     "date": "2025-05-30T00:00:00.000Z",
     "venue": "The Spiral Cafe",
     "isMissing": false,
-    "popularity": 63
+    "popularity": 65
   }
 ]
