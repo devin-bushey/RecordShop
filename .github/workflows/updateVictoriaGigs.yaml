@@ -57,6 +57,8 @@ jobs:
         run: npm install
 
       - name: Run extractSongkick
+        env:
+            OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: npx ts-node ./scripts/src/scrapers/songkick/extractSongkick.ts > extractedVicGigs.json
 
       - name: Create Pull Request
