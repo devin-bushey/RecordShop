@@ -17,6 +17,7 @@ import { useShakingEffect } from "../hooks/useShakingEffect";
 import { GigList } from "../components/GigList";
 import { StickyFadeButton } from "../components/StickyFadeButton";
 import { CreatePlaylistButton } from "../components/CreatePlaylistButton";
+import { Loading } from "./Loading";
 
 export const ArtistsPage = () => {
   const { isLoggedIntoSpotify, redirectToAuth, token, spotifyInfo } = useAuth();
@@ -321,10 +322,17 @@ export const ArtistsPage = () => {
                 width: "100%",
                 display: 'flex',
                 flexDirection: 'column',
-                alignItems: 'center'
+                alignItems: 'center',
+                minHeight: '300px'
               }}
             >
-              <GigList gigs={gigs} isQueryLoading={isGigsQueryLoading} />
+              {isGigsQueryLoading ? (
+                <Box sx={{ mt: 4 }}>
+                  <Loading />
+                </Box>
+              ) : (
+                <GigList gigs={gigs} isQueryLoading={isGigsQueryLoading} />
+              )}
             </Box>
           </Box>
         </Container>
