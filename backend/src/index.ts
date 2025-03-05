@@ -39,10 +39,11 @@ app.use(helmet({
 
 // Configure CORS with specific origin
 app.use(cors({
-  origin: ["https://recordshop.cool", "http://localhost:3000"], // Allow both production and development
+  origin: ["https://recordshop.cool", "http://localhost:3000", "https://record-shop-backend-n97z.onrender.com"],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization"],
-  credentials: true
+  allowedHeaders: ["Content-Type", "Authorization", "Origin", "Accept"],
+  credentials: true,
+  exposedHeaders: ["Content-Range", "X-Content-Range"]
 }));
 
 // Rate limiting
