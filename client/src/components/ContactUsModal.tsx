@@ -1,16 +1,11 @@
-import { Modal, Input, TextField, Button } from "@mui/material";
+import { Modal, TextField, Button } from "@mui/material";
 import { Box } from "@mui/system";
 import { useState, useContext } from "react";
 import { SnackBarContext } from "../App";
 import { PageClassName } from "../theme/AppStyles";
 import { send } from "@emailjs/browser";
 
-const DEFAULT_BACKGROUND_COLOUR = "#2596be";
-const DEFAULT_PRIMARY_BUTTON_COLOUR = {
-  backgroundColor: "#00AEEF",
-  color: "black",
-  ":hover": { backgroundColor: "#055972" },
-};
+const DEFAULT_BACKGROUND_COLOUR = "#f0ede8";
 
 type ContactUsModalProps = {
   isOpen: boolean;
@@ -70,46 +65,123 @@ export const ContactUsModal = ({ isOpen, closeModal, pageClassName }: ContactUsM
           width: "90%",
           minWidth: "300px",
           maxWidth: "550px",
-          border: "2px solid #000",
-          borderRadius: "10px",
-          boxShadow: 24,
-          p: 4,
+          border: "none",
+          borderRadius: "24px",
+          boxShadow: "0 8px 32px rgba(0, 0, 0, 0.12)",
+          p: 5,
           backgroundColor: DEFAULT_BACKGROUND_COLOUR,
         }}
       >
+        <Box sx={{ mb: 4, textAlign: 'center' }}>
+          <Box
+            component="h2"
+            sx={{
+              fontFamily: "Lobster, Arial, sans-serif",
+              fontSize: { xs: '2rem', sm: '2.5rem' },
+              mb: 2,
+              color: '#1a1a1a'
+            }}
+          >
+            Get in Touch
+          </Box>
+          <Box
+            component="p"
+            sx={{
+              fontFamily: "'JetBrains Mono', monospace",
+              fontSize: '0.9rem',
+              opacity: 0.7,
+              color: '#1a1a1a'
+            }}
+          >
+            We&apos;d love to hear from you
+          </Box>
+        </Box>
+
         <form onSubmit={onSubmit}>
-          <Input
+          <TextField
             name="from_name"
             placeholder="Your Name"
             value={toSend.from_name}
             onChange={handleChange}
-            sx={{ width: "100%", maxWidth: "300px" }}
+            fullWidth
+            variant="outlined"
+            sx={{
+              mb: 2,
+              '& .MuiOutlinedInput-root': {
+                backgroundColor: '#fff',
+                borderRadius: '12px',
+                '&:hover fieldset': {
+                  borderColor: '#2196f3',
+                },
+                '&.Mui-focused fieldset': {
+                  borderColor: '#2196f3',
+                }
+              }
+            }}
           />
-          <br />
-          <Input
+          <TextField
             type="email"
             name="reply_to"
             placeholder="Your Email"
             value={toSend.reply_to}
             onChange={handleChange}
-            sx={{ width: "100%", maxWidth: "300px", marginTop: "8px", marginBottom: "24px" }}
+            fullWidth
+            variant="outlined"
+            sx={{
+              mb: 3,
+              '& .MuiOutlinedInput-root': {
+                backgroundColor: '#fff',
+                borderRadius: '12px',
+                '&:hover fieldset': {
+                  borderColor: '#2196f3',
+                },
+                '&.Mui-focused fieldset': {
+                  borderColor: '#2196f3',
+                }
+              }
+            }}
           />
-          <br />
-          <TextField placeholder="Message" onChange={(e) => setMessage(e.target.value)} multiline fullWidth />
-          <br />
-          <br />
+          <TextField 
+            placeholder="Message" 
+            onChange={(e) => setMessage(e.target.value)} 
+            multiline 
+            rows={4}
+            fullWidth
+            variant="outlined"
+            sx={{
+              mb: 3,
+              '& .MuiOutlinedInput-root': {
+                backgroundColor: '#fff',
+                borderRadius: '12px',
+                '&:hover fieldset': {
+                  borderColor: '#2196f3',
+                },
+                '&.Mui-focused fieldset': {
+                  borderColor: '#2196f3',
+                }
+              }
+            }}
+          />
           <Button
             type="submit"
             variant="contained"
-            className="primary-button"
+            fullWidth
             sx={{
-              marginTop: "8px",
-              ...DEFAULT_PRIMARY_BUTTON_COLOUR,
+              py: 1.5,
+              borderRadius: '12px',
+              backgroundColor: '#2196f3',
+              color: '#fff',
+              fontFamily: "'JetBrains Mono', monospace",
+              textTransform: 'none',
+              fontSize: '1rem',
+              fontWeight: 500,
+              '&:hover': {
+                backgroundColor: '#1976d2'
+              }
             }}
           >
-            Send
+            Send Message
           </Button>
-          <br />
         </form>
       </Box>
     </Modal>

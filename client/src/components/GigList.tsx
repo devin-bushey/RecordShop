@@ -64,7 +64,7 @@ export const GigList = ({
         </Grid>
 
         {showMore && (
-          <Button className="load-more-button" variant="outlined" sx={{ marginTop: "32px" }} onClick={handleLoadMore}>
+          <Button className="load-more-button" variant="outlined" sx={{ marginTop: "32px", marginBottom: "32px" }} onClick={handleLoadMore}>
             Load More
           </Button>
         )}
