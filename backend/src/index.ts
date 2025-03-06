@@ -21,13 +21,18 @@ import { refreshTokenRouter } from "./refreshToken/refreshTokenRouter";
 const allowedOrigins = ["https://recordshop.cool", "http://localhost:3000"];
 
 app.use(cors({
-  origin: function(origin, callback) {
-    // Log the origin of each request
-    console.log('Request origin:', origin);
+  origin: function(origin: string | undefined, callback: (err: Error | null, allow?: boolean) => void, req?: express.Request) {
+    // Only log origins for non-health check requests
+    if (origin || (req && !isHealthCheckRequest(req))) {
+      console.log('Request origin:', origin);
+    }
     
     // allow requests with no origin (like mobile apps or curl requests)
     if(!origin) {
-      console.log('No origin provided');
+      // Only log no-origin messages for non-health check requests
+      if (req && !isHealthCheckRequest(req)) {
+        console.log('No origin provided');
+      }
       return callback(null, true);
     }
     
@@ -45,6 +50,11 @@ app.use(cors({
   exposedHeaders: ["Content-Range", "X-Content-Range"],
   maxAge: 86400 // Cache preflight requests for 24 hours
 }));
+
+// Helper function to identify health check requests
+function isHealthCheckRequest(req: express.Request): boolean {
+  return req.path === '/' && req.method === 'GET';
+}
 
 // Add OPTIONS preflight handler
 app.options('*', cors());  // Enable pre-flight for all routes
