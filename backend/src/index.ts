@@ -17,6 +17,38 @@ import { jamBaseRouter } from "./controller/jamBaseController";
 import { playlistRouter } from "./controller/playlistController";
 import { refreshTokenRouter } from "./refreshToken/refreshTokenRouter";
 
+// Configure CORS with specific origin - must be before other middleware
+const allowedOrigins = ["https://recordshop.cool", "http://localhost:3000"];
+
+app.use(cors({
+  origin: function(origin, callback) {
+    // Log the origin of each request
+    console.log('Request origin:', origin);
+    
+    // allow requests with no origin (like mobile apps or curl requests)
+    if(!origin) {
+      console.log('No origin provided');
+      return callback(null, true);
+    }
+    
+    if(allowedOrigins.indexOf(origin) === -1){
+      const msg = 'The CORS policy for this site does not allow access from the specified Origin.';
+      console.error(`CORS error: ${msg} Origin: ${origin}`);
+      return callback(new Error(msg), false);
+    }
+    console.log('CORS allowed for origin:', origin);
+    return callback(null, true);
+  },
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization", "Origin", "Accept"],
+  credentials: true,
+  exposedHeaders: ["Content-Range", "X-Content-Range"],
+  maxAge: 86400 // Cache preflight requests for 24 hours
+}));
+
+// Add OPTIONS preflight handler
+app.options('*', cors());  // Enable pre-flight for all routes
+
 // Security middleware
 app.use(helmet({
   contentSecurityPolicy: {
@@ -36,15 +68,6 @@ app.use(helmet({
   crossOriginEmbedderPolicy: false,
   crossOriginResourcePolicy: { policy: "cross-origin" },
   crossOriginOpenerPolicy: { policy: "unsafe-none" }
-}));
-
-// Configure CORS with specific origin
-app.use(cors({
-  origin: ["https://recordshop.cool", "http://localhost:3000"],
-  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization", "Origin", "Accept"],
-  credentials: true,
-  exposedHeaders: ["Content-Range", "X-Content-Range"]
 }));
 
 // Rate limiting
