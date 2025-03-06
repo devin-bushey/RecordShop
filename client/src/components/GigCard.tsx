@@ -109,15 +109,21 @@ const SpotifyGigName = ({ name }: { name: string }) => {
 };
 
 const Description = ({ gig }: { gig: Gig }) => {
+  // Parse the UTC date and force it to be treated as UTC
   const dateUnformatted = new Date(gig.date);
-  // Force the date to be interpreted in local timezone by setting the time to noon
-  const localDate = new Date(dateUnformatted.getFullYear(), dateUnformatted.getMonth(), dateUnformatted.getDate(), 12, 0, 0);
-  const date = localDate.toLocaleDateString("en-US", { 
+  const utcDate = new Date(Date.UTC(
+    dateUnformatted.getUTCFullYear(),
+    dateUnformatted.getUTCMonth(),
+    dateUnformatted.getUTCDate()
+  ));
+  
+  const date = utcDate.toLocaleDateString("en-US", { 
     year: "numeric", 
     month: "short", 
     day: "numeric",
-    timeZone: 'America/Vancouver' // Explicitly set timezone for Victoria, BC
+    timeZone: 'UTC' // Force UTC interpretation
   });
+  
   return (
     <Box>
       <Typography
