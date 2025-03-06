@@ -110,7 +110,14 @@ const SpotifyGigName = ({ name }: { name: string }) => {
 
 const Description = ({ gig }: { gig: Gig }) => {
   const dateUnformatted = new Date(gig.date);
-  const date = dateUnformatted.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
+  // Force the date to be interpreted in local timezone by setting the time to noon
+  const localDate = new Date(dateUnformatted.getFullYear(), dateUnformatted.getMonth(), dateUnformatted.getDate(), 12, 0, 0);
+  const date = localDate.toLocaleDateString("en-US", { 
+    year: "numeric", 
+    month: "short", 
+    day: "numeric",
+    timeZone: 'America/Vancouver' // Explicitly set timezone for Victoria, BC
+  });
   return (
     <Box>
       <Typography
