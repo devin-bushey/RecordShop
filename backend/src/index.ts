@@ -22,8 +22,8 @@ const allowedOrigins = ["https://recordshop.cool", "http://localhost:3000"];
 
 app.use(cors({
   origin: function(origin: string | undefined, callback: (err: Error | null, allow?: boolean) => void, req?: express.Request) {
-    // Only log origins for non-health check requests
-    if (origin || (req && !isHealthCheckRequest(req))) {
+    // Only log origins for non-health check requests from non-production domains
+    if (req && !isHealthCheckRequest(req) && origin !== 'https://recordshop.cool') {
       console.log('Request origin:', origin);
     }
     
@@ -41,7 +41,10 @@ app.use(cors({
       console.error(`CORS error: ${msg} Origin: ${origin}`);
       return callback(new Error(msg), false);
     }
-    console.log('CORS allowed for origin:', origin);
+    // Only log allowed origins for non-production domains
+    if (origin !== 'https://recordshop.cool') {
+      console.log('CORS allowed for origin:', origin);
+    }
     return callback(null, true);
   },
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
@@ -83,10 +86,11 @@ app.use(helmet({
 // Rate limiting
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 50, // Limit each IP to 100 requests per windowMs
+  max: 50, // Limit each IP to 50 requests per windowMs
   message: { error: "Too many requests from this IP, please try again later." },
-  standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
-  legacyHeaders: false, // Disable the `X-RateLimit-*` headers
+  standardHeaders: true,
+  legacyHeaders: false,
+  skip: (req) => isHealthCheckRequest(req) // Skip rate limiting for health checks
 });
 
 // Apply rate limiting to all routes
