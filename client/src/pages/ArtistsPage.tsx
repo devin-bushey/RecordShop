@@ -122,7 +122,7 @@ export const ArtistsPage = () => {
               sx={{ 
                 fontSize: 'inherit',
                 lineHeight: 1,
-                mt: '1px'
+                mt: '10px'
               }}
             >
               Create playlist
@@ -180,7 +180,7 @@ export const ArtistsPage = () => {
             sx={{ 
               fontSize: 'inherit',
               lineHeight: 1,
-              mt: '1px'
+              mt: '10px'
             }}
           >
             Sign in
@@ -217,7 +217,7 @@ export const ArtistsPage = () => {
                 sx={{ 
                   fontSize: 'inherit',
                   lineHeight: 1,
-                  mt: '1px',
+                  mt: '10px',
                   color: "grey"
                 }}
               >
@@ -354,7 +354,7 @@ export const ArtistsPage = () => {
                           sx={{ 
                             fontSize: 'inherit',
                             lineHeight: 1,
-                            mt: '1px'
+                            mt: '10px'
                           }}
                         >
                           Create playlist
@@ -412,7 +412,7 @@ export const ArtistsPage = () => {
                         sx={{ 
                           fontSize: 'inherit',
                           lineHeight: 1,
-                          mt: '1px'
+                          mt: '10px'
                         }}
                       >
                         Sign in
@@ -449,7 +449,7 @@ export const ArtistsPage = () => {
                             sx={{ 
                               fontSize: 'inherit',
                               lineHeight: 1,
-                              mt: '1px',
+                              mt: '10px',
                               color: "grey"
                             }}
                           >

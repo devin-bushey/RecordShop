@@ -124,6 +124,7 @@ export const FestivalPage = () => {
                 container
                 spacing={3}
                 justifyContent="center"
+                sx={{ textAlign: { xs: 'center', sm: 'left' } }}
               >
                 {festivalList.map((festival) => (
                   <FestivalCard
@@ -166,6 +167,7 @@ export const FestivalPage = () => {
                 container
                 spacing={3}
                 justifyContent="center"
+                sx={{ textAlign: { xs: 'center', sm: 'left' } }}
               >
                 {festivalList2023.map((festival) => (
                   <FestivalCard
