@@ -16,7 +16,7 @@ export const GetTickets = async ({ queryKey }: { queryKey: any }): Promise<any> 
     })
     .then(async (response) => {
       if (
-        origin === Cities.Victoria_2024 ||
+        origin === Cities.Victoria_2025 ||
         origin === Cities.Vancouver ||
         origin === Cities.Toronto ||
         origin === Cities.Pleasanton ||

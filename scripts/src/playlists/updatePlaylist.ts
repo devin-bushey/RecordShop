@@ -19,7 +19,7 @@ const updatePlaylist = async (spotifyAccessToken: string) => {
       token: spotifyAccessToken,
       userId: SP_RECORDSHOP_USER_ID,
       playlistName: "Record Shop Victoria",
-      collectionName: "victoria_2024",
+      collectionName: "victoria_2025",
     },
     headers: { Accept: "application/json" },
   };

@@ -1,6 +1,6 @@
 export enum Cities {
   Victoria = "victoria",
-  Victoria_2024 = "victoria_2024",
+  Victoria_2025 = "victoria_2025",
   Vancouver = "vancouver_2024",
   Toronto = "toronto_2024",
   Pleasanton = "pleasanton_2024",

@@ -37,7 +37,7 @@ export const CreateNewPlaylist = async ({
   let coverArt = PLAYLIST_IMG_RS;
 
   if (
-    city === Cities.Victoria_2024 ||
+    city === Cities.Victoria_2025 ||
     city === Cities.Vancouver ||
     city === Cities.Toronto ||
     city === Cities.Pleasanton ||
@@ -106,7 +106,7 @@ export const CreateBlankPlaylist = async ({
 }): Promise<SpotifyPlaylistDataType> => {
   let playlist_name = "record shop " + city;
 
-  if (city === Cities.Victoria_2024) {
+  if (city === Cities.Victoria_2025) {
     playlist_name = "record shop victoria";
   }
 

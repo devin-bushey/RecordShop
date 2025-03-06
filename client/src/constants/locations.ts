@@ -9,7 +9,7 @@ export const WEBSITE_RIFFLANDIA = "https://rifflandia.com/tickets/";
 export const LOCATIONS: LocationType[] = [
   {
     name: "Victoria, BC",
-    value: Cities.Victoria_2024,
+    value: Cities.Victoria_2025,
   },
   {
     name: "Vancouver, BC",

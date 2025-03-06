@@ -1,4 +1,4 @@
-db.createCollection("victoria_2024");
+db.createCollection("victoria_2025");
 db.createCollection("vancouver");
 db.createCollection("phillipsBackyard_2024");
 db.createCollection("phillipsBackyard");
@@ -7,7 +7,7 @@ db.createCollection("pachenaBay");
 db.createCollection("rifflandia_2024");
 db.createCollection("rifflandia");
 
-const victoria_2024 = [
+const victoria_2025 = [
   {
     "artist": {
       "id": "6yrtCy4XJHXM6tczo4RlTs",
@@ -10939,7 +10939,7 @@ const laketownShakedown_2024 = [
 ]
 
 
-db.victoria_2024.insertMany(victoria_2024);
+db.victoria_2025.insertMany(victoria_2025);
 db.vancouver.insertMany(vancouver);
 db.phillipsBackyard_2024.insertMany(phillipsBackyard_2024);
 db.phillipsBackyard.insertMany(phillipsBackyard);

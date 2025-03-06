@@ -18,7 +18,7 @@ const ATLAS_URI = process.env.ATLAS_URI || "";
 const SP_REFRESH_TOKEN = process.env.SP_REFRESH_TOKEN;
 const SP_CLIENT_ID = process.env.SP_CLIENT_ID;
 const SP_CLIENT_S = process.env.SP_CLIENT_S;
-const DATABASE_COLLECTION_NAME = "victoria_2024";
+const DATABASE_COLLECTION_NAME = "victoria_2025";
 
 const getSpotifyAccessToken = async () => {
   const optionsSpotifyAccessToken = {

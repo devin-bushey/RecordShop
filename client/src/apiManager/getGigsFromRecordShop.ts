@@ -23,7 +23,7 @@ export const getGigsFromRecordShop = async (collectionName: string): Promise<Gig
     const gigs = response.data.data;
 
     if (
-      collectionName === Cities.Victoria_2024 ||
+      collectionName === Cities.Victoria_2025 ||
       collectionName === Cities.Vancouver ||
       collectionName === Cities.Toronto ||
       collectionName === Cities.Pleasanton ||
