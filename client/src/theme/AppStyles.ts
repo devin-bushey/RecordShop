@@ -33,6 +33,7 @@ export enum PageClassName {
   PhillipsBackyard2024 = "phillips-backyard-2024",
   LaketownShakedown = "laketown-shakedown",
   Rifflandia2024 = "rifflandia-2024",
+  LampPost = "lamp-post",
 }
 
 export const primaryButtonColours = {

@@ -38,6 +38,11 @@ export const FestivalPage = () => {
       endpoint: "rifflandia2024", 
       colour: "#9B5DE5"  // Purple
     },
+    { 
+      title: "LampPost Victoria", 
+      endpoint: "lamppost", 
+      colour: "#4A6C6F"  // Teal
+    },
   ];
 
   const festivalList2023 = [
