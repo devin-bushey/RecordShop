@@ -66,13 +66,31 @@ export const LampPost = () => {
           {/* Navigation Bar */}
           <Box className="lamp-post-navbar">
             <Container maxWidth="lg">
-              <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', py: 2 }}>
-                <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+              <Box sx={{ 
+                display: 'flex', 
+                flexDirection: { xs: 'column', sm: 'row' }, 
+                justifyContent: 'space-between', 
+                alignItems: { xs: 'flex-start', sm: 'center' }, 
+                py: { xs: 1.5, sm: 2 },
+                gap: { xs: 2, sm: 0 }
+              }}>
+                <Box sx={{ 
+                  display: 'flex', 
+                  alignItems: 'center', 
+                  gap: 1,
+                  flexWrap: { xs: 'wrap', sm: 'nowrap' }
+                }}>
                     <RecordShopTitle textColour={COLOURS.text} />
-                    x
+                    <Box component="span" sx={{ mx: 1 }}>x</Box>
                     <LampPostTitle />
                 </Box>
-                <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+                <Box sx={{ 
+                  display: 'flex', 
+                  alignItems: 'center', 
+                  gap: { xs: 1, sm: 2 },
+                  width: { xs: '100%', sm: 'auto' },
+                  justifyContent: { xs: 'flex-end', sm: 'flex-end' }
+                }}>
                   <AboutUsPopover pageClassName={PAGE_CLASS} />
                   {isLoggedIntoSpotify() ? (
                     <ProfileMenu />
@@ -90,16 +108,17 @@ export const LampPost = () => {
             </Container>
           </Box>
 
-          <Container maxWidth="lg">
+          <Container maxWidth="lg" sx={{ px: { xs: 2, sm: 3, md: 4 } }}>
             {/* Main Content */}
-            <Box sx={{ textAlign: 'center', mb: 4, mt: 6 }}>
+            <Box sx={{ textAlign: 'center', mb: { xs: 3, md: 4 }, mt: { xs: 4, md: 6 } }}>
               <Typography 
                 variant="h1" 
                 className="lamp-post-title"
                 sx={{ 
-                  fontSize: { xs: '2.5rem', md: '3.5rem' },
+                  fontSize: { xs: '2rem', sm: '2.5rem', md: '3.5rem' },
                   fontWeight: 700,
-                  mb: 0
+                  mb: 0,
+                  lineHeight: 1.2
                 }}
               >
                 <span style={{ color: COLOURS.accent }}>Live music & concerts</span>
@@ -107,14 +126,24 @@ export const LampPost = () => {
               <Typography 
                 variant="h2" 
                 sx={{ 
-                  fontSize: { xs: '2rem', md: '3rem' },
+                  fontSize: { xs: '1.5rem', sm: '2rem', md: '3rem' },
                   fontWeight: 700,
-                  mb: 3
+                  mb: { xs: 2, md: 3 },
+                  lineHeight: 1.2
                 }}
               >
                 in Victoria
               </Typography>
-              <Typography variant="subtitle1" className="lamp-post-subtitle" sx={{ mt: 2, mb: 4 }}>
+              <Typography 
+                variant="subtitle1" 
+                className="lamp-post-subtitle" 
+                sx={{ 
+                  mt: { xs: 1, md: 2 }, 
+                  mb: { xs: 3, md: 4 },
+                  px: { xs: 2, md: 0 },
+                  fontSize: { xs: '0.9rem', sm: '1rem', md: '1.1rem' }
+                }}
+              >
                 Concerts & live music of every genre and every vibe.
               </Typography>
             </Box>
@@ -150,13 +179,27 @@ export const LampPost = () => {
 
 const LampPostTitle = () => {
     return (
-        <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-            <img src={lampPostLogo} alt="LampPost Logo" style={{ width: '40px', height: '40px', borderRadius: '50%' }} />
-            <Typography sx={{ fontFamily: "Cothamsans, Verdana, sans-serif", fontSize: { xs: '2rem', md: '3rem' }, letterSpacing: '-0.05em' }}>
+        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+            <img 
+                src={lampPostLogo} 
+                alt="LampPost Logo" 
+                style={{ 
+                    width: '40px', 
+                    height: '40px', 
+                    borderRadius: '50%' 
+                }} 
+            />
+            <Typography 
+                sx={{ 
+                    fontFamily: "Cothamsans, Verdana, sans-serif", 
+                    fontSize: { xs: '1.5rem', sm: '2rem', md: '2.5rem' }, 
+                    letterSpacing: '-0.05em',
+                    whiteSpace: 'nowrap'
+                }}
+            >
                 LampPost
             </Typography>
         </Box>
-
     );
 };
 

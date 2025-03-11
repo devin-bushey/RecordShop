@@ -46,13 +46,27 @@ export const InAppModal = ({
           border: "2px solid #000",
           borderRadius: "10px",
           boxShadow: 24,
-          p: 4,
+          p: { xs: 2.5, sm: 4 },
         }}
       >
-        <Typography id="modal-modal-title" variant="h6" component="h2" sx={{ maxWidth: "70%" }}>
+        <Typography 
+          id="modal-modal-title" 
+          variant="h6" 
+          component="h2" 
+          sx={{ 
+            maxWidth: { xs: "100%", sm: "70%" },
+            fontSize: { xs: '1rem', sm: '1.25rem' }
+          }}
+        >
           Looks like you&apos;re using an in-app browser.
         </Typography>
-        <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+        <Typography 
+          id="modal-modal-description" 
+          sx={{ 
+            mt: 2,
+            fontSize: { xs: '0.875rem', sm: '1rem' }
+          }}
+        >
           If you have trouble signing into Spotify, please open Record Shop in Chrome, Safari, Firefox, etc.
         </Typography>
         <Box
@@ -71,7 +85,7 @@ export const InAppModal = ({
             sx={{ width: "100%", marginTop: "12px", justifyContent: "center" }}
           >
             <img src={spotifyIcon} alt="spotify_logo" width="20px" height="20px" style={{ marginRight: "8px" }} />
-            <Typography sx={{ paddingBottom: 0 }}>Continue</Typography>
+            <Typography sx={{ paddingBottom: 0, fontSize: { xs: '0.875rem', sm: '1rem' } }}>Continue</Typography>
           </Button>
         </Box>
 
@@ -82,9 +96,18 @@ export const InAppModal = ({
             gap: "10px",
             alignItems: "center",
             marginTop: "20px",
+            flexWrap: { xs: 'wrap', sm: 'nowrap' }
           }}
         >
-          <Typography sx={{ paddingBottom: "0px", fontSize: "14px", overflowWrap: "anywhere" }}>{urlToCopy}</Typography>
+          <Typography sx={{ 
+            paddingBottom: "0px", 
+            fontSize: { xs: "12px", sm: "14px" }, 
+            overflowWrap: "anywhere",
+            textAlign: { xs: 'center', sm: 'left' },
+            width: { xs: '100%', sm: 'auto' }
+          }}>
+            {urlToCopy}
+          </Typography>
           <Button onClick={handleCopy} sx={{ minWidth: "20px" }}>
             <img src={copy} alt="copy" height="20px" />
           </Button>

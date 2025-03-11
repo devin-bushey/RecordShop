@@ -54,7 +54,7 @@ export const LampPostGigList = ({ gigs, isQueryLoading }: LampPostGigListProps) 
       <Box>
         <Grid container spacing={3}>
           {displayedGigs.map((gig, index) => (
-            <Grid item xs={12} sm={6} md={6} lg={4} key={`${gig.artist.id}-${index}`}>
+            <Grid item xs={12} sm={6} md={4} key={`${gig.artist.id}-${index}`}>
               <Card 
                 elevation={0} 
                 className="event-card"
@@ -78,7 +78,7 @@ export const LampPostGigList = ({ gigs, isQueryLoading }: LampPostGigListProps) 
                   display: 'flex', 
                   justifyContent: 'space-between', 
                   alignItems: 'center',
-                  p: 2,
+                  p: { xs: 1.5, sm: 2 },
                   borderBottom: '1px solid rgba(0,0,0,0.05)'
                 }}>
                   <img 
@@ -115,7 +115,7 @@ export const LampPostGigList = ({ gigs, isQueryLoading }: LampPostGigListProps) 
                 <CardMedia
                   component="img"
                   sx={{ 
-                    height: '270px',
+                    height: { xs: '200px', sm: '240px', md: '270px' },
                     objectFit: "cover",
                     objectPosition: 'center'
                   }}
@@ -125,7 +125,7 @@ export const LampPostGigList = ({ gigs, isQueryLoading }: LampPostGigListProps) 
                 
                 {/* Content */}
                 <Box sx={{ 
-                  p: 3,
+                  p: { xs: 2, sm: 2.5, md: 3 },
                   display: 'flex',
                   flexDirection: 'column',
                   flexGrow: 1,
@@ -145,7 +145,7 @@ export const LampPostGigList = ({ gigs, isQueryLoading }: LampPostGigListProps) 
                     sx={{ 
                       fontWeight: 700, 
                       mb: 1.5,
-                      fontSize: '1.5rem',
+                      fontSize: { xs: '1.25rem', sm: '1.4rem', md: '1.5rem' },
                       lineHeight: 1.2
                     }}
                   >
@@ -186,7 +186,7 @@ export const LampPostGigList = ({ gigs, isQueryLoading }: LampPostGigListProps) 
                 borderRadius: "50px",
                 padding: "8px 24px",
                 marginTop: "32px",
-                marginBottom: "130px"
+                marginBottom: { xs: '80px', sm: '100px', md: '130px' }
               }}
             >
               More

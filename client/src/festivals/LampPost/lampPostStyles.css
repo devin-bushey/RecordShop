@@ -32,6 +32,7 @@
     z-index: 0;
     height: 100%;
     color: var(--main-text-color);
+    padding-bottom: 20px;
   }
   
   .lamp-post-navbar {
@@ -42,7 +43,11 @@
     z-index: 100;
   }
 
-
+  @media (max-width: 600px) {
+    .lamp-post-navbar {
+      padding: 8px 0;
+    }
+  }
   
   .nav-link {
     color: var(--main-text-color);
@@ -87,12 +92,25 @@
     line-height: 1.2;
   }
 
+  @media (max-width: 600px) {
+    .lamp-post-title {
+      font-size: 2.5rem;
+    }
+  }
+
   .lamp-post-subtitle {
     font-size: 1.1rem;
     font-weight: 400;
     color: #666;
     max-width: 800px;
     margin: 0 auto;
+  }
+
+  @media (max-width: 600px) {
+    .lamp-post-subtitle {
+      font-size: 1rem;
+      padding: 0 16px;
+    }
   }
   
   .tab-button {
@@ -159,6 +177,22 @@
     .MuiTypography-body1 {
       font-size: 1rem;
       line-height: 1.5;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .event-card {
+      .MuiCardMedia-root {
+        height: 200px;
+      }
+      
+      .MuiCardContent-root {
+        padding: 16px;
+      }
+      
+      .MuiTypography-h5 {
+        font-size: 1.25rem;
+      }
     }
   }
   
