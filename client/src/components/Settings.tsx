@@ -26,13 +26,13 @@ export const Settings = ({ numTopTracks, setNumTopTracks, iconColour, customSett
       sx={{
         width: "100%",
         margin: "12px 0",
-        padding: "24px 32px",
+        padding: { xs: "16px", sm: "24px 32px" },
         borderRadius: "16px",
         backgroundColor: "rgba(255, 255, 255, 0.95)",
         boxShadow: "0 8px 32px rgba(0, 0, 0, 0.08)",
         backdropFilter: "blur(8px)",
       }}
-      columnGap={6}
+      columnGap={{ xs: 2, sm: 6 }}
       rowGap={4}
     >
       <Grid item xs={12} justifyContent="center">
@@ -47,8 +47,9 @@ export const Settings = ({ numTopTracks, setNumTopTracks, iconColour, customSett
             fontWeight: 600,
             color: '#1a1a1a',
             mb: 2,
+            fontSize: { xs: '1rem', sm: '1.25rem' },
             '& svg': {
-              fontSize: '1.5rem'
+              fontSize: { xs: '1.25rem', sm: '1.5rem' }
             }
           }}
         >
@@ -61,7 +62,7 @@ export const Settings = ({ numTopTracks, setNumTopTracks, iconColour, customSett
         <Typography 
           sx={{ 
             fontFamily: "'JetBrains Mono', monospace",
-            fontSize: '0.9rem',
+            fontSize: { xs: '0.8rem', sm: '0.9rem' },
             color: '#1a1a1a',
             opacity: 0.8,
             mb: 2,
@@ -101,7 +102,7 @@ export const Settings = ({ numTopTracks, setNumTopTracks, iconColour, customSett
               },
               '& .MuiSlider-markLabel': {
                 fontFamily: "'JetBrains Mono', monospace",
-                fontSize: '0.8rem',
+                fontSize: { xs: '0.7rem', sm: '0.8rem' },
                 color: '#1a1a1a',
                 opacity: 0.7
               }
@@ -116,7 +117,7 @@ export const Settings = ({ numTopTracks, setNumTopTracks, iconColour, customSett
         </Grid>
       ))}
 
-      <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center', gap: 3, mt: 3 }}>
+      <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center', gap: { xs: 2, sm: 3 }, mt: 3, flexWrap: 'wrap' }}>
         <Link 
           href="/terms-of-use.pdf"
           target="_blank"
@@ -131,7 +132,7 @@ export const Settings = ({ numTopTracks, setNumTopTracks, iconColour, customSett
           <Typography 
             className="unsubscribe-label"
             sx={{ 
-              fontSize: "0.75rem",
+              fontSize: { xs: "0.7rem", sm: "0.75rem" },
               color: '#1a1a1a',
               opacity: 0.5,
               transition: 'opacity 0.2s ease',
@@ -157,7 +158,7 @@ export const Settings = ({ numTopTracks, setNumTopTracks, iconColour, customSett
           <Typography 
             className="unsubscribe-label"
             sx={{ 
-              fontSize: "0.75rem",
+              fontSize: { xs: "0.7rem", sm: "0.75rem" },
               color: '#1a1a1a',
               opacity: 0.5,
               transition: 'opacity 0.2s ease',

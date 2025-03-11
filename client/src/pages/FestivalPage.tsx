@@ -17,6 +17,14 @@ export const FestivalPage = () => {
     return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
+  const lampPostList = [
+    {
+      title: "LampPost Victoria",
+      endpoint: "lamppost",
+      colour: "#FFC107"
+    },
+  ];
+
   const festivalList = [
     { 
       title: "Phillips Backyard", 
@@ -96,6 +104,16 @@ export const FestivalPage = () => {
           </Typography>
         </Box>
 
+        <Box sx={{ mb: 8 }}>
+          {lampPostList.map((festival) => (
+            <FestivalCard
+              key={festival.endpoint}
+              title={festival.title}
+              endpoint={festival.endpoint}
+              colour={festival.colour}
+            />
+          ))}
+        </Box>
         <Box sx={{ mb: 8 }}>
           <Typography
             sx={{
