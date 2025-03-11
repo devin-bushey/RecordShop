@@ -21,18 +21,25 @@ export const LampPostGigList = ({ gigs, isQueryLoading }: LampPostGigListProps) 
 
   // Format date to "MMM d, yyyy" (e.g., "Jan 1, 2025")
   const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', { 
+    const dateUnformatted = new Date(dateString);
+    const utcDate = new Date(Date.UTC(
+      dateUnformatted.getUTCFullYear(),
+      dateUnformatted.getUTCMonth(),
+      dateUnformatted.getUTCDate()
+    ));
+    
+    return utcDate.toLocaleDateString('en-US', { 
       month: 'short', 
       day: 'numeric',
-      year: 'numeric'
+      year: 'numeric',
+      timeZone: 'UTC'
     });
   };
 
   // Get day of week
   const getDayOfWeek = (dateString: string) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', { weekday: 'long' });
+    return date.toLocaleDateString('en-US', { weekday: 'long', timeZone: 'UTC' });
   };
 
   if (isQueryLoading) {
