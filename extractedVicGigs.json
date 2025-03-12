@@ -1,226 +1,348 @@
-[
-    {
-        "artist": {
-            "id": "",
-            "name": "Bruce Cockburn",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-11",
-        "venue": "Royal Theatre",
-        "isMissing": false,
-        "popularity": 0
+AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/RecordShop/RecordShop/scripts/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (/home/runner/work/RecordShop/RecordShop/scripts/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/RecordShop/RecordShop/scripts/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
     },
-    {
-        "artist": {
-            "id": "",
-            "name": "The Great Divide",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-13",
-        "venue": "Hermann's Jazz Club",
-        "isMissing": false,
-        "popularity": 0
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'axios/1.6.8',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
     },
-    {
-        "artist": {
-            "id": "",
-            "name": "Gabe Lee",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-13",
-        "venue": "The Duke",
-        "isMissing": false,
-        "popularity": 0
+    method: 'get',
+    url: 'https://www.songkick.com/metro-areas/27399-canada-victoria?page=1#metro-area-calendar',
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
     },
-    {
-        "artist": {
-            "id": "",
-            "name": "TINZO & JOJO",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-13",
-        "venue": "Upstairs",
-        "isMissing": false,
-        "popularity": 0
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'www.songkick.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.songkick.com',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(alpncallback)]: null,
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 4,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 2377,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 6,
+        [Symbol(triggerId)]: 1
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
     },
-    {
-        "artist": {
-            "id": "",
-            "name": "The Wedding Crashers",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-13",
-        "venue": "Bard & Banker",
-        "isMissing": false,
-        "popularity": 0
+    _header: 'GET /metro-areas/27399-canada-victoria?page=1 HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.6.8\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.songkick.com\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
     },
-    {
-        "artist": {
-            "id": "",
-            "name": "Rhythm Train",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-13",
-        "venue": "The Loft Pub",
-        "isMissing": false,
-        "popularity": 0
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/metro-areas/27399-canada-victoria?page=1',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 403,
+      statusMessage: 'Forbidden',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'https://www.songkick.com/metro-areas/27399-canada-victoria?page=1',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 16,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
     },
-    {
-        "artist": {
-            "id": "",
-            "name": "Pink Pony Club #2",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-13",
-        "venue": "Paparazzi Nightclub",
-        "isMissing": false,
-        "popularity": 0
+    aborted: false,
+    timeoutCb: [Function: emitRequestTimeout],
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'www.songkick.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://www.songkick.com/metro-areas/27399-canada-victoria?page=1',
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
     },
-    {
-        "artist": {
-            "id": "",
-            "name": "Moodswing Orchestra",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-13",
-        "venue": "Eric Martin Pavillion",
-        "isMissing": false,
-        "popularity": 0
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
     },
-    {
-        "artist": {
-            "id": "",
-            "name": "Ben Fox",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-13",
-        "venue": "Phoenix Bar and Grill",
-        "isMissing": false,
-        "popularity": 0
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Object [AxiosHeaders] {
+      connection: 'close',
+      'content-length': '0',
+      'retry-after': '0',
+      'accept-ranges': 'bytes',
+      date: 'Wed, 12 Mar 2025 05:50:59 GMT',
+      'x-served-by': 'cache-nyc-kteb1890065-NYC',
+      'x-cache': 'MISS',
+      'x-edge-pop': 'Fastly/US-East/NYC/cache-nyc-kteb1890065-NYC'
     },
-    {
-        "artist": {
-            "id": "",
-            "name": "Cistern",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-13",
-        "venue": "Lucky Bar",
-        "isMissing": false,
-        "popularity": 0
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://www.songkick.com/metro-areas/27399-canada-victoria?page=1#metro-area-calendar',
+      data: undefined
     },
-    {
-        "artist": {
-            "id": "",
-            "name": "Hot Goss",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-13",
-        "venue": "Lucky Bar",
-        "isMissing": false,
-        "popularity": 0
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /metro-areas/27399-canada-victoria?page=1 HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/1.6.8\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.songkick.com\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/metro-areas/27399-canada-victoria?page=1',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'www.songkick.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
     },
-    {
-        "artist": {
-            "id": "",
-            "name": "Bo Meets World",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-13",
-        "venue": "Lucky Bar",
-        "isMissing": false,
-        "popularity": 0
-    },
-    {
-        "artist": {
-            "id": "",
-            "name": "Blacasphalt",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-13",
-        "venue": "Lucky Bar",
-        "isMissing": false,
-        "popularity": 0
-    },
-    {
-        "artist": {
-            "id": "",
-            "name": "Jump",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-14",
-        "venue": "McPherson Playhouse",
-        "isMissing": false,
-        "popularity": 0
-    },
-    {
-        "artist": {
-            "id": "",
-            "name": "The Slieves & Q. Brooke Bachand",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-14",
-        "venue": "Upstairs",
-        "isMissing": false,
-        "popularity": 0
-    },
-    {
-        "artist": {
-            "id": "",
-            "name": "Dante and Aidan Thorne",
-            "topTracks": [],
-            "uri": "",
-            "albumArtUrl": "",
-            "link": ""
-        },
-        "date": "2025-03-14",
-        "venue": "Wheelies Motorcycles",
-        "isMissing": false,
-        "popularity": 0
-    }
-]
+    data: ''
+  }
+}
+Error extracting songkick
+[]
