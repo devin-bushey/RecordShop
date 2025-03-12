@@ -42,7 +42,7 @@ app.use(cors({
       return callback(new Error(msg), false);
     }
     // Only log allowed origins for non-production domains
-    if (origin !== 'https://recordshop.cool') {
+    if (origin !== 'https://recordshop.cool' && origin !== 'http://localhost:3000') {
       console.log('CORS allowed for origin:', origin);
     }
     return callback(null, true);

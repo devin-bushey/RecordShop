@@ -11,6 +11,7 @@ export const RecordShopTitle = ({ textColour = "black" }: { textColour?: string 
         letterSpacing: "2px",
         color: textColour,
         cursor: "pointer",
+        fontSize: { xs: '1.8rem', sm: '2.2rem', md: '3.5rem' },
       }}
       onClick={() => goTo("/")}
     >

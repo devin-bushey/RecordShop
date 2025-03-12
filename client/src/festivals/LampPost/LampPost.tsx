@@ -29,6 +29,7 @@ const DB_COLLECTION_NAME = Cities.Victoria_2025;
 
 const SAMPLE_PLAYLIST_URL = "https://open.spotify.com/playlist/6ikQbhMvzqR7g9NoH1ViVR"; // TODO: Update this with a LampPost sample playlist
 const TICKET_LINK = "https://www.lamppostvictoria.com/events/live-music-folder/live-music"; // LampPost Victoria website
+const LAMPPOST_WEBSITE = "https://www.lamppostvictoria.com/"
 
 const PAGE_CLASS = PageClassName.LampPost;
 
@@ -77,11 +78,12 @@ export const LampPost = () => {
                 <Box sx={{ 
                   display: 'flex', 
                   alignItems: 'center', 
-                  gap: 1,
-                  flexWrap: { xs: 'wrap', sm: 'nowrap' }
+                  gap: { xs: 0.5, sm: 1 },
+                  flexWrap: { xs: 'wrap', sm: 'nowrap' },
+                  width: { xs: '100%', sm: 'auto' },
                 }}>
                     <RecordShopTitle textColour={COLOURS.text} />
-                    <Box component="span" sx={{ mx: 1 }}>x</Box>
+                    <Box component="span" sx={{ mx: { xs: 0.5, sm: 1 } }}>x</Box>
                     <LampPostTitle />
                 </Box>
                 <Box sx={{ 
@@ -179,22 +181,24 @@ export const LampPost = () => {
 
 const LampPostTitle = () => {
     return (
-        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-            <img 
+        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }} onClick={() => goToNewTab(LAMPPOST_WEBSITE)}>
+            <Box
+                component="img"
                 src={lampPostLogo} 
                 alt="LampPost Logo" 
-                style={{ 
-                    width: '40px', 
-                    height: '40px', 
-                    borderRadius: '50%' 
-                }} 
+                sx={{
+                    width: { xs: '30px', sm: '35px', md: '40px' },
+                    height: { xs: '30px', sm: '35px', md: '40px' },
+                    borderRadius: '50%'
+                }}
             />
             <Typography 
                 sx={{ 
                     fontFamily: "Cothamsans, Verdana, sans-serif", 
-                    fontSize: { xs: '1.5rem', sm: '2rem', md: '2.5rem' }, 
+                    fontSize: { xs: '1.2rem', sm: '1.5rem', md: '2rem' }, 
                     letterSpacing: '-0.05em',
-                    whiteSpace: 'nowrap'
+                    whiteSpace: 'nowrap',
+                    paddingBottom: { xs: 0.1, sm: 1 }
                 }}
             >
                 LampPost

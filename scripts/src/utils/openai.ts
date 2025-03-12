@@ -20,25 +20,25 @@ export async function cleanArtistNames(artistNames: string[]): Promise<CleanedAr
         {
           role: "system",
           content: `You are a music industry expert. Your task is to:
-1. For each artist name in the input array:
-   - Split multiple artist names into individual artists (split on commas, "and", or multiple artists listed together)
-   - Keep artist names with "&" as one artist (e.g., "Blu & Exile" is one artist)
-   - Clean up artist names by removing special characters and extra whitespace
-   - Determine if each artist is a real musical artist (not a venue, event, or non-musical entity)
-2. Return a JSON object where:
-   - Keys are the original artist names
-   - Values are arrays of objects with 'name' and 'isRealArtist' properties
+            1. For each artist name in the input array:
+              - Split multiple artist names into individual artists (split on commas, "and", or multiple artists listed together)
+              - Keep artist names with "&" as one artist (e.g., "Blu & Exile" is one artist)
+              - Clean up artist names by removing special characters and extra whitespace
+              - Determine if each artist is a real musical artist (not a venue, event, or non-musical entity)
+            2. Return a JSON object where:
+              - Keys are the original artist names
+              - Values are arrays of objects with 'name' and 'isRealArtist' properties
 
-Example input: ["Blu & Exile, and Jelly Roll", "Shrek Rave"]
-Example output: {
-  "Blu & Exile, and Jelly Roll": [
-    {"name": "Blu & Exile", "isRealArtist": true},
-    {"name": "Jelly Roll", "isRealArtist": true}
-  ],
-  "Shrek Rave": [
-    {"name": "Shrek Rave", "isRealArtist": false}
-  ]
-}`
+            Example input: ["Blu & Exile, and Jelly Roll", "Shrek Rave"]
+            Example output: {
+              "Blu & Exile, and Jelly Roll": [
+                {"name": "Blu & Exile", "isRealArtist": true},
+                {"name": "Jelly Roll", "isRealArtist": true}
+              ],
+              "Shrek Rave": [
+                {"name": "Shrek Rave", "isRealArtist": false}
+              ]
+            }`
         },
         {
           role: "user",
