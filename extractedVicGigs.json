@@ -30,6 +30,118 @@
   {
     "artist": {
       "id": "",
+      "name": "Brayden King",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-14T00:00:00.000Z",
+    "venue": "The Duke",
+    "isMissing": false,
+    "popularity": 1
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Tom Morrissey",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-14T00:00:00.000Z",
+    "venue": "The Loft Pub",
+    "isMissing": false,
+    "popularity": 1
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Max Ulis",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-14T00:00:00.000Z",
+    "venue": "The Downbeat",
+    "isMissing": false,
+    "popularity": 1
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Weezie",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-14T00:00:00.000Z",
+    "venue": "The Downbeat",
+    "isMissing": false,
+    "popularity": 1
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Night Mayor",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-14T00:00:00.000Z",
+    "venue": "The Downbeat",
+    "isMissing": false,
+    "popularity": 1
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Dysaynia",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-14T00:00:00.000Z",
+    "venue": "Little Fernwood",
+    "isMissing": false,
+    "popularity": 1
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Highdive",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-14T00:00:00.000Z",
+    "venue": "Little Fernwood",
+    "isMissing": false,
+    "popularity": 1
+  },
+    {
+    "artist": {
+      "id": "",
+      "name": "Fivefootnine",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-14T00:00:00.000Z",
+    "venue": "Little Fernwood",
+    "isMissing": false,
+    "popularity": 1
+  },
+  {
+    "artist": {
+      "id": "",
       "name": "Five Alarm Funk",
       "topTracks": [],
       "uri": "",
@@ -83,6 +195,48 @@
     "isMissing": false,
     "popularity": 5
   },
+    {
+    "artist": {
+      "id": "",
+      "name": "Heiroglyphics",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-21T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 5
+  },
+      {
+    "artist": {
+      "id": "",
+      "name": "SIVS",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-21T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 5
+  },
+      {
+    "artist": {
+      "id": "",
+      "name": "KIMBZ",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-21T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 5
+  },
   {
     "artist": {
       "id": "",
@@ -97,6 +251,62 @@
     "isMissing": false,
     "popularity": 6
   },
+      {
+    "artist": {
+      "id": "",
+      "name": "REPOSADO",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-22T00:00:00.000Z",
+    "venue": "Upstairs",
+    "isMissing": false,
+    "popularity": 5
+  },
+      {
+    "artist": {
+      "id": "",
+      "name": "The Librarian",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-22T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 5
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "The Smokestacks",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-22T00:00:00.000Z",
+    "venue": "Wicket Hall",
+    "isMissing": false,
+    "popularity": 5
+  },
+    {
+    "artist": {
+      "id": "",
+      "name": "The Grogans",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-22T00:00:00.000Z",
+    "venue": "Lucky Bar",
+    "isMissing": false,
+    "popularity": 5
+  },
   {
     "artist": {
       "id": "",
@@ -110,6 +320,48 @@
     "venue": "Victoria Folk Music Society",
     "isMissing": false,
     "popularity": 7
+  },
+      {
+    "artist": {
+      "id": "",
+      "name": "Luca Fogale",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-25T00:00:00.000Z",
+    "venue": "Lucky Bar",
+    "isMissing": false,
+    "popularity": 5
+  },
+      {
+    "artist": {
+      "id": "",
+      "name": "Vox Rea",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-25T00:00:00.000Z",
+    "venue": "Lucky Bar",
+    "isMissing": false,
+    "popularity": 5
+  },
+    {
+    "artist": {
+      "id": "",
+      "name": "Jake Worthington",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-26T00:00:00.000Z",
+    "venue": "Upstairs",
+    "isMissing": false,
+    "popularity": 8
   },
   {
     "artist": {
