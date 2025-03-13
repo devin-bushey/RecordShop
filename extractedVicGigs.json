@@ -2,7 +2,21 @@
   {
     "artist": {
       "id": "",
-      "name": "Tinzo + Jojo",
+      "name": "Tinzo",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-03-13T00:00:00.000Z",
+    "venue": "Upstairs Cabaret",
+    "isMissing": false,
+    "popularity": 0
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Jojo Lorenzo",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
@@ -79,7 +93,7 @@
       "link": ""
     },
     "date": "2025-03-21T00:00:00.000Z",
-    "venue": "",
+    "venue": "The Downbeat",
     "isMissing": false,
     "popularity": 5
   },
@@ -96,20 +110,6 @@
     "venue": "Save-On-Foods Memorial Centre",
     "isMissing": false,
     "popularity": 6
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Elise Leblanc",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-03-23T00:00:00.000Z",
-    "venue": "Victoria Folk Music Society",
-    "isMissing": false,
-    "popularity": 7
   },
   {
     "artist": {
@@ -184,20 +184,6 @@
   {
     "artist": {
       "id": "",
-      "name": "Judy Collins",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-03-29T00:00:00.000Z",
-    "venue": "St. Andrew's Presbyterian Church",
-    "isMissing": false,
-    "popularity": 13
-  },
-  {
-    "artist": {
-      "id": "",
       "name": "Bachman-Turner Overdrive",
       "topTracks": [],
       "uri": "",
@@ -236,20 +222,6 @@
     "venue": "Save-On-Foods Memorial Centre",
     "isMissing": false,
     "popularity": 16
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "John Michael Lind",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-01T00:00:00.000Z",
-    "venue": "The Root Cellar at Village Green Grocer",
-    "isMissing": false,
-    "popularity": 17
   },
   {
     "artist": {
@@ -772,20 +744,6 @@
   {
     "artist": {
       "id": "",
-      "name": "Ziggy Alberts",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-21T00:00:00.000Z",
-    "venue": "Royal Theatre",
-    "isMissing": false,
-    "popularity": 55
-  },
-  {
-    "artist": {
-      "id": "",
       "name": "Covenhoven",
       "topTracks": [],
       "uri": "",
@@ -922,34 +880,6 @@
     "venue": "The Duke",
     "isMissing": false,
     "popularity": 2
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "The Wedding Crashers",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-03-13T00:00:00.000Z",
-    "venue": "Bard & Banker",
-    "isMissing": false,
-    "popularity": 4
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Rhythm Train",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-03-13T00:00:00.000Z",
-    "venue": "The Loft Pub",
-    "isMissing": false,
-    "popularity": 5
   },
   {
     "artist": {
