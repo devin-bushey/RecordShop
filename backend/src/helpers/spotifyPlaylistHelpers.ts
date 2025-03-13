@@ -106,9 +106,18 @@ export const addPlaylistItems = async ({
   playlistId: any;
   tracks: any[];
 }) => {
+  // Sort the gigs by date (ascending order - earliest first)
+  const sortedTracks = [...tracks].sort((a, b) => {
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+    return dateA.getTime() - dateB.getTime();
+  });
+
   let addedTracksCount = 0;
+  let remainingTracks = [...sortedTracks]; // Create a copy to avoid modifying the original array
+  
   do {
-    const batchedGigs = tracks.splice(0, 75);
+    const batchedGigs = remainingTracks.splice(0, 100);
     const batchedTracks = batchedGigs.map((gig) => gig.artist.topTracks[0]);
 
     try {
@@ -126,7 +135,7 @@ export const addPlaylistItems = async ({
     }
 
     addedTracksCount += batchedTracks.length;
-  } while (tracks.length);
+  } while (remainingTracks.length);
 
   console.log(`Added ${addedTracksCount} tracks to playlist.`);
 
