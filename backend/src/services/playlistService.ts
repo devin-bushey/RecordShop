@@ -107,7 +107,13 @@ export class PlaylistService {
   private async getAllFutureGigsFromCollection(collectionName: string): Promise<Gig[]> {
     const db_connect = await connectToDatabase();
     const collection: Collection<Gig> = db_connect.collection(collectionName);
-    const gigs = await collection.find({ date: { $gte: new Date() } }).toArray();
+    
+    // Calculate date from two days ago
+    const twoDaysAgo = new Date();
+    twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
+    
+    // Query for gigs that are from two days ago or later
+    const gigs = await collection.find({ date: { $gte: twoDaysAgo } }).toArray();
     return sortByDate(gigs);
   }
 } 
