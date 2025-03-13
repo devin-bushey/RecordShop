@@ -8,11 +8,12 @@ on:
 jobs:
   populate_mongodb:
     if: >
-      github.event_name == 'pull_request' &&
+      (github.event_name == 'pull_request' &&
       github.event.action == 'closed' &&
       github.event.pull_request.merged == true &&
       github.event.pull_request.base.ref == 'main' &&
-      github.event.pull_request.head.ref == 'weekly-vic-gig-data'
+      github.event.pull_request.head.ref == 'weekly-vic-gig-data') ||
+      (github.event_name == 'workflow_dispatch')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
