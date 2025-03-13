@@ -194,7 +194,7 @@ export const LampPostGigList = ({ gigs, isQueryLoading }: LampPostGigListProps) 
                 borderRadius: "50px",
                 padding: "8px 24px",
                 marginTop: "32px",
-                marginBottom: { xs: '80px', sm: '100px', md: '130px' }
+                marginBottom: { xs: '100px', sm: '100px', md: '130px' }
               }}
             >
               More
