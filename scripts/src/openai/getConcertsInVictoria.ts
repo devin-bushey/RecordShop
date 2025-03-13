@@ -8,12 +8,12 @@ export const getConcertsInVictoria = async () => {
     });
 
     const websites = [
-        "https://thecapitalballroom.com/all-events/",
-        "https://do250.com/events/music/today",
-        "https://www.songkick.com/metro-areas/27399-canada-victoria?page=1#metro-area-calendar",
-        "https://www.eventbrite.ca/d/canada--victoria/music--performances/",
+        // "https://thecapitalballroom.com/all-events/",
+        // "https://do250.com/events/music/today",
+        // "https://www.songkick.com/metro-areas/27399-canada-victoria?page=1#metro-area-calendar",
+        // "https://www.eventbrite.ca/d/canada--victoria/music--performances/",
         "https://www.lamppostvictoria.com/events/live-music-folder/live-music",
-        "https://upstairs.ca/events/"
+        // "https://upstairs.ca/events/"
     ]
 
     const response = await client.chat.completions.create({

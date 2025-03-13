@@ -41,7 +41,7 @@ jobs:
           SP_CLIENT_S: ${{ secrets.SP_CLIENT_S }}
         run: npx ts-node ./src/fetchAndAddGigsToDB.ts vancouver
         
-  extract_songkick_and_create_pr:
+  extract_gigs_and_create_pr:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -59,20 +59,28 @@ jobs:
       - name: Run extractSongkick
         env:
             OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: npx ts-node ./scripts/src/scrapers/songkick/extractSongkick.ts > extractedVicGigs.json
+        run: npx ts-node ./scripts/src/scrapers/songkick/extractSongkick.ts > extractedSongkickGigs.json
+
+      - name: Run extractLampPost
+        env:
+            OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: npx ts-node ./scripts/src/scrapers/lampPost/extractLampPost.ts > extractedLampPostGigs.json
+
+      - name: Combine results and remove duplicates
+        run: npx ts-node ./scripts/src/combineScrapeResults.ts extractedSongkickGigs.json extractedLampPostGigs.json extractedVicGigs.json
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Add extractedVicGigs.json"
-          title: "Weekly Update: Extracted Victoria Songkick Data"
-          body: "This PR contains the JSON array of the Songkick data extracted this week.\n\n
+          title: "Weekly Update: Extracted Victoria Gig Data"
+          body: "This PR contains the JSON array of the combined Songkick and LampPost data extracted this week.\n\n
           It does not include Spotify data\n\n
           Please go through and edit the artist names!\n\n
           Then merge this PR to trigger the action to add Spotify data and update the database.\n\n
           <img src=\"https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDg3Y3BycmJuazM1NHlleG5qcXljZjBmdWgzNDlwNzRrb2oxNGtxcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/blSTtZehjAZ8I/giphy.gif\" width=\"340\"/>"
-          branch: weekly-vic-songkick-data
+          branch: weekly-vic-gig-data
           base: main
           files: extractedVicGigs.json
           labels: weekly-update
