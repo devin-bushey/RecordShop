@@ -4,6 +4,7 @@ import { Gig } from "../../../types/Gig";
 import { Spinner } from "../../../components/Spinner";
 import { SpotifyPreviewModal } from "../../../Rifflandia/SpotifyPreviewModal";
 import spotifyLogoBlack from "../../../spotifyLogos/Spotify_Logo_RGB_Black.png";
+import { Loading } from "../../../pages/Loading";
 
 
 interface LampPostGigListProps {
@@ -43,7 +44,7 @@ export const LampPostGigList = ({ gigs, isQueryLoading }: LampPostGigListProps) 
   };
 
   if (isQueryLoading) {
-    return <Spinner />;
+    return <Loading />;
   }
 
   if (!gigs || gigs.length === 0) {
