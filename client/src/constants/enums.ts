@@ -19,4 +19,5 @@ export enum Festivals {
   TheFunction = "theFunction",
   PachenaBay = "pachenaBay",
   Rifflandia2024 = "rifflandia_2024",
+  SaltyHearts2025 = "laketownShakedown", // todo stephg update this
 }

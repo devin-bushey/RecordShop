@@ -13,6 +13,7 @@ import { PhillipsBackyard2024 } from "../festivals/PhillipsBackyard2024/Phillips
 import { LaketownShakedown } from "../festivals/LaketownShakedown/LaketownShakedown";
 import { Rifflandia2024 } from "../festivals/Rifflandia2024/Rifflandia2024";
 import { LampPost } from "../festivals/LampPost/LampPost";
+import { SaltyHearts2025 } from "../festivals/LaketownShakedown copy/SaltyHearts2025";
 
 export const AppRoutes = () => {
   useAnalytics();
@@ -33,6 +34,7 @@ export const AppRoutes = () => {
           <Route path="/laketownShakedown" element={<LaketownShakedown />} />
           <Route path="/rifflandia2024" element={<Rifflandia2024 />} />
           <Route path="/lamppost" element={<LampPost />} />
+          <Route path="/saltyhearts2025" element={<SaltyHearts2025 />} />
         </Routes>
       </Box>
     </>

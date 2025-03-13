@@ -1,0 +1,153 @@
+.salty-hearts-2025 {
+  --main-bg-color-top: #ECE7D1;
+  --main-bg-color-bottom: #58241E;
+  --main-text-color: #253663;
+
+  --card-bg-color: #253663;
+  --card-text-color: #FFFFFF;
+
+  --popover-bg-color: #ECE7D1;
+
+  --primary-button-bg-color: #ECE7D1;
+  --primary-button-text-color: #030918;
+  --primary-button-hover-bg-color: #FFFFFF;
+  --primary-button-hover-text-color: #030918;
+
+  --secondary-button-bg-color: #FFFFFF;
+  --secondary-button-text-color: #030918;
+  --secondary-button-hover-bg-color: #853D33;
+  --secondary-button-hover-text-color: #030918;
+
+  --load-more-button-hover-bg-color: #FCFCFC10;
+
+  overflow: hidden;
+
+  .main-page { 
+    position: relative;
+    background-color: var(--main-bg-color);
+    z-index: 0;
+    height: 100%;
+  }
+
+  .background-top {
+    background-color: var(--main-bg-color-top);
+  }
+
+  .background-bottom {
+    background-image: url('./assets/saltyHeartsDancingFish.png');
+    background-size: cover;
+  }
+  
+
+  
+  /***** BG IMAGES ******/
+  
+  .salty-lanterns {
+    min-height: 130px;
+    background-size: cover;
+    background-image: url('./assets/saltyHeartsLanterns.jpg');
+  }
+
+  .salty-fish {
+    background-image: url('./assets/saltyHeartsFish.jpg');
+    min-height: 100px;
+    min-width: 100px;
+    background-repeat: none;
+    float: left;
+    z-index: 1000;
+    position: relative;
+    height: 100%;
+  }
+  
+  
+  
+  /******* BUTTONS *******/
+  .primary-button {
+    background-color: var(--primary-button-bg-color);
+    color: var(--primary-button-text-color);
+  
+    &:hover {
+      background-color: var(--primary-button-hover-bg-color) ;
+      color: var(--primary-button-hover-text-color) ;  
+    }
+  }
+  
+  .secondary-button {
+    background-color: var(--secondary-button-bg-color) ;
+    color: var(--secondary-button-text-color) ;
+    box-shadow: 0 3px 1px -2px rgba(0 0 0 / 0.5);
+  
+    &:hover {
+      background-color: var(--secondary-button-hover-bg-color) ;
+      color: var(--secondary-button-hover-text-color) ;  
+
+      border: 0;
+      box-shadow: none;
+    }
+  }
+  
+  
+  
+  /****** CUSTOM COMPONENT COLOURS ******/
+  .preview-playlist {
+    .MuiCard-root {
+      background-color: var(--card-bg-color);
+      color: var(--card-text-color);
+    }
+  
+    .MuiButton-root {
+      background-color: var(--secondary-button-bg-color);
+      color: var(--secondary-button-text-color);
+  
+      &:hover {
+        background-color: var(--secondary-button-hover-bg-color) ;
+        color: var(--secondary-button-hover-text-color) ;
+      }
+    }
+  }
+  
+  .about-us-popover {
+    button {
+      background-color: var(--secondary-button-bg-color);
+      color: var(--secondary-button-text-color);
+  
+      &:hover {
+        background-color: var(--secondary-button-hover-bg-color);
+        color: var(--secondary-button-hover-text-color);
+      }
+    }
+  }
+  
+  .about-us-contents {
+    background-color: var(--popover-bg-color);
+  }
+  
+  .contact-us-modal-contents {
+    background-color: var(--popover-bg-color);
+  }
+
+  .profile-menu-button {
+    button {
+      color: var(--main-text-color);
+    }
+  }
+
+  .settings-container {
+    background-color: var(--popover-bg-color);
+  }
+
+  .load-more-button {
+    color: var(--main-text-color);
+    border-color: var(--main-text-color);
+
+    &:hover {
+      border-color: var(--main-text-color);
+      background-color: var(--load-more-button-hover-bg-color);
+    }
+  }
+
+  .in-app-modal {
+    background-color: var(--popover-bg-color);
+  }
+    
+}
