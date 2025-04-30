@@ -2,58 +2,30 @@
   {
     "artist": {
       "id": "",
-      "name": "Etran de L'Air",
+      "name": "Felix Cartal",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-04-10T00:00:00.000Z",
-    "venue": "Wicket Hall",
+    "date": "2025-04-25T00:00:00.000Z",
+    "venue": "Upstairs Cabaret",
     "isMissing": false,
-    "popularity": 10
+    "popularity": 2
   },
   {
     "artist": {
       "id": "",
-      "name": "Damien Jurado",
+      "name": "Reuben and the Dark",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-05-27T00:00:00.000Z",
+    "date": "2025-05-07T00:00:00.000Z",
     "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 45
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Fish in a Birdcage",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-28T00:00:00.000Z",
-    "venue": "Wicket Hall",
-    "isMissing": false,
-    "popularity": 46
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Shayfer James",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-28T00:00:00.000Z",
-    "venue": "Wicket Hall",
-    "isMissing": false,
-    "popularity": 47
+    "popularity": 15
   },
   {
     "artist": {
@@ -67,49 +39,49 @@
     "date": "2025-06-13T00:00:00.000Z",
     "venue": "Upstairs Cabaret",
     "isMissing": false,
-    "popularity": 52
+    "popularity": 40
   },
   {
     "artist": {
       "id": "",
-      "name": "The Resignators",
+      "name": "SweetLeaf",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-06-18T00:00:00.000Z",
-    "venue": "Ships Point",
+    "date": "2025-06-19T00:00:00.000Z",
+    "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 53
+    "popularity": 44
   },
   {
     "artist": {
       "id": "",
-      "name": "Waahli",
+      "name": "poor sport",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-06-18T00:00:00.000Z",
-    "venue": "Ships Point",
+    "date": "2025-06-19T00:00:00.000Z",
+    "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 54
+    "popularity": 45
   },
   {
     "artist": {
       "id": "",
-      "name": "Madeleine Peyroux",
+      "name": "THE PHARCYDE",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-06-20T00:00:00.000Z",
-    "venue": "Royal Theatre",
+    "date": "2025-06-21T00:00:00.000Z",
+    "venue": "Ship Point (Inner Harbour)",
     "isMissing": false,
-    "popularity": 55
+    "popularity": 57
   },
   {
     "artist": {
@@ -123,244 +95,104 @@
     "date": "2025-06-25T00:00:00.000Z",
     "venue": "McPherson Playhouse",
     "isMissing": false,
-    "popularity": 56
+    "popularity": 67
   },
   {
     "artist": {
       "id": "",
-      "name": "OK Charlie",
+      "name": "Alex Cuba",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-04-02T00:00:00.000Z",
-    "venue": "Irish Times",
+    "date": "2025-06-25T00:00:00.000Z",
+    "venue": "McPherson Playhouse",
     "isMissing": false,
-    "popularity": 5
+    "popularity": 68
   },
   {
     "artist": {
       "id": "",
-      "name": "The Grapes of Wrath",
+      "name": "Richard Bona",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-04-02T00:00:00.000Z",
-    "venue": "Capital Ballroom",
+    "date": "2025-06-25T00:00:00.000Z",
+    "venue": "McPherson Playhouse",
     "isMissing": false,
-    "popularity": 7
+    "popularity": 69
   },
   {
     "artist": {
       "id": "",
-      "name": "QUIT IT!",
+      "name": "Trooper",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-04-02T00:00:00.000Z",
-    "venue": "Little Fernwood",
+    "date": "2025-06-28T00:00:00.000Z",
+    "venue": "Starlight Stadium",
     "isMissing": false,
-    "popularity": 8
+    "popularity": 70
   },
   {
     "artist": {
       "id": "",
-      "name": "KING BOB",
+      "name": "Big Sugar",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-04-02T00:00:00.000Z",
-    "venue": "Little Fernwood",
+    "date": "2025-06-28T00:00:00.000Z",
+    "venue": "Starlight Stadium",
     "isMissing": false,
-    "popularity": 9
+    "popularity": 71
   },
   {
     "artist": {
       "id": "",
-      "name": "Myka9",
+      "name": "Cold Fame",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-04-03T00:00:00.000Z",
-    "venue": "Lucky Bar",
-    "isMissing": false,
-    "popularity": 17
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Emotionz",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-03T00:00:00.000Z",
-    "venue": "Lucky Bar",
-    "isMissing": false,
-    "popularity": 18
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Mojo Risin",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-04T00:00:00.000Z",
-    "venue": "Wicket Hall",
-    "isMissing": false,
-    "popularity": 19
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "MOKA Only",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-04T00:00:00.000Z",
-    "venue": "Vinyl Envy",
-    "isMissing": false,
-    "popularity": 24
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "BRAINiac",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-04T00:00:00.000Z",
-    "venue": "Vinyl Envy",
-    "isMissing": false,
-    "popularity": 25
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "G- Beats",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-04T00:00:00.000Z",
-    "venue": "Vinyl Envy",
-    "isMissing": false,
-    "popularity": 26
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Kjahn",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-04T00:00:00.000Z",
-    "venue": "Vinyl Envy",
-    "isMissing": false,
-    "popularity": 27
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Yung Balboa",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-04T00:00:00.000Z",
-    "venue": "Vinyl Envy",
-    "isMissing": false,
-    "popularity": 28
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Zenith",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-04T00:00:00.000Z",
-    "venue": "The Coda",
-    "isMissing": false,
-    "popularity": 29
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "April's Fool",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-04T00:00:00.000Z",
-    "venue": "Lucky Bar",
+    "date": "2025-04-26T00:00:00.000Z",
+    "venue": "Upstairs Entertainment Ltd",
     "isMissing": false,
     "popularity": 33
   },
   {
     "artist": {
       "id": "",
-      "name": "Jump",
+      "name": "Dead Summer",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-04-05T00:00:00.000Z",
-    "venue": "McPherson Playhouse",
+    "date": "2025-04-26T00:00:00.000Z",
+    "venue": "Upstairs Entertainment Ltd",
     "isMissing": false,
-    "popularity": 38
+    "popularity": 34
   },
   {
     "artist": {
       "id": "",
-      "name": "Fleetwood Magic",
+      "name": "Alcoves",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-04-05T00:00:00.000Z",
-    "venue": "McPherson Playhouse",
+    "date": "2025-04-26T00:00:00.000Z",
+    "venue": "Upstairs Entertainment Ltd",
     "isMissing": false,
-    "popularity": 42
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Moontricks",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-05T00:00:00.000Z",
-    "venue": "Royal Theatre",
-    "isMissing": false,
-    "popularity": 43
+    "popularity": 35
   }
 ]
