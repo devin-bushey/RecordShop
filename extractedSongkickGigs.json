@@ -2,202 +2,6 @@
   {
     "artist": {
       "id": "",
-      "name": "Quote the Raven",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-24T00:00:00.000Z",
-    "venue": "Hermann's Jazz Club",
-    "isMissing": false,
-    "popularity": 0
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Suzie Ungerleider",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-24T00:00:00.000Z",
-    "venue": "Hermann's Jazz Club",
-    "isMissing": false,
-    "popularity": 1
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Felix Cartal",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-25T00:00:00.000Z",
-    "venue": "Upstairs Cabaret",
-    "isMissing": false,
-    "popularity": 2
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Xoth",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-25T00:00:00.000Z",
-    "venue": "Phoenix Bar & Grill - Victoria, BC",
-    "isMissing": false,
-    "popularity": 3
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Leeroy Stagger",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-25T00:00:00.000Z",
-    "venue": "Alix Goolden Performance Hall",
-    "isMissing": false,
-    "popularity": 4
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Daniel Lapp",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-25T00:00:00.000Z",
-    "venue": "Alix Goolden Performance Hall",
-    "isMissing": false,
-    "popularity": 5
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "SkiiTour",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-26T00:00:00.000Z",
-    "venue": "Capital Ballroom",
-    "isMissing": false,
-    "popularity": 6
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Leeroy Stagger",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-26T00:00:00.000Z",
-    "venue": "Alix Goolden Performance Hall",
-    "isMissing": false,
-    "popularity": 7
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Daniel Lapp",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-04-26T00:00:00.000Z",
-    "venue": "Alix Goolden Performance Hall",
-    "isMissing": false,
-    "popularity": 8
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Stampeders",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-01T00:00:00.000Z",
-    "venue": "Royal Theatre",
-    "isMissing": false,
-    "popularity": 9
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "HARDBALL (BC)",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-02T00:00:00.000Z",
-    "venue": "Moon Under Water Brewery & Pub",
-    "isMissing": false,
-    "popularity": 10
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Creatures of Autumn",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-02T00:00:00.000Z",
-    "venue": "Moon Under Water Brewery & Pub",
-    "isMissing": false,
-    "popularity": 11
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Hot Chicken Salad",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-02T00:00:00.000Z",
-    "venue": "Moon Under Water Brewery & Pub",
-    "isMissing": false,
-    "popularity": 12
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Chris Webby",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-03T00:00:00.000Z",
-    "venue": "Wicket Hall",
-    "isMissing": false,
-    "popularity": 13
-  },
-  {
-    "artist": {
-      "id": "",
       "name": "Elise Leblanc",
       "topTracks": [],
       "uri": "",
@@ -207,7 +11,7 @@
     "date": "2025-05-06T00:00:00.000Z",
     "venue": "Paul Phillips Hall",
     "isMissing": false,
-    "popularity": 14
+    "popularity": 0
   },
   {
     "artist": {
@@ -221,7 +25,7 @@
     "date": "2025-05-07T00:00:00.000Z",
     "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 15
+    "popularity": 1
   },
   {
     "artist": {
@@ -235,7 +39,7 @@
     "date": "2025-05-09T00:00:00.000Z",
     "venue": "The Spiral Cafe",
     "isMissing": false,
-    "popularity": 16
+    "popularity": 2
   },
   {
     "artist": {
@@ -249,7 +53,7 @@
     "date": "2025-05-10T00:00:00.000Z",
     "venue": "Christie's Carriage House",
     "isMissing": false,
-    "popularity": 17
+    "popularity": 3
   },
   {
     "artist": {
@@ -263,7 +67,7 @@
     "date": "2025-05-10T00:00:00.000Z",
     "venue": "Victoria House",
     "isMissing": false,
-    "popularity": 18
+    "popularity": 4
   },
   {
     "artist": {
@@ -277,7 +81,7 @@
     "date": "2025-05-10T00:00:00.000Z",
     "venue": "Victoria House",
     "isMissing": false,
-    "popularity": 19
+    "popularity": 5
   },
   {
     "artist": {
@@ -291,7 +95,7 @@
     "date": "2025-05-11T00:00:00.000Z",
     "venue": "Agricultural Hall",
     "isMissing": false,
-    "popularity": 20
+    "popularity": 6
   },
   {
     "artist": {
@@ -305,7 +109,7 @@
     "date": "2025-05-11T00:00:00.000Z",
     "venue": "Agricultural Hall",
     "isMissing": false,
-    "popularity": 21
+    "popularity": 7
   },
   {
     "artist": {
@@ -319,7 +123,21 @@
     "date": "2025-05-16T00:00:00.000Z",
     "venue": "Strathcona Hotel",
     "isMissing": false,
-    "popularity": 22
+    "popularity": 8
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Unfaithful Servants",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-16T00:00:00.000Z",
+    "venue": "Agricultural Hall",
+    "isMissing": false,
+    "popularity": 9
   },
   {
     "artist": {
@@ -333,7 +151,7 @@
     "date": "2025-05-17T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 23
+    "popularity": 10
   },
   {
     "artist": {
@@ -347,7 +165,7 @@
     "date": "2025-05-17T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 24
+    "popularity": 11
   },
   {
     "artist": {
@@ -361,7 +179,7 @@
     "date": "2025-05-17T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 25
+    "popularity": 12
   },
   {
     "artist": {
@@ -375,7 +193,7 @@
     "date": "2025-05-21T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 26
+    "popularity": 13
   },
   {
     "artist": {
@@ -389,7 +207,7 @@
     "date": "2025-05-21T00:00:00.000Z",
     "venue": "Haus of Owl",
     "isMissing": false,
-    "popularity": 27
+    "popularity": 14
   },
   {
     "artist": {
@@ -403,7 +221,7 @@
     "date": "2025-05-22T00:00:00.000Z",
     "venue": "The Mint",
     "isMissing": false,
-    "popularity": 28
+    "popularity": 15
   },
   {
     "artist": {
@@ -417,7 +235,7 @@
     "date": "2025-05-22T00:00:00.000Z",
     "venue": "The Mint",
     "isMissing": false,
-    "popularity": 29
+    "popularity": 16
   },
   {
     "artist": {
@@ -431,7 +249,21 @@
     "date": "2025-05-22T00:00:00.000Z",
     "venue": "The Mint",
     "isMissing": false,
-    "popularity": 30
+    "popularity": 17
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Mount Mural",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-23T00:00:00.000Z",
+    "venue": "Paul Phillips Hall",
+    "isMissing": false,
+    "popularity": 18
   },
   {
     "artist": {
@@ -445,7 +277,7 @@
     "date": "2025-05-24T00:00:00.000Z",
     "venue": "",
     "isMissing": false,
-    "popularity": 31
+    "popularity": 19
   },
   {
     "artist": {
@@ -459,7 +291,35 @@
     "date": "2025-05-24T00:00:00.000Z",
     "venue": "Fort Tectoria",
     "isMissing": false,
-    "popularity": 32
+    "popularity": 20
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "War Eyes",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-24T00:00:00.000Z",
+    "venue": "Phoenix Bar and Grill",
+    "isMissing": false,
+    "popularity": 21
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "The Canyon Riders",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-24T00:00:00.000Z",
+    "venue": "Phoenix Bar and Grill",
+    "isMissing": false,
+    "popularity": 22
   },
   {
     "artist": {
@@ -473,7 +333,7 @@
     "date": "2025-05-28T00:00:00.000Z",
     "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 33
+    "popularity": 23
   },
   {
     "artist": {
@@ -487,7 +347,7 @@
     "date": "2025-05-28T00:00:00.000Z",
     "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 34
+    "popularity": 24
   },
   {
     "artist": {
@@ -501,7 +361,7 @@
     "date": "2025-05-30T00:00:00.000Z",
     "venue": "The Spiral Cafe",
     "isMissing": false,
-    "popularity": 35
+    "popularity": 25
   },
   {
     "artist": {
@@ -515,7 +375,7 @@
     "date": "2025-05-30T00:00:00.000Z",
     "venue": "The Spiral Cafe",
     "isMissing": false,
-    "popularity": 36
+    "popularity": 26
   },
   {
     "artist": {
@@ -529,7 +389,7 @@
     "date": "2025-06-01T00:00:00.000Z",
     "venue": "Save-On-Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 37
+    "popularity": 27
   },
   {
     "artist": {
@@ -543,7 +403,7 @@
     "date": "2025-06-01T00:00:00.000Z",
     "venue": "Save-On-Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 38
+    "popularity": 28
   },
   {
     "artist": {
@@ -557,7 +417,7 @@
     "date": "2025-06-05T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 39
+    "popularity": 29
   },
   {
     "artist": {
@@ -571,7 +431,7 @@
     "date": "2025-06-13T00:00:00.000Z",
     "venue": "Upstairs Cabaret",
     "isMissing": false,
-    "popularity": 40
+    "popularity": 30
   },
   {
     "artist": {
@@ -585,7 +445,7 @@
     "date": "2025-06-18T00:00:00.000Z",
     "venue": "Ships Point",
     "isMissing": false,
-    "popularity": 41
+    "popularity": 31
   },
   {
     "artist": {
@@ -599,7 +459,7 @@
     "date": "2025-06-18T00:00:00.000Z",
     "venue": "Ships Point",
     "isMissing": false,
-    "popularity": 42
+    "popularity": 32
   },
   {
     "artist": {
@@ -613,7 +473,7 @@
     "date": "2025-06-18T00:00:00.000Z",
     "venue": "Ships Point",
     "isMissing": false,
-    "popularity": 43
+    "popularity": 33
   },
   {
     "artist": {
@@ -627,7 +487,7 @@
     "date": "2025-06-19T00:00:00.000Z",
     "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 44
+    "popularity": 34
   },
   {
     "artist": {
@@ -641,7 +501,7 @@
     "date": "2025-06-19T00:00:00.000Z",
     "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 45
+    "popularity": 35
   },
   {
     "artist": {
@@ -655,7 +515,7 @@
     "date": "2025-06-19T00:00:00.000Z",
     "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 46
+    "popularity": 36
   },
   {
     "artist": {
@@ -669,7 +529,35 @@
     "date": "2025-06-20T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 47
+    "popularity": 37
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Lorraine Desmarais",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-06-20T00:00:00.000Z",
+    "venue": "Hermann's Jazz Club",
+    "isMissing": false,
+    "popularity": 38
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Kneebody",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-06-20T00:00:00.000Z",
+    "venue": "The Coda",
+    "isMissing": false,
+    "popularity": 39
   },
   {
     "artist": {
@@ -683,7 +571,7 @@
     "date": "2025-06-20T00:00:00.000Z",
     "venue": "Ship Point (Inner Harbour)",
     "isMissing": false,
-    "popularity": 48
+    "popularity": 40
   },
   {
     "artist": {
@@ -697,7 +585,7 @@
     "date": "2025-06-20T00:00:00.000Z",
     "venue": "Ship Point (Inner Harbour)",
     "isMissing": false,
-    "popularity": 49
+    "popularity": 41
   },
   {
     "artist": {
@@ -711,12 +599,12 @@
     "date": "2025-06-20T00:00:00.000Z",
     "venue": "Ship Point (Inner Harbour)",
     "isMissing": false,
-    "popularity": 50
+    "popularity": 42
   },
   {
     "artist": {
       "id": "",
-      "name": "NAVIGATOR",
+      "name": "BROTHER CULUTRE",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
@@ -725,7 +613,35 @@
     "date": "2025-06-20T00:00:00.000Z",
     "venue": "Ship Point (Inner Harbour)",
     "isMissing": false,
-    "popularity": 51
+    "popularity": 43
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "PREZENCE",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-06-20T00:00:00.000Z",
+    "venue": "Ship Point (Inner Harbour)",
+    "isMissing": false,
+    "popularity": 44
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "DJ DUBSCONCIOUS",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-06-20T00:00:00.000Z",
+    "venue": "Ship Point (Inner Harbour)",
+    "isMissing": false,
+    "popularity": 45
   },
   {
     "artist": {
@@ -739,7 +655,7 @@
     "date": "2025-06-20T00:00:00.000Z",
     "venue": "Victoria Curling Club",
     "isMissing": false,
-    "popularity": 52
+    "popularity": 46
   },
   {
     "artist": {
@@ -753,7 +669,7 @@
     "date": "2025-06-20T00:00:00.000Z",
     "venue": "Victoria Curling Club",
     "isMissing": false,
-    "popularity": 53
+    "popularity": 47
   },
   {
     "artist": {
@@ -767,7 +683,7 @@
     "date": "2025-06-20T00:00:00.000Z",
     "venue": "Victoria Curling Club",
     "isMissing": false,
-    "popularity": 54
+    "popularity": 48
   },
   {
     "artist": {
@@ -781,7 +697,7 @@
     "date": "2025-06-20T00:00:00.000Z",
     "venue": "Victoria Curling Club",
     "isMissing": false,
-    "popularity": 55
+    "popularity": 49
   },
   {
     "artist": {
@@ -795,7 +711,49 @@
     "date": "2025-06-20T00:00:00.000Z",
     "venue": "Victoria Curling Club",
     "isMissing": false,
-    "popularity": 56
+    "popularity": 50
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Farah Siraj",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-06-21T00:00:00.000Z",
+    "venue": "Hermann's Jazz Club",
+    "isMissing": false,
+    "popularity": 51
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Brekky Boy",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-06-21T00:00:00.000Z",
+    "venue": "The Coda",
+    "isMissing": false,
+    "popularity": 52
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Pierre Bensusan",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-06-21T00:00:00.000Z",
+    "venue": "St. Andrew's Presbyterian Church",
+    "isMissing": false,
+    "popularity": 53
   },
   {
     "artist": {
@@ -809,7 +767,7 @@
     "date": "2025-06-21T00:00:00.000Z",
     "venue": "Ship Point (Inner Harbour)",
     "isMissing": false,
-    "popularity": 57
+    "popularity": 54
   },
   {
     "artist": {
@@ -823,7 +781,7 @@
     "date": "2025-06-21T00:00:00.000Z",
     "venue": "Ship Point (Inner Harbour)",
     "isMissing": false,
-    "popularity": 58
+    "popularity": 55
   },
   {
     "artist": {
@@ -837,7 +795,7 @@
     "date": "2025-06-21T00:00:00.000Z",
     "venue": "Ship Point (Inner Harbour)",
     "isMissing": false,
-    "popularity": 59
+    "popularity": 56
   },
   {
     "artist": {
@@ -851,12 +809,12 @@
     "date": "2025-06-21T00:00:00.000Z",
     "venue": "Ship Point (Inner Harbour)",
     "isMissing": false,
-    "popularity": 60
+    "popularity": 57
   },
   {
     "artist": {
       "id": "",
-      "name": "JAKOBS CASTLE (ft. Jakob Nowell of Sublime & Jakobs Castle)",
+      "name": "JAKOBS CASTLE",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
@@ -865,7 +823,7 @@
     "date": "2025-06-21T00:00:00.000Z",
     "venue": "Victoria Curling Club",
     "isMissing": false,
-    "popularity": 61
+    "popularity": 58
   },
   {
     "artist": {
@@ -879,7 +837,7 @@
     "date": "2025-06-21T00:00:00.000Z",
     "venue": "Victoria Curling Club",
     "isMissing": false,
-    "popularity": 62
+    "popularity": 59
   },
   {
     "artist": {
@@ -893,7 +851,7 @@
     "date": "2025-06-21T00:00:00.000Z",
     "venue": "Victoria Curling Club",
     "isMissing": false,
-    "popularity": 63
+    "popularity": 60
   },
   {
     "artist": {
@@ -907,7 +865,7 @@
     "date": "2025-06-21T00:00:00.000Z",
     "venue": "Victoria Curling Club",
     "isMissing": false,
-    "popularity": 64
+    "popularity": 61
   },
   {
     "artist": {
@@ -921,7 +879,7 @@
     "date": "2025-06-21T00:00:00.000Z",
     "venue": "Victoria Curling Club",
     "isMissing": false,
-    "popularity": 65
+    "popularity": 62
   },
   {
     "artist": {
@@ -935,7 +893,63 @@
     "date": "2025-06-21T00:00:00.000Z",
     "venue": "Victoria Curling Club",
     "isMissing": false,
+    "popularity": 63
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Farah Siraj",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-06-22T00:00:00.000Z",
+    "venue": "Hermann's Jazz Club",
+    "isMissing": false,
+    "popularity": 64
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Anthony D'Alessandro",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-06-23T00:00:00.000Z",
+    "venue": "Hermann's Jazz Club",
+    "isMissing": false,
+    "popularity": 65
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Makaya Mccraven",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-06-23T00:00:00.000Z",
+    "venue": "Wicket Hall",
+    "isMissing": false,
     "popularity": 66
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "New Jazz Underground",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-06-24T00:00:00.000Z",
+    "venue": "Wicket Hall",
+    "isMissing": false,
+    "popularity": 67
   },
   {
     "artist": {
@@ -949,7 +963,21 @@
     "date": "2025-06-25T00:00:00.000Z",
     "venue": "McPherson Playhouse",
     "isMissing": false,
-    "popularity": 67
+    "popularity": 68
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Elise Leblanc",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-06-25T00:00:00.000Z",
+    "venue": "",
+    "isMissing": false,
+    "popularity": 69
   },
   {
     "artist": {
@@ -963,7 +991,7 @@
     "date": "2025-06-25T00:00:00.000Z",
     "venue": "McPherson Playhouse",
     "isMissing": false,
-    "popularity": 68
+    "popularity": 70
   },
   {
     "artist": {
@@ -977,132 +1005,62 @@
     "date": "2025-06-25T00:00:00.000Z",
     "venue": "McPherson Playhouse",
     "isMissing": false,
-    "popularity": 69
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Trooper",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-06-28T00:00:00.000Z",
-    "venue": "Starlight Stadium",
-    "isMissing": false,
-    "popularity": 70
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Big Sugar",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-06-28T00:00:00.000Z",
-    "venue": "Starlight Stadium",
-    "isMissing": false,
     "popularity": 71
   },
   {
     "artist": {
       "id": "",
-      "name": "Sungazer",
+      "name": "Matteo Mancuso",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-06-28T00:00:00.000Z",
-    "venue": "Bullen Park",
+    "date": "2025-06-25T00:00:00.000Z",
+    "venue": "Wicket Hall",
     "isMissing": false,
     "popularity": 72
   },
   {
     "artist": {
       "id": "",
-      "name": "Tina Leon",
+      "name": "Marquis Hill",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-06-28T00:00:00.000Z",
-    "venue": "The Victoria International Jazz Fest",
+    "date": "2025-06-26T00:00:00.000Z",
+    "venue": "Wicket Hall",
     "isMissing": false,
     "popularity": 73
   },
   {
     "artist": {
       "id": "",
-      "name": "ekkstacy",
+      "name": "MUSICMUSICMUSIC",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-04T00:00:00.000Z",
-    "venue": "Upstairs Cabaret",
+    "date": "2025-06-27T00:00:00.000Z",
+    "venue": "Hermann's Jazz Club",
     "isMissing": false,
     "popularity": 74
   },
   {
     "artist": {
       "id": "",
-      "name": "Cat Clyde",
+      "name": "Shuffle Demons",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-08T00:00:00.000Z",
-    "venue": "Wicket Hall",
+    "date": "2025-06-27T00:00:00.000Z",
+    "venue": "The Coda",
     "isMissing": false,
     "popularity": 75
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Born of Osiris",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-10T00:00:00.000Z",
-    "venue": "Wicket Hall",
-    "isMissing": false,
-    "popularity": 76
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "The Browning",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-10T00:00:00.000Z",
-    "venue": "Wicket Hall",
-    "isMissing": false,
-    "popularity": 77
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Convictions",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-10T00:00:00.000Z",
-    "venue": "Wicket Hall",
-    "isMissing": false,
-    "popularity": 78
   }
 ]
