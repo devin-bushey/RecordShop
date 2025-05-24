@@ -2,156 +2,16 @@
   {
     "artist": {
       "id": "",
-      "name": "Reuben and the Dark",
+      "name": "Makaya Mccraven",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-05-07T00:00:00.000Z",
+    "date": "2025-06-23T00:00:00.000Z",
     "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 1
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Pouya",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-17T00:00:00.000Z",
-    "venue": "Capital Ballroom",
-    "isMissing": false,
-    "popularity": 10
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Fat Nick",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-17T00:00:00.000Z",
-    "venue": "Capital Ballroom",
-    "isMissing": false,
-    "popularity": 11
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Kxllswxtch",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-17T00:00:00.000Z",
-    "venue": "Capital Ballroom",
-    "isMissing": false,
-    "popularity": 12
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Ziggy Alberts",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-21T00:00:00.000Z",
-    "venue": "Royal Theatre",
-    "isMissing": false,
-    "popularity": 13
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Fish in a Birdcage",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-28T00:00:00.000Z",
-    "venue": "Wicket Hall",
-    "isMissing": false,
-    "popularity": 23
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Shayfer James",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-28T00:00:00.000Z",
-    "venue": "Wicket Hall",
-    "isMissing": false,
-    "popularity": 24
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "SweetLeaf",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-06-19T00:00:00.000Z",
-    "venue": "Wicket Hall",
-    "isMissing": false,
-    "popularity": 34
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "poor sport",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-06-19T00:00:00.000Z",
-    "venue": "Wicket Hall",
-    "isMissing": false,
-    "popularity": 35
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Alex Cuba",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-06-25T00:00:00.000Z",
-    "venue": "McPherson Playhouse",
-    "isMissing": false,
-    "popularity": 70
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Richard Bona",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-06-25T00:00:00.000Z",
-    "venue": "McPherson Playhouse",
-    "isMissing": false,
-    "popularity": 71
+    "popularity": 26
   },
   {
     "artist": {
@@ -165,7 +25,7 @@
     "date": "2025-06-25T00:00:00.000Z",
     "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 72
+    "popularity": 33
   },
   {
     "artist": {
@@ -179,76 +39,202 @@
     "date": "2025-06-26T00:00:00.000Z",
     "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 73
+    "popularity": 34
   },
   {
     "artist": {
       "id": "",
-      "name": "LIGHTS",
+      "name": "Trooper",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-05-08T00:00:00.000Z",
-    "venue": "Capital Ballroom",
+    "date": "2025-06-28T00:00:00.000Z",
+    "venue": "Starlight Stadium",
     "isMissing": false,
-    "popularity": 19
+    "popularity": 37
   },
   {
     "artist": {
       "id": "",
-      "name": "UNCLE MURDA",
+      "name": "Big Sugar",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-05-09T00:00:00.000Z",
-    "venue": "Wicket Hall",
+    "date": "2025-06-28T00:00:00.000Z",
+    "venue": "Starlight Stadium",
+    "isMissing": false,
+    "popularity": 38
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "ekkstacy",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-07-04T00:00:00.000Z",
+    "venue": "Upstairs Cabaret",
+    "isMissing": false,
+    "popularity": 41
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "OK Charlie",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-21T00:00:00.000Z",
+    "venue": "Irish Times Pub",
+    "isMissing": false,
+    "popularity": 4
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "The Corps",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-22T00:00:00.000Z",
+    "venue": "Lucky Bar",
+    "isMissing": false,
+    "popularity": 6
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Sweathogz",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-22T00:00:00.000Z",
+    "venue": "Lucky Bar",
+    "isMissing": false,
+    "popularity": 7
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "King Bob",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-22T00:00:00.000Z",
+    "venue": "Lucky Bar",
+    "isMissing": false,
+    "popularity": 8
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Mike Tod",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-22T00:00:00.000Z",
+    "venue": "Little Fernwood",
+    "isMissing": false,
+    "popularity": 13
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Opal Raye",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-22T00:00:00.000Z",
+    "venue": "Little Fernwood",
+    "isMissing": false,
+    "popularity": 14
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Dan Belgue",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-22T00:00:00.000Z",
+    "venue": "Little Fernwood",
+    "isMissing": false,
+    "popularity": 15
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Mahesh Kale",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-22T00:00:00.000Z",
+    "venue": "McPherson Playhouse",
+    "isMissing": false,
+    "popularity": 16
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Defunk",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-23T00:00:00.000Z",
+    "venue": "The Downbeat",
     "isMissing": false,
     "popularity": 26
   },
   {
     "artist": {
       "id": "",
-      "name": "DVBBS",
+      "name": "Jack J",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-05-09T00:00:00.000Z",
-    "venue": "Capital Ballroom",
+    "date": "2025-05-24T00:00:00.000Z",
+    "venue": "Lucky Bar",
     "isMissing": false,
-    "popularity": 27
+    "popularity": 37
   },
   {
     "artist": {
       "id": "",
-      "name": "Golers",
+      "name": "Freak Heat Waves",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-05-09T00:00:00.000Z",
+    "date": "2025-05-24T00:00:00.000Z",
     "venue": "Lucky Bar",
     "isMissing": false,
-    "popularity": 32
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Gnar Gnars",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-09T00:00:00.000Z",
-    "venue": "Lucky Bar",
-    "isMissing": false,
-    "popularity": 33
+    "popularity": 38
   }
 ]
