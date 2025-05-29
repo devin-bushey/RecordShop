@@ -2,239 +2,421 @@
   {
     "artist": {
       "id": "",
-      "name": "Makaya Mccraven",
+      "name": "Fish in a Birdcage",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-06-23T00:00:00.000Z",
+    "date": "2025-05-28T00:00:00.000Z",
     "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 26
+    "popularity": 0
   },
   {
     "artist": {
       "id": "",
-      "name": "Matteo Mancuso",
+      "name": "Motherhood",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-06-25T00:00:00.000Z",
-    "venue": "Wicket Hall",
+    "date": "2025-06-12T00:00:00.000Z",
+    "venue": "Lucky Bar",
     "isMissing": false,
-    "popularity": 33
+    "popularity": 10
   },
   {
     "artist": {
       "id": "",
-      "name": "Marquis Hill",
+      "name": "Art d'Ecco",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-06-26T00:00:00.000Z",
-    "venue": "Wicket Hall",
-    "isMissing": false,
-    "popularity": 34
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Trooper",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-06-28T00:00:00.000Z",
-    "venue": "Starlight Stadium",
-    "isMissing": false,
-    "popularity": 37
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Big Sugar",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-06-28T00:00:00.000Z",
-    "venue": "Starlight Stadium",
-    "isMissing": false,
-    "popularity": 38
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "ekkstacy",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-04T00:00:00.000Z",
+    "date": "2025-06-13T00:00:00.000Z",
     "venue": "Upstairs Cabaret",
     "isMissing": false,
-    "popularity": 41
+    "popularity": 11
   },
   {
     "artist": {
       "id": "",
-      "name": "OK Charlie",
+      "name": "The Resignators",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-05-21T00:00:00.000Z",
-    "venue": "Irish Times Pub",
+    "date": "2025-06-18T00:00:00.000Z",
+    "venue": "Ships Point",
     "isMissing": false,
-    "popularity": 4
+    "popularity": 12
   },
   {
     "artist": {
       "id": "",
-      "name": "The Corps",
+      "name": "Waahli",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-05-22T00:00:00.000Z",
-    "venue": "Lucky Bar",
-    "isMissing": false,
-    "popularity": 6
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Sweathogz",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-22T00:00:00.000Z",
-    "venue": "Lucky Bar",
-    "isMissing": false,
-    "popularity": 7
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "King Bob",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-22T00:00:00.000Z",
-    "venue": "Lucky Bar",
-    "isMissing": false,
-    "popularity": 8
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Mike Tod",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-05-22T00:00:00.000Z",
-    "venue": "Little Fernwood",
+    "date": "2025-06-18T00:00:00.000Z",
+    "venue": "Ships Point",
     "isMissing": false,
     "popularity": 13
   },
   {
     "artist": {
       "id": "",
-      "name": "Opal Raye",
+      "name": "Gun Street Ghouls",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-05-22T00:00:00.000Z",
-    "venue": "Little Fernwood",
+    "date": "2025-06-18T00:00:00.000Z",
+    "venue": "Ships Point",
     "isMissing": false,
     "popularity": 14
   },
   {
     "artist": {
       "id": "",
-      "name": "Dan Belgue",
+      "name": "SweetLeaf",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-05-22T00:00:00.000Z",
-    "venue": "Little Fernwood",
+    "date": "2025-06-19T00:00:00.000Z",
+    "venue": "Wicket Hall",
     "isMissing": false,
     "popularity": 15
   },
   {
     "artist": {
       "id": "",
-      "name": "Mahesh Kale",
+      "name": "poor sport",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-05-22T00:00:00.000Z",
-    "venue": "McPherson Playhouse",
+    "date": "2025-06-19T00:00:00.000Z",
+    "venue": "Wicket Hall",
     "isMissing": false,
     "popularity": 16
   },
   {
     "artist": {
       "id": "",
-      "name": "Defunk",
+      "name": "Safe Decisions",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-05-23T00:00:00.000Z",
-    "venue": "The Downbeat",
+    "date": "2025-06-19T00:00:00.000Z",
+    "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 26
+    "popularity": 17
   },
   {
     "artist": {
       "id": "",
-      "name": "Jack J",
+      "name": "Hot",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-05-24T00:00:00.000Z",
-    "venue": "Lucky Bar",
+    "date": "2025-06-19T00:00:00.000Z",
+    "venue": "Wicket Hall",
+    "isMissing": false,
+    "popularity": 18
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Madeleine Peyroux",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-06-20T00:00:00.000Z",
+    "venue": "Royal Theatre",
+    "isMissing": false,
+    "popularity": 19
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "THE PHARCYDE",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-06-21T00:00:00.000Z",
+    "venue": "Ship Point (Inner Harbour)",
+    "isMissing": false,
+    "popularity": 36
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "SISTER NANCY",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-06-21T00:00:00.000Z",
+    "venue": "Ship Point (Inner Harbour)",
     "isMissing": false,
     "popularity": 37
   },
   {
     "artist": {
       "id": "",
-      "name": "Freak Heat Waves",
+      "name": "MARLON ASHER",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-05-24T00:00:00.000Z",
-    "venue": "Lucky Bar",
+    "date": "2025-06-21T00:00:00.000Z",
+    "venue": "Ship Point (Inner Harbour)",
     "isMissing": false,
     "popularity": 38
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Cat Clyde",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-07-08T00:00:00.000Z",
+    "venue": "Wicket Hall",
+    "isMissing": false,
+    "popularity": 65
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Born of Osiris",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-07-10T00:00:00.000Z",
+    "venue": "Wicket Hall",
+    "isMissing": false,
+    "popularity": 66
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "The Browning",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-07-10T00:00:00.000Z",
+    "venue": "Wicket Hall",
+    "isMissing": false,
+    "popularity": 67
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Convictions",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-07-10T00:00:00.000Z",
+    "venue": "Wicket Hall",
+    "isMissing": false,
+    "popularity": 68
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Icarus",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-07-18T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 69
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Damien Jurado",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-27T00:00:00.000Z",
+    "venue": "Wicket Hall",
+    "isMissing": false,
+    "popularity": 3
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Gryphon Trio",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-29T00:00:00.000Z",
+    "venue": "McPherson Playhouse",
+    "isMissing": false,
+    "popularity": 17
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "ROSE MOTION",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-30T00:00:00.000Z",
+    "venue": "Upstairs",
+    "isMissing": false,
+    "popularity": 19
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Strategy",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-30T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 26
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "PAV4N",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-30T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 27
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Hypho",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-30T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 28
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Wraz",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-30T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 29
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Bealby Point",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-31T00:00:00.000Z",
+    "venue": "Upstairs",
+    "isMissing": false,
+    "popularity": 47
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Posh Coat",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-31T00:00:00.000Z",
+    "venue": "Upstairs",
+    "isMissing": false,
+    "popularity": 48
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Dockside",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-31T00:00:00.000Z",
+    "venue": "Upstairs",
+    "isMissing": false,
+    "popularity": 49
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Daniel Lapp",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-05-31T00:00:00.000Z",
+    "venue": "Alix Goolden Performance Hall",
+    "isMissing": false,
+    "popularity": 50
   }
 ]
