@@ -18,9 +18,7 @@ export const GetTickets = async ({ queryKey }: { queryKey: any }): Promise<any> 
       if (
         origin === Cities.Victoria_2025 ||
         origin === Cities.Vancouver ||
-        origin === Cities.Toronto ||
-        origin === Cities.Pleasanton ||
-        origin === Cities.SanFrancisco
+        origin === Cities.Calgary
       ) {
         const sorted = sortDataByDateAndOrder(response.data);
         return filterRecent(sorted);
