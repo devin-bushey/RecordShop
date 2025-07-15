@@ -18,6 +18,7 @@ import { GigList } from "../components/GigList";
 import { StickyFadeButton } from "../components/StickyFadeButton";
 import { CreatePlaylistButton } from "../components/CreatePlaylistButton";
 import { Loading } from "./Loading";
+import "../styles/recordShopTheme.css";
 
 export const ArtistsPage = () => {
   const { isLoggedIntoSpotify, redirectToAuth, token, spotifyInfo } = useAuth();
@@ -80,353 +81,123 @@ export const ArtistsPage = () => {
     }
   };
 
-  const PlaylistCreation = (
-    <Box
-      sx={{
-        width: { xs: "100%", sm: "300px" },
-        margin: 0
-      }}
-    >
-      {isLoggedIntoSpotify() ? (
-        <Box sx={{ display: "flex", gap: 1 }}>
-          <Button
-            onClick={handleCreatePlaylist}
-            variant="contained"
-            className={`${isShaking ? "shaking" : ""}`}
-            sx={{
-              backgroundColor: '#2196f3',
-              color: '#fff',
-              width: "100%",
-              height: "48px",
-              borderRadius: '12px',
-              textTransform: 'none',
-              fontFamily: "'JetBrains Mono', monospace",
-              fontSize: '0.9rem',
-              fontWeight: 500,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              gap: 1.5,
-              padding: '0 16px',
-              '& .MuiSvgIcon-root': {
-                fontSize: '1.25rem'
-              },
-              '&:hover': {
-                backgroundColor: '#1976d2'
-              }
-            }}
-          >
-            {SpotifyIcon()}
-            <Typography 
-              component="span"
-              sx={{ 
-                fontSize: 'inherit',
-                lineHeight: 1,
-                mt: '10px'
-              }}
-            >
-              Create playlist
-            </Typography>
-          </Button>
 
-          <IconButton
-            onClick={() => setShowSettings(!showSettings)}
-            sx={{
-              backgroundColor: 'rgba(33, 150, 243, 0.1)',
-              borderRadius: '12px',
-              width: '48px',
-              height: '48px',
-              flexShrink: 0,
-              '&:hover': {
-                backgroundColor: 'rgba(33, 150, 243, 0.2)'
-              }
-            }}
-          >
-            <SettingsIcon sx={{ color: '#2196f3' }} />
-          </IconButton>
-        </Box>
-      ) : isMobile() ? (
-        <Button
-          onClick={handleSignIn}
-          variant="contained"
-          className={`${isShaking ? "shaking" : ""}`}
-          sx={{
-            backgroundColor: '#2196f3',
-            color: '#fff',
-            width: "100%",
-            height: "48px",
-            borderRadius: '12px',
-            textTransform: 'none',
-            fontFamily: "'JetBrains Mono', monospace",
-            fontSize: '0.9rem',
-            fontWeight: 500,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: 1.5,
-            padding: '0 16px',
-            mb: 2,
-            '& .MuiSvgIcon-root': {
-              fontSize: '1.25rem'
-            },
-            '&:hover': {
-              backgroundColor: '#1976d2'
-            }
-          }}
-        >
-          {SpotifyIcon()}
-          <Typography 
-            component="span"
-            sx={{ 
-              fontSize: 'inherit',
-              lineHeight: 1,
-              mt: '10px'
-            }}
-          >
-            Sign in
-          </Typography>
-        </Button>
-      ) : (
-        <Tooltip title="Sign in to unlock this feature!">
-          <span>
-            <Button
-              variant="contained"
-              sx={{
-                width: "100%",
-                height: "48px",
-                borderRadius: '12px',
-                textTransform: 'none',
-                fontFamily: "'JetBrains Mono', monospace",
-                fontSize: '0.9rem',
-                fontWeight: 500,
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                gap: 1.5,
-                padding: '0 16px',
-                opacity: 0.7,
-                '& .MuiSvgIcon-root': {
-                  fontSize: '1.25rem'
-                }
-              }}
-              disabled
-            >
-              {SpotifyIcon()}
-              <Typography 
-                component="span"
-                sx={{ 
-                  fontSize: 'inherit',
-                  lineHeight: 1,
-                  mt: '10px',
-                  color: "grey"
-                }}
-              >
-                Create playlist
-              </Typography>
-            </Button>
-          </span>
-        </Tooltip>
-      )}
-
-      <Collapse in={showSettings}>
-        <Box sx={{ mt: 2, backgroundColor: 'rgba(33, 150, 243, 0.1)', borderRadius: '12px', p: 2 }}>
-          <Settings numTopTracks={numTopTracks} setNumTopTracks={handleNumTopTracks} />
-        </Box>
-      </Collapse>
-    </Box>
-  );
+  const COLOURS = {
+    cardColours: ["#B8E1FF", "#", "#FFCAAF"],
+    stickyFadeButtonBgColour: "#ece7e1",
+  };
 
   return (
     <>
       {isCreatingPlaylist && <Spinner />}
-      <Box 
-        sx={{ 
-          minHeight: '100vh',
-          pt: { xs: 2, md: 4 },
-          pb: 15 
-        }}
-      >
-        <Container maxWidth="lg">
-          <Box
-            sx={{
-              textAlign: "center",
-              mb: { xs: 4, md: 6 }
-            }}
-          >
-            <Typography
-              sx={{
-                fontSize: { xs: '3rem', sm: '4rem', md: '5rem' },
-                fontFamily: "Lobster, Arial, sans-serif",
-                letterSpacing: "2px",
-                color: '#1a1a1a',
-                mb: 1
-              }}
-            >
-              Record Shop
-            </Typography>
-            <Typography
-              sx={{
-                fontFamily: "'JetBrains Mono', monospace",
-                fontSize: '1rem',
-                opacity: 0.7,
-                color: '#1a1a1a',
-                mb: 4
-              }}
-            >
-              Discover upcoming shows in your city
-            </Typography>
-          </Box>
-
-          <Box 
-            sx={{ 
-              display: "flex", 
-              flexDirection: "column",
-              alignItems: "center"
-            }}
-          >
-            <Box 
-              sx={{ 
-                maxWidth: "900px",
-                width: "100%",
-                backgroundColor: '#fff',
-                borderRadius: '24px',
-                boxShadow: '0 8px 32px rgba(0, 0, 0, 0.08)',
-                p: { xs: 3, md: 4 },
-                mb: 3
-              }}
-            >
-              <Container
-                disableGutters
+      <div className="record-shop-theme">
+        <Box className="record-shop-page">
+          <div className="record-shop-background-pattern">
+            
+            <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 3 }}>
+              <Box
                 sx={{
-                  display: "flex",
-                  flexDirection: { xs: "column", sm: "row" },
-                  alignItems: { xs: "stretch", sm: "center" },
-                  gap: 3,
-                  justifyContent: "center"
+                  textAlign: "center",
+                  mb: { xs: 4, md: 6 },
+                  pt: { xs: 4, md: 6 }
                 }}
               >
-                <Box
+                <Typography
                   sx={{
-                    width: { xs: "100%", sm: "300px" }
+                    fontSize: { xs: '3rem', sm: '4rem', md: '5rem' },
+                    fontFamily: "Lobster, Arial, sans-serif",
+                    letterSpacing: "2px",
+                    color: 'var(--main-text-color)',
+                    mb: 1
                   }}
                 >
-                  <Origin origin={origin} handleChangeOrigin={handleChangeOrigin} />
-                </Box>
-
-                <Box
+                  Record Shop
+                </Typography>
+                <Typography
                   sx={{
-                    width: { xs: "100%", sm: "300px" },
-                    margin: 0
+                    fontFamily: "'JetBrains Mono', monospace",
+                    fontSize: '1.2rem',
+                    color: 'var(--main-text-color)',
+                    mb: 4,
+                    opacity: 0.7
                   }}
                 >
-                  {isLoggedIntoSpotify() ? (
-                    <Box sx={{ display: "flex", gap: 1 }}>
-                      <Button
-                        onClick={handleCreatePlaylist}
-                        variant="contained"
-                        className={`${isShaking ? "shaking" : ""}`}
-                        sx={{
-                          backgroundColor: '#2196f3',
-                          color: '#fff',
-                          width: "100%",
-                          height: "48px",
-                          borderRadius: '12px',
-                          textTransform: 'none',
-                          fontFamily: "'JetBrains Mono', monospace",
-                          fontSize: '0.9rem',
-                          fontWeight: 500,
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          gap: 1.5,
-                          padding: '0 16px',
-                          '& .MuiSvgIcon-root': {
-                            fontSize: '1.25rem'
-                          },
-                          '&:hover': {
-                            backgroundColor: '#1976d2'
-                          }
-                        }}
-                      >
-                        {SpotifyIcon()}
-                        <Typography 
-                          component="span"
-                          sx={{ 
-                            fontSize: 'inherit',
-                            lineHeight: 1,
-                            mt: '10px'
-                          }}
-                        >
-                          Create playlist
-                        </Typography>
-                      </Button>
+                  Discover upcoming shows in your city
+                </Typography>
+              </Box>
 
-                      <IconButton
-                        onClick={() => setShowSettings(!showSettings)}
-                        sx={{
-                          backgroundColor: 'rgba(33, 150, 243, 0.1)',
-                          borderRadius: '12px',
-                          width: '48px',
-                          height: '48px',
-                          flexShrink: 0,
-                          '&:hover': {
-                            backgroundColor: 'rgba(33, 150, 243, 0.2)'
-                          }
-                        }}
-                      >
-                        <SettingsIcon sx={{ color: '#2196f3' }} />
-                      </IconButton>
+              <Box 
+                sx={{ 
+                  display: "flex", 
+                  flexDirection: "column",
+                  alignItems: "center"
+                }}
+              >
+                <Box className="content-card" sx={{ maxWidth: "900px", width: "100%", p: { xs: 3, md: 4 }, mb: 3, backgroundColor: '#3772FF33' }}>
+                  <Container
+                    disableGutters
+                    sx={{
+                      display: "flex",
+                      flexDirection: { xs: "column", sm: "row" },
+                      alignItems: { xs: "stretch", sm: "center" },
+                      gap: 3,
+                      justifyContent: "center"
+                    }}
+                  >
+                    <Box sx={{ width: { xs: "100%", sm: "300px" } }}>
+                      <Origin origin={origin} handleChangeOrigin={handleChangeOrigin} />
                     </Box>
-                  ) : isMobile() ? (
-                    <Button
-                      onClick={handleSignIn}
-                      variant="contained"
-                      className={`${isShaking ? "shaking" : ""}`}
-                      sx={{
-                        backgroundColor: '#2196f3',
-                        color: '#fff',
-                        width: "100%",
-                        height: "48px",
-                        borderRadius: '12px',
-                        textTransform: 'none',
-                        fontFamily: "'JetBrains Mono', monospace",
-                        fontSize: '0.9rem',
-                        fontWeight: 500,
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        gap: 1.5,
-                        padding: '0 16px',
-                        mb: 2,
-                        '& .MuiSvgIcon-root': {
-                          fontSize: '1.25rem'
-                        },
-                        '&:hover': {
-                          backgroundColor: '#1976d2'
-                        }
-                      }}
-                    >
-                      {SpotifyIcon()}
-                      <Typography 
-                        component="span"
-                        sx={{ 
-                          fontSize: 'inherit',
-                          lineHeight: 1,
-                          mt: '10px'
-                        }}
-                      >
-                        Sign in
-                      </Typography>
-                    </Button>
-                  ) : (
-                    <Tooltip title="Sign in to unlock this feature!">
-                      <span>
+
+                    <Box sx={{ width: { xs: "100%", sm: "300px" }, margin: 0 }}>
+                      {isLoggedIntoSpotify() ? (
+                        <Box sx={{ display: "flex", gap: 1 }}>
+                          <Button
+                            onClick={handleCreatePlaylist}
+                            variant="contained"
+                            className={`primary-button ${isShaking ? "shaking" : ""}`}
+                            sx={{
+                              width: "100%",
+                              height: "48px",
+                              textTransform: 'none',
+                              fontFamily: "'JetBrains Mono', monospace",
+                              fontSize: '0.9rem',
+                              fontWeight: 500,
+                              display: 'flex',
+                              alignItems: 'center',
+                              justifyContent: 'center',
+                              gap: 1.5,
+                              padding: '0 16px',
+                              '& .MuiSvgIcon-root': { fontSize: '1.25rem' }
+                            }}
+                          >
+                            {SpotifyIcon()}
+                            <Typography component="span" sx={{ fontSize: 'inherit', lineHeight: 1, mt: '10px' }}>
+                              Create playlist
+                            </Typography>
+                          </Button>
+
+                          <IconButton
+                            onClick={() => setShowSettings(!showSettings)}
+                            sx={{
+                              backgroundColor: 'var(--secondary-button-bg-color)',
+                              borderRadius: '12px',
+                              width: '48px',
+                              height: '48px',
+                              flexShrink: 0,
+                              '&:hover': { backgroundColor: 'var(--secondary-button-hover-bg-color)' }
+                            }}
+                          >
+                            <SettingsIcon sx={{ color: 'var(--secondary-button-text-color)' }} />
+                          </IconButton>
+                        </Box>
+                      ) : isMobile() ? (
                         <Button
+                          onClick={handleSignIn}
                           variant="contained"
+                          className={`primary-button ${isShaking ? "shaking" : ""}`}
                           sx={{
                             width: "100%",
                             height: "48px",
-                            borderRadius: '12px',
                             textTransform: 'none',
                             fontFamily: "'JetBrains Mono', monospace",
                             fontSize: '0.9rem',
@@ -436,68 +207,75 @@ export const ArtistsPage = () => {
                             justifyContent: 'center',
                             gap: 1.5,
                             padding: '0 16px',
-                            opacity: 0.7,
-                            '& .MuiSvgIcon-root': {
-                              fontSize: '1.25rem'
-                            }
+                            mb: 2,
+                            '& .MuiSvgIcon-root': { fontSize: '1.25rem' }
                           }}
-                          disabled
                         >
                           {SpotifyIcon()}
-                          <Typography 
-                            component="span"
-                            sx={{ 
-                              fontSize: 'inherit',
-                              lineHeight: 1,
-                              mt: '10px',
-                              color: "grey"
-                            }}
-                          >
-                            Create playlist
+                          <Typography component="span" sx={{ fontSize: 'inherit', lineHeight: 1, mt: '10px' }}>
+                            Sign in
                           </Typography>
                         </Button>
-                      </span>
-                    </Tooltip>
+                      ) : (
+                        <Tooltip title="Sign in to unlock this feature!">
+                          <span>
+                            <Button
+                              variant="contained"
+                              sx={{
+                                width: "100%",
+                                height: "48px",
+                                borderRadius: '12px',
+                                textTransform: 'none',
+                                fontFamily: "'JetBrains Mono', monospace",
+                                fontSize: '0.9rem',
+                                fontWeight: 500,
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                gap: 1.5,
+                                padding: '0 16px',
+                                opacity: 0.7,
+                                '& .MuiSvgIcon-root': { fontSize: '1.25rem' }
+                              }}
+                              disabled
+                            >
+                              {SpotifyIcon()}
+                              <Typography component="span" sx={{ fontSize: 'inherit', lineHeight: 1, mt: '10px', color: "grey" }}>
+                                Create playlist
+                              </Typography>
+                            </Button>
+                          </span>
+                        </Tooltip>
+                      )}
+                    </Box>
+                  </Container>
+                </Box>
+
+                <Collapse in={showSettings}>
+                  <Box sx={{ width: "100%", maxWidth: "900px", mb: 6 }}>
+                    <div className="settings-container" style={{ padding: '24px', margin: '0 16px' }}>
+                      <Settings numTopTracks={numTopTracks} setNumTopTracks={handleNumTopTracks} />
+                    </div>
+                  </Box>
+                </Collapse>
+
+                <Box sx={{ width: "100%", display: 'flex', flexDirection: 'column', alignItems: 'center', minHeight: '300px', pb: 15 }}>
+                  {isGigsQueryLoading ? (
+                    <Box sx={{ mt: 4 }}>
+                      <Loading />
+                    </Box>
+                  ) : (
+                    <GigList gigs={gigs} isQueryLoading={isGigsQueryLoading} />
                   )}
                 </Box>
-              </Container>
-            </Box>
-
-            <Collapse in={showSettings}>
-              <Box 
-                sx={{ 
-                  width: "100%",
-                  maxWidth: "900px",
-                  mb: 6
-                }}
-              >
-                <Settings numTopTracks={numTopTracks} setNumTopTracks={handleNumTopTracks} />
               </Box>
-            </Collapse>
-
-            <Box 
-              sx={{ 
-                width: "100%",
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                minHeight: '300px'
-              }}
-            >
-              {isGigsQueryLoading ? (
-                <Box sx={{ mt: 4 }}>
-                  <Loading />
-                </Box>
-              ) : (
-                <GigList gigs={gigs} isQueryLoading={isGigsQueryLoading} />
-              )}
-            </Box>
-          </Box>
-        </Container>
-      </Box>
+            </Container>
+          </div>
+        </Box>
+      </div>
 
       <StickyFadeButton
-        bgFadeColourHex="#f0ede8"
+        bgFadeColourHex={COLOURS.stickyFadeButtonBgColour}
         button={<CreatePlaylistButton handleCreatePlaylist={handleCreatePlaylist} />}
       />
     </>

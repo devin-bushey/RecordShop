@@ -18,14 +18,19 @@ export const Origin = ({
 }) => {
   return (
     <Box sx={{ display: "flex", justifyContent: "center" }}>
-      <Box sx={{ minWidth: "300px" }}>
+      <Box sx={{ minWidth: "260px", width: "100%" }}>
         <Select
           value={origin}
           onChange={handleChangeOrigin}
           fullWidth
           sx={{
-            height: "40px",
+            height: "48px",
             border: `1px solid ${COLOURS.accent_04}}`,
+            '& .MuiSelect-select': {
+              padding: { xs: '0 16px', sm: '14px' },
+              display: 'flex',
+              alignItems: 'center'
+            }
           }}
         >
           {LOCATIONS.map((location: LocationType) => (

@@ -7,6 +7,7 @@ import spotifyLogo from "../spotifyLogos/Spotify_Icon_RGB_White.png";
 import { BASE_REDIRECT_URI } from "../constants/auth";
 import { InAppModal } from "../components/InAppModal";
 import "../styles/Background.css";
+import "../styles/recordShopTheme.css";
 import { Link } from "react-router-dom";
 
 import { goToNewTabOnDesktop } from "../utils/browserUtils";
@@ -33,232 +34,224 @@ const WelcomePage = memo(() => {
   setDocumentTitle("Record Shop | Login");
 
   return (
-    <Box
-      sx={{
-        minHeight: '100vh',
-        color: '#1a1a1a',
-        position: 'relative',
-        overflow: 'hidden',
-        cursor: 'default'
-      }}
-    >
-      {/* Subtle gradient background */}
-
-      <Container 
-        maxWidth="lg" 
-        sx={{ 
-          position: 'relative',
-          zIndex: 1,
-          pt: { xs: 0, md: 8 },
-          pb: 8,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center'
-        }}
-      >
-        <Box
-          sx={{
-            position: 'relative',
-            mb: { xs: 4, md: 6 },
-          }}
-        >
-          <Typography
-            variant="h1"
-            sx={{
-              fontSize: { xs: '3.5rem', sm: '5rem', md: '7rem' },
-              fontFamily: "Lobster, Arial, sans-serif",
-              // color: '#1a1a1a',
-              textAlign: 'center',
+    <div className="record-shop-theme">
+      <Box className="record-shop-page">
+        <div className="record-shop-background-pattern">
+          
+          <Container 
+            maxWidth="lg" 
+            sx={{ 
               position: 'relative',
-              // textShadow: '2px 2px 0px #ff4081, -2px -2px 0px #2196f3',
-              letterSpacing: '2px',
-
-            }}
-          >
-            Record Shop
-          </Typography>
-        </Box>
-
-        <Typography
-          sx={{
-            fontSize: { xs: '1.5rem', sm: '2rem', md: '2.5rem' },
-            fontFamily: "'JetBrains Mono', monospace",
-            color: '#1a1a1a',
-            mb: 4,
-            textAlign: 'center',
-            position: 'relative',
-            '&::after': {
-              content: '""',
-              position: 'absolute',
-              bottom: '-8px',
-              left: '10%',
-              width: '80%',
-              height: '2px',
-              background: 'linear-gradient(90deg, transparent, #ff4081, #2196f3, transparent)'
-            }
-          }}
-        >
-          Discover new music.
-        </Typography>
-
-        <Box
-          sx={{
-            maxWidth: '800px',
-            width: '100%',
-            mb: 6,
-            position: 'relative',
-            p: 6,
-            borderRadius: '24px',
-            background: '#ffffff',
-            boxShadow: '0 8px 32px rgba(0, 0, 0, 0.05)',
-          }}
-        >
-          <Typography 
-            sx={{ 
-              fontSize: { xs: '1.1rem', sm: '1.3rem', md: '1.5rem' },
-              color: '#1a1a1a',
-              lineHeight: 1.8,
-              textAlign: 'center',
-              fontFamily: "'JetBrains Mono', monospace"
-            }}
-          >
-            Create personalized Spotify playlists with the top tracks from artists performing in your city or festival of choice.
-          </Typography>
-
-          {!isLoggedIntoSpotify() && (
-            <Typography 
-              sx={{ 
-                mt: 3,
-                fontSize: { xs: '1.1rem', sm: '1.3rem', md: '1.5rem' },
-                color: '#1a1a1a',
-                lineHeight: 1.8,
-                textAlign: 'center',
-                fontFamily: "'JetBrains Mono', monospace"
-              }}
-            >
-              To get started, sign in with Spotify.
-            </Typography>
-          )}
-        </Box>
-
-        {!isLoggedIntoSpotify() && (
-          <Box 
-            sx={{ 
-              mb: 4,
+              zIndex: 3,
+              pt: { xs: 6, md: 10 },
+              pb: 8,
               display: 'flex',
               flexDirection: 'column',
-              alignItems: 'center'
+              alignItems: 'center',
+              minHeight: '100vh'
             }}
           >
-            <Button
-              onClick={redirectToAuthForBrowser(openInAppModal, `${BASE_REDIRECT_URI}artists`)}
-              variant="contained"
+            <Box sx={{ position: 'relative', mb: { xs: 4, md: 6 } }}>
+              <Typography
+                variant="h1"
+                sx={{
+                  fontSize: { xs: '3.5rem', sm: '5rem', md: '7rem' },
+                  fontFamily: "Lobster, Arial, sans-serif",
+                  color: 'var(--main-text-color)',
+                  textAlign: 'center',
+                  position: 'relative',
+                  letterSpacing: '2px'
+                }}
+              >
+                Record Shop
+              </Typography>
+            </Box>
+
+            <Typography
               sx={{
-                backgroundColor: '#1a1a1a',
-                color: '#fff',
-                py: 2,
-                px: 6,
-                borderRadius: '500px',
-                textTransform: 'none',
-                fontSize: '1.2rem',
+                fontSize: { xs: '1.5rem', sm: '2rem', md: '2.5rem' },
                 fontFamily: "'JetBrains Mono', monospace",
+                color: 'var(--main-text-color)',
+                mb: 6,
+                textAlign: 'center',
                 position: 'relative',
-                overflow: 'hidden',
-                transition: 'all 0.3s ease',
-                '&:hover': {
-                  backgroundColor: '#1a1a1a',
-                  transform: 'translateY(-2px)',
-                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.2)'
+                '&::after': {
+                  content: '""',
+                  position: 'absolute',
+                  bottom: '-16px',
+                  left: '50%',
+                  transform: 'translateX(-50%)',
+                  width: '60%',
+                  height: '4px',
+                  background: 'linear-gradient(90deg, #C76D7E33 0%, #3772FF33 50%, #E5C4B3 100%)',
+                  borderRadius: '20px',
+                  boxShadow: '0 2px 8px rgba(0, 0, 0, 0.2)',
+                  animation: 'shimmer 3s ease-in-out infinite'
+                },
+                '@keyframes shimmer': {
+                  '0%, 100%': {
+                    transform: 'translateX(-50%) scaleX(1)',
+                    opacity: 0.8
+                  },
+                  '50%': {
+                    transform: 'translateX(-50%) scaleX(1.1)',
+                    opacity: 1
+                  }
                 }
               }}
             >
-              <img
-                src={spotifyLogo}
-                alt="spotify_logo"
-                width="28px"
-                height="28px"
-                style={{ marginRight: '16px' }}
-              />
-              Sign in with Spotify
-            </Button>
-          </Box>
-        )}
+              Discover new music.
+            </Typography>
 
-        <Box
-          sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            textAlign: 'center',
-            width: '100%'
-          }}
-        >
-          <Typography 
-            sx={{ 
-              mb: 2,
-              color: '#1a1a1a',
-              fontSize: '1.1rem',
-              fontFamily: "'JetBrains Mono', monospace",
-              opacity: 0.7
-            }}
-          >
-            Don&apos;t want to sign in?
-          </Typography>
+            <Box
+              className="content-card"
+              sx={{
+                maxWidth: '800px',
+                width: '100%',
+                mb: 6,
+                position: 'relative',
+                p: 6,
+                backgroundColor: '#3772FF33'
+              }}
+            >
+              <Typography 
+                sx={{ 
+                  fontSize: { xs: '1.1rem', sm: '1.3rem', md: '1.5rem' },
+                  lineHeight: 1.8,
+                  textAlign: 'center',
+                  fontFamily: "'JetBrains Mono', monospace",
+                  fontWeight: 500
+                }}
+              >
+                Create personalized Spotify playlists with the top tracks from artists performing in your city or festival of choice.
+              </Typography>
 
-          <Button
-            onClick={() => goToNewTabOnDesktop("https://open.spotify.com/user/31ma23i46a3p3vmxvvq7qmhk7w3q")}
-            variant="outlined"
-            sx={{
-              color: '#1a1a1a',
-              borderColor: 'rgba(26, 26, 26, 0.3)',
-              py: 1.5,
-              px: 4,
-              borderRadius: '500px',
-              textTransform: 'none',
-              fontSize: '1rem',
-              fontFamily: "'JetBrains Mono', monospace",
-              position: 'relative',
-              overflow: 'hidden',
-              transition: 'all 0.3s ease',
-              '&:hover': {
-                borderColor: '#1a1a1a',
-                backgroundColor: 'rgba(26, 26, 26, 0.05)',
-                transform: 'translateY(-2px)'
-              }
-            }}
-          >
-            <img 
-              src={spotifyLogo} 
-              alt="spotify_logo" 
-              width="24px" 
-              height="24px" 
-              style={{ marginRight: '12px', filter: 'brightness(0)' }} 
+              {!isLoggedIntoSpotify() && (
+                <Typography 
+                  sx={{ 
+                    mt: 3,
+                    fontSize: { xs: '1.1rem', sm: '1.3rem', md: '1.5rem' },
+                    // color: '#ffffff',
+                    lineHeight: 1.8,
+                    textAlign: 'center',
+                    fontFamily: "'JetBrains Mono', monospace",
+                    fontWeight: 400
+                  }}
+                >
+                  To get started, sign in with Spotify.
+                </Typography>
+              )}
+            </Box>
+
+            {!isLoggedIntoSpotify() && (
+              <Box 
+                sx={{ 
+                  mb: 6,
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center'
+                }}
+              >
+                <Button
+                  onClick={redirectToAuthForBrowser(openInAppModal, `${BASE_REDIRECT_URI}artists`)}
+                  variant="contained"
+                  className="primary-button"
+                  sx={{
+                    py: 2.5,
+                    px: 8,
+                    borderRadius: '500px',
+                    textTransform: 'none',
+                    fontSize: '1.3rem',
+                    fontFamily: "'JetBrains Mono', monospace",
+                    fontWeight: 600,
+                    position: 'relative',
+                    overflow: 'hidden'
+                  }}
+                >
+                  <img
+                    src={spotifyLogo}
+                    alt="spotify_logo"
+                    width="32px"
+                    height="32px"
+                    style={{ marginRight: '16px' }}
+                  />
+                  Sign in
+                </Button>
+              </Box>
+            )}
+
+            <Box
+              sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                textAlign: 'center',
+                width: '100%'
+              }}
+            >
+              <Typography 
+                sx={{ 
+                  mb: 3,
+                  color: 'var(--main-text-color)',
+                  fontSize: '1.2rem',
+                  fontFamily: "'JetBrains Mono', monospace",
+                  opacity: 0.7
+                }}
+              >
+                Don&apos;t want to sign in?
+              </Typography>
+
+              <Button
+                onClick={() => goToNewTabOnDesktop("https://open.spotify.com/user/31ma23i46a3p3vmxvvq7qmhk7w3q")}
+                variant="outlined"
+                className="secondary-button"
+                sx={{
+                  py: 2,
+                  px: 6,
+                  borderRadius: '500px',
+                  textTransform: 'none',
+                  fontSize: '1.1rem',
+                  fontFamily: "'JetBrains Mono', monospace",
+                  fontWeight: 500,
+                  position: 'relative',
+                  overflow: 'hidden',
+                  border: '2px solid var(--secondary-button-bg-color)'
+                }}
+              >
+                <img 
+                  src={spotifyLogo} 
+                  alt="spotify_logo" 
+                  width="28px" 
+                  height="28px" 
+                  style={{ marginRight: '12px' }} 
+                />
+                Preview a Playlist
+              </Button>
+
+              <Typography
+                sx={{
+                  mt: 3,
+                  color: 'var(--main-text-color)',
+                  fontSize: '1rem',
+                  fontStyle: 'italic',
+                  fontFamily: "'JetBrains Mono', monospace",
+                  opacity: 0.6,
+                  textAlign: 'center'
+                }}
+              >
+                (but it&apos;s more fun to customize your own)
+              </Typography>
+            </Box>
+
+            <InAppModal
+              isOpen={isInAppModalOpen}
+              closeModal={closeInAppModal}
+              postAuthRedirectUri={`${BASE_REDIRECT_URI}artists`}
             />
-            Preview a Playlist
-          </Button>
-
-          <Typography
-            sx={{
-              mt: 2,
-              color: '#1a1a1a',
-              fontSize: '0.9rem',
-              fontStyle: 'italic',
-              fontFamily: "'JetBrains Mono', monospace",
-              opacity: 0.6,
-              textAlign: 'center'
-            }}
-          >
-            (but it&apos;s more fun to customize your own)
-          </Typography>
-        </Box>
-
-        <InAppModal
-          isOpen={isInAppModalOpen}
-          closeModal={closeInAppModal}
-          postAuthRedirectUri={`${BASE_REDIRECT_URI}artists`}
-        />
-      </Container>
-    </Box>
+          </Container>
+        </div>
+      </Box>
+    </div>
   );
 });
 

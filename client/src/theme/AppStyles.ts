@@ -16,7 +16,7 @@ export const COLOURS = {
   light_pink: "#f1e7f3",
   pink: "#ff5e64",
 
-  blue: "#38ccff",
+  blue: "#2196f3",
   gold: "#fad869",
   yellow: "#fde19b",
   light_yellow: "hsl(43, 97%, 80%)",

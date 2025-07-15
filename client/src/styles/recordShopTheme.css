@@ -1,0 +1,173 @@
+.record-shop-theme {
+  --main-bg-color: #ece7e1;
+  --main-text-color: #1a1a1a;
+
+  --card-bg-color: #ffffff;
+  --card-text-color: #1a1a1a;
+
+  --popover-bg-color: #ffffff;
+  --popover-text-color: #1a1a1a;
+
+  --primary-button-bg-color: #2196f3;
+  --primary-button-text-color: #ffffff;
+  --primary-button-hover-bg-color: #1976d2;
+  --primary-button-hover-text-color: #ffffff;
+
+  --secondary-button-bg-color: #6c757d;
+  --secondary-button-text-color: #ffffff;
+  --secondary-button-hover-bg-color: #5a6268;
+  --secondary-button-hover-text-color: #ffffff;
+
+  --load-more-button-hover-bg-color: #00000010;
+
+  /* Blue shades for gig cards only */
+  --blue-light: #64B5F6;
+  --blue-medium: #2196F3;
+  --blue-dark: #1565C0;
+
+  overflow: hidden;
+  
+  /* Override global body and any parent backgrounds */
+  background: var(--main-bg-color) !important;
+  min-height: 100vh !important;
+
+  .record-shop-page { 
+    position: relative;
+    background: var(--main-bg-color) !important;
+    z-index: 0;
+    min-height: 100vh;
+  }
+  
+  .record-shop-background-pattern {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    background: transparent !important;
+  }
+  
+  /***** REMOVED GRAPHICS FOR CLEANER DESIGN ******/
+  
+  
+  
+  /******* BUTTONS *******/
+  .primary-button {
+    background-color: var(--primary-button-bg-color) !important;
+    color: var(--primary-button-text-color) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+  
+    &:hover {
+      background-color: var(--primary-button-hover-bg-color) !important;
+      color: var(--primary-button-hover-text-color) !important;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  .secondary-button {
+    background-color: var(--secondary-button-bg-color) !important;
+    color: var(--secondary-button-text-color) !important;
+    border-radius: 12px !important;
+    border: 0;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+  
+    &:hover {
+      background-color: var(--secondary-button-hover-bg-color) !important;
+      color: var(--secondary-button-hover-text-color) !important;
+      border: 0;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .content-card {
+    background:'#C6E2E9';
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+
+  }
+
+  .settings-container {
+    background-color: var(--popover-bg-color);
+    color: var(--popover-text-color);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    .top-tracks-slider {
+      color: var(--popover-text-color);
+
+      .MuiSlider-markLabel {
+        color: var(--popover-text-color);
+      }
+    }
+
+    .unsubscribe-label {
+      color: var(--popover-text-color);
+    }
+  }
+
+  .load-more-button {
+    color: var(--main-text-color);
+    border-color: var(--main-text-color);
+    border-radius: 12px !important;
+    transition: all 0.3s ease;
+
+    &:hover {
+      border-color: var(--main-text-color);
+      background-color: var(--load-more-button-hover-bg-color);
+      transform: translateY(-2px);
+    }
+  }
+
+  .in-app-modal {
+    background-color: var(--popover-bg-color);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+  }
+
+  /* Gig Cards - Colors handled by JavaScript in GigList component */
+  .gig-card {
+    color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Light background cards need dark text */
+  .gig-card{
+    color: #2d2d2d !important;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+  
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.1) 50%, transparent 70%);
+      transform: translateX(-100%);
+      transition: transform 0.6s ease;
+    }
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+      
+      &::before {
+        transform: translateX(100%);
+      }
+    }
+  }
+}
+    
