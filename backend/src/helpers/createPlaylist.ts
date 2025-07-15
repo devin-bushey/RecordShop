@@ -108,6 +108,14 @@ export const CreateBlankPlaylist = async ({
     playlist_name = "record shop victoria";
   }
 
+  if (city === Cities.Vancouver) {
+    playlist_name = "record shop vancouver";
+  }
+
+  if (city === Cities.Calgary) {
+    playlist_name = "record shop calgary";
+  }
+
   if (city === Festivals.LaketownShakedown_2024) {
     playlist_name = "record shop laketown shakedown";
   }
