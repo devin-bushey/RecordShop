@@ -25,9 +25,7 @@ export const getGigsFromRecordShop = async (collectionName: string): Promise<Gig
     if (
       collectionName === Cities.Victoria_2025 ||
       collectionName === Cities.Vancouver ||
-      collectionName === Cities.Toronto ||
-      collectionName === Cities.Pleasanton ||
-      collectionName === Cities.SanFrancisco
+      collectionName === Cities.Calgary
     ) {
       const sorted = sortDataByDateAndOrder(gigs);
       return filterRecent(sorted);

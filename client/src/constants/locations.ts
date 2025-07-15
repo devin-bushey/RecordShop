@@ -16,16 +16,8 @@ export const LOCATIONS: LocationType[] = [
     value: Cities.Vancouver,
   },
   {
-    name: "Toronto, ON",
-    value: Cities.Toronto,
-  },
-  {
-    name: "San Francisco, CA",
-    value: Cities.SanFrancisco,
-  },
-  {
-    name: "Pleasanton, CA",
-    value: Cities.Pleasanton,
+    name: "Calgary, AB",
+    value: Cities.Calgary,
   },
   // {
   //   name: "Laketown Shakedown",

@@ -15,7 +15,7 @@ const SP_CLIENT_S = process.env.SP_CLIENT_S;
 
 const CITY = process.argv[2];
 
-const COLLECTION_NAME = `${CITY}_2024`;
+const COLLECTION_NAME = `${CITY}_2025`;
 
 const getSpotifyAccessToken = async () => {
   const optionsSpotifyAccessToken = {
@@ -45,14 +45,12 @@ const getSpotifyAccessToken = async () => {
 const getJambaseGeoId = async () => {
   let city = CITY;
 
-  if (city === "sanfrancisco") {
-    return "jambase:4226966";
-  } else if (CITY === "victoria") {
+  if (CITY === "victoria") {
     return "jambase:382342";
   } else if (CITY === "vancouver") {
     return "jambase:379457";
-  } else if (CITY === "toronto") {
-    return "jambase:380343";
+  } else if (CITY === "calgary") {
+    return "jambase:379128";
   }
 
   const options = {

@@ -41,6 +41,16 @@ jobs:
           SP_CLIENT_S: ${{ secrets.SP_CLIENT_S }}
         run: npx ts-node ./src/fetchAndAddGigsToDB.ts vancouver
 
+      - name: Run script (calgary)
+        working-directory: scripts
+        env:
+          ATLAS_URI: ${{ secrets.ATLAS_URI }}
+          API_KEY_JAMBASE: ${{ secrets.API_KEY_JAMBASE }}
+          SP_REFRESH_TOKEN: ${{ secrets.SP_REFRESH_TOKEN }}
+          SP_CLIENT_ID: ${{ secrets.SP_CLIENT_ID }}
+          SP_CLIENT_S: ${{ secrets.SP_CLIENT_S }}
+        run: npx ts-node ./src/fetchAndAddGigsToDB.ts calgary
+
       - name: Update Record Shop spotify playlist
         working-directory: scripts
         env:

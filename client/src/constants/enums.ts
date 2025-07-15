@@ -1,10 +1,8 @@
 export enum Cities {
   Victoria = "victoria",
   Victoria_2025 = "victoria_2025",
-  Vancouver = "vancouver_2024",
-  Toronto = "toronto_2024",
-  Pleasanton = "pleasanton_2024",
-  SanFrancisco = "sanfrancisco_2024",
+  Vancouver = "vancouver_2025",
+  Calgary = "calgary_2025",
 }
 
 export enum Festivals {

@@ -39,9 +39,7 @@ export const CreateNewPlaylist = async ({
   if (
     city === Cities.Victoria_2025 ||
     city === Cities.Vancouver ||
-    city === Cities.Toronto ||
-    city === Cities.Pleasanton ||
-    city === Cities.Sanfrancisco
+    city === Cities.Calgary
   ) {
     sortedGigs = filterRecent(sortedGigs);
   }
