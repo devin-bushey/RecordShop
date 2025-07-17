@@ -29,7 +29,7 @@ const DB_COLLECTION_NAME = Cities.Victoria_2025;
 
 const SAMPLE_PLAYLIST_URL = "https://open.spotify.com/playlist/6ikQbhMvzqR7g9NoH1ViVR"; // TODO: Update this with a LampPost sample playlist
 const TICKET_LINK = "https://www.lamppostvictoria.com/events/live-music-folder/live-music"; // LampPost Victoria website
-const LAMPPOST_WEBSITE = "https://www.lamppostvictoria.com/"
+const LAMPPOST_WEBSITE = "https://www.lamppostsocial.com/live-music/"
 
 const PAGE_CLASS = PageClassName.LampPost;
 
