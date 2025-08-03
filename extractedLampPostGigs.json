@@ -2,16 +2,44 @@
   {
     "artist": {
       "id": "",
-      "name": "Dave Harris & Friends",
+      "name": "Rob Fillo",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-08T00:00:00.000Z",
-    "venue": "The Loft Pub",
+    "date": "2025-07-29T00:00:00.000Z",
+    "venue": "Cameron Bandshell",
     "isMissing": false,
     "popularity": 0
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Sarah Smith",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-07-29T00:00:00.000Z",
+    "venue": "Ship Point",
+    "isMissing": false,
+    "popularity": 1
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Allison Brown",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-07-29T00:00:00.000Z",
+    "venue": "The Loft Pub",
+    "isMissing": false,
+    "popularity": 2
   },
   {
     "artist": {
@@ -22,192 +50,52 @@
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-08T00:00:00.000Z",
+    "date": "2025-07-29T00:00:00.000Z",
     "venue": "Bard & Banker",
-    "isMissing": false,
-    "popularity": 1
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "BF/C & Fowl Bay",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-08T00:00:00.000Z",
-    "venue": "The Coda",
-    "isMissing": false,
-    "popularity": 2
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Black Angus",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-08T00:00:00.000Z",
-    "venue": "Irish Times Pub",
     "isMissing": false,
     "popularity": 3
   },
   {
     "artist": {
       "id": "",
-      "name": "CAT CLYDE",
+      "name": "Penny Belle",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-08T00:00:00.000Z",
-    "venue": "Wicket Hall",
+    "date": "2025-07-30T00:00:00.000Z",
+    "venue": "Ship Point",
     "isMissing": false,
     "popularity": 4
   },
   {
     "artist": {
       "id": "",
-      "name": "Joe Abbott",
+      "name": "Kirk MacDonald",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-08T00:00:00.000Z",
-    "venue": "Wicket Hall",
+    "date": "2025-07-30T00:00:00.000Z",
+    "venue": "Hermann's Jazz Club",
     "isMissing": false,
     "popularity": 5
   },
   {
     "artist": {
       "id": "",
-      "name": "r.mason",
+      "name": "Bruce Barth",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-08T00:00:00.000Z",
-    "venue": "Ship Point",
-    "isMissing": false,
-    "popularity": 6
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "OK Charlie",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-09T00:00:00.000Z",
-    "venue": "Irish Times Pub",
-    "isMissing": false,
-    "popularity": 7
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Courtney Standing",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-09T00:00:00.000Z",
-    "venue": "Bard & Banker",
-    "isMissing": false,
-    "popularity": 8
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "The Blue Hearts",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-10T00:00:00.000Z",
+    "date": "2025-07-30T00:00:00.000Z",
     "venue": "Hermann's Jazz Club",
     "isMissing": false,
-    "popularity": 9
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "The Wedding Crashers",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-10T00:00:00.000Z",
-    "venue": "Bard & Banker",
-    "isMissing": false,
-    "popularity": 10
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Marina Avros",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-10T00:00:00.000Z",
-    "venue": "Fort Common",
-    "isMissing": false,
-    "popularity": 11
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Tumblin' Dice",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-10T00:00:00.000Z",
-    "venue": "Irish Times Pub",
-    "isMissing": false,
-    "popularity": 12
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Filthy Blonde",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-10T00:00:00.000Z",
-    "venue": "UVIC Campus Garden",
-    "isMissing": false,
-    "popularity": 13
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Savy",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-10T00:00:00.000Z",
-    "venue": "UVIC Campus Garden",
-    "isMissing": false,
-    "popularity": 14
+    "popularity": 6
   },
   {
     "artist": {
@@ -218,150 +106,66 @@
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-10T00:00:00.000Z",
+    "date": "2025-07-31T00:00:00.000Z",
     "venue": "The Loft Pub",
     "isMissing": false,
-    "popularity": 15
+    "popularity": 7
   },
   {
     "artist": {
       "id": "",
-      "name": "Boogát",
+      "name": "Thia Lanuza",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-10T00:00:00.000Z",
-    "venue": "Ship Point",
+    "date": "2025-07-31T00:00:00.000Z",
+    "venue": "Fort Common",
     "isMissing": false,
-    "popularity": 16
+    "popularity": 8
   },
   {
     "artist": {
       "id": "",
-      "name": "Born of Osiris",
+      "name": "DJ Luxine",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-10T00:00:00.000Z",
-    "venue": "Wicket Hall",
+    "date": "2025-07-31T00:00:00.000Z",
+    "venue": "Ship Point Marina",
     "isMissing": false,
-    "popularity": 17
+    "popularity": 9
   },
   {
     "artist": {
       "id": "",
-      "name": "The Browning",
+      "name": "Melón Jimenez",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-10T00:00:00.000Z",
-    "venue": "Wicket Hall",
-    "isMissing": false,
-    "popularity": 18
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Convictions",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-10T00:00:00.000Z",
-    "venue": "Wicket Hall",
-    "isMissing": false,
-    "popularity": 19
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "ENDR",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-10T00:00:00.000Z",
-    "venue": "Wicket Hall",
-    "isMissing": false,
-    "popularity": 20
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "fivefootnine & Bonus Round",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-10T00:00:00.000Z",
-    "venue": "The Coda",
-    "isMissing": false,
-    "popularity": 21
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Locarno",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-11T00:00:00.000Z",
-    "venue": "The Coda",
-    "isMissing": false,
-    "popularity": 22
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "The Beautiful Maladies",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-11T00:00:00.000Z",
+    "date": "2025-07-31T00:00:00.000Z",
     "venue": "Hermann's Jazz Club",
     "isMissing": false,
-    "popularity": 23
+    "popularity": 10
   },
   {
     "artist": {
       "id": "",
-      "name": "Nick La Riviere & The Best Laid Plans",
+      "name": "Lara Wong",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-11T00:00:00.000Z",
-    "venue": "Cameron Bandshell",
+    "date": "2025-07-31T00:00:00.000Z",
+    "venue": "Hermann's Jazz Club",
     "isMissing": false,
-    "popularity": 24
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "The Rebels North",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-07-11T00:00:00.000Z",
-    "venue": "Irish Times Pub",
-    "isMissing": false,
-    "popularity": 25
+    "popularity": 11
   },
   {
     "artist": {
@@ -372,77 +176,273 @@
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-11T00:00:00.000Z",
+    "date": "2025-07-31T00:00:00.000Z",
     "venue": "Bard & Banker",
+    "isMissing": false,
+    "popularity": 12
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Autolysis",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-07-31T00:00:00.000Z",
+    "venue": "Little Fernwood",
+    "isMissing": false,
+    "popularity": 13
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Power of Evil",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-07-31T00:00:00.000Z",
+    "venue": "Little Fernwood",
+    "isMissing": false,
+    "popularity": 14
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Disposal",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-07-31T00:00:00.000Z",
+    "venue": "Little Fernwood",
+    "isMissing": false,
+    "popularity": 15
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Groove Kitchen",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-01T00:00:00.000Z",
+    "venue": "Hermann's Jazz Club",
+    "isMissing": false,
+    "popularity": 16
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "The National Youth Orchestra of Canada",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-01T00:00:00.000Z",
+    "venue": "Christ Church Cathedral",
+    "isMissing": false,
+    "popularity": 17
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Doc Martin",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-01T00:00:00.000Z",
+    "venue": "The Downbeat",
+    "isMissing": false,
+    "popularity": 18
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Mostly Motown",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-01T00:00:00.000Z",
+    "venue": "Cameron Bandshell",
+    "isMissing": false,
+    "popularity": 19
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Celeigh Cardinal",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-02T00:00:00.000Z",
+    "venue": "Splash Grandstand",
+    "isMissing": false,
+    "popularity": 20
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Shawnee Kish",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-02T00:00:00.000Z",
+    "venue": "Splash Grandstand",
+    "isMissing": false,
+    "popularity": 21
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "BackBeat",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-02T00:00:00.000Z",
+    "venue": "Hermann's Jazz Club",
+    "isMissing": false,
+    "popularity": 22
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "McKinley Wolf",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-02T00:00:00.000Z",
+    "venue": "The Loft Pub",
+    "isMissing": false,
+    "popularity": 23
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Pindian & the Nation or Creation",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-02T00:00:00.000Z",
+    "venue": "Little Fernwood",
+    "isMissing": false,
+    "popularity": 24
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Black Treacle",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-02T00:00:00.000Z",
+    "venue": "Little Fernwood",
+    "isMissing": false,
+    "popularity": 25
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Jesus Horseback",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-02T00:00:00.000Z",
+    "venue": "Little Fernwood",
     "isMissing": false,
     "popularity": 26
   },
   {
     "artist": {
       "id": "",
-      "name": "Vinyl Wave",
+      "name": "EAT!",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-11T00:00:00.000Z",
-    "venue": "Bard & Banker",
+    "date": "2025-08-02T00:00:00.000Z",
+    "venue": "Little Fernwood",
     "isMissing": false,
     "popularity": 27
   },
   {
     "artist": {
       "id": "",
-      "name": "Tom Morrissey",
+      "name": "Daring Greatly",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-11T00:00:00.000Z",
-    "venue": "The Loft Pub",
+    "date": "2025-08-02T00:00:00.000Z",
+    "venue": "Wicket Hall",
     "isMissing": false,
     "popularity": 28
   },
   {
     "artist": {
       "id": "",
-      "name": "Keegs",
+      "name": "Sal Ferreras",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-11T00:00:00.000Z",
-    "venue": "The Downbeat",
+    "date": "2025-08-02T00:00:00.000Z",
+    "venue": "Splash Grandstand",
     "isMissing": false,
     "popularity": 29
   },
   {
     "artist": {
       "id": "",
-      "name": "Babyfreak",
+      "name": "Adonis Puentes",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-11T00:00:00.000Z",
-    "venue": "The Downbeat",
+    "date": "2025-08-02T00:00:00.000Z",
+    "venue": "Splash Grandstand",
     "isMissing": false,
     "popularity": 30
   },
   {
     "artist": {
       "id": "",
-      "name": "Chymes",
+      "name": "Hot Sleepers",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-11T00:00:00.000Z",
+    "date": "2025-08-02T00:00:00.000Z",
     "venue": "The Downbeat",
     "isMissing": false,
     "popularity": 31
@@ -450,139 +450,139 @@
   {
     "artist": {
       "id": "",
-      "name": "Matthew Patstone Quintet",
+      "name": "DJs Ænniæ",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-11T00:00:00.000Z",
-    "venue": "Caffe Fantastico, 965 Kings Road Victoria, BC V8T 0C4",
+    "date": "2025-08-02T00:00:00.000Z",
+    "venue": "The Downbeat",
     "isMissing": false,
     "popularity": 32
   },
   {
     "artist": {
       "id": "",
-      "name": "Erosion",
+      "name": "Rhythmicon",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-11T00:00:00.000Z",
-    "venue": "Phoenix Bar and Grill",
+    "date": "2025-08-02T00:00:00.000Z",
+    "venue": "The Downbeat",
     "isMissing": false,
     "popularity": 33
   },
   {
     "artist": {
       "id": "",
-      "name": "Altered Dead",
+      "name": "Clapsaria",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-11T00:00:00.000Z",
-    "venue": "Phoenix Bar and Grill",
+    "date": "2025-08-03T00:00:00.000Z",
+    "venue": "Little Fernwood",
     "isMissing": false,
     "popularity": 34
   },
   {
     "artist": {
       "id": "",
-      "name": "Body Rot",
+      "name": "Corrode",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-11T00:00:00.000Z",
-    "venue": "Phoenix Bar and Grill",
+    "date": "2025-08-03T00:00:00.000Z",
+    "venue": "Little Fernwood",
     "isMissing": false,
     "popularity": 35
   },
   {
     "artist": {
       "id": "",
-      "name": "Legit Heat",
+      "name": "Death Proof",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-11T00:00:00.000Z",
-    "venue": "Phoenix Bar and Grill",
+    "date": "2025-08-03T00:00:00.000Z",
+    "venue": "Little Fernwood",
     "isMissing": false,
     "popularity": 36
   },
   {
     "artist": {
       "id": "",
-      "name": "Stank",
+      "name": "Caçadora",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-11T00:00:00.000Z",
-    "venue": "Little Fernwood",
+    "date": "2025-08-03T00:00:00.000Z",
+    "venue": "The Downbeat",
     "isMissing": false,
     "popularity": 37
   },
   {
     "artist": {
       "id": "",
-      "name": "Heron Hereon",
+      "name": "Rousz",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-11T00:00:00.000Z",
-    "venue": "Little Fernwood",
+    "date": "2025-08-03T00:00:00.000Z",
+    "venue": "The Downbeat",
     "isMissing": false,
     "popularity": 38
   },
   {
     "artist": {
       "id": "",
-      "name": "Trackmeet",
+      "name": "The Moon Bodega",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-11T00:00:00.000Z",
-    "venue": "Little Fernwood",
+    "date": "2025-08-03T00:00:00.000Z",
+    "venue": "The Downbeat",
     "isMissing": false,
     "popularity": 39
   },
   {
     "artist": {
       "id": "",
-      "name": "The Brittany Dale Band",
+      "name": "Sabrina LIVE",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "Irish Times Pub",
+    "date": "2025-08-03T00:00:00.000Z",
+    "venue": "The Downbeat",
     "isMissing": false,
     "popularity": 40
   },
   {
     "artist": {
       "id": "",
-      "name": "Thirst Trap",
+      "name": "Löblová",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
+    "date": "2025-08-03T00:00:00.000Z",
     "venue": "The Downbeat",
     "isMissing": false,
     "popularity": 41
@@ -590,225 +590,365 @@
   {
     "artist": {
       "id": "",
-      "name": "Jennay Badger",
+      "name": "The National Youth Orchestra of Canada",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "The Downbeat",
+    "date": "2025-08-03T00:00:00.000Z",
+    "venue": "Splash Grandstand",
     "isMissing": false,
     "popularity": 42
   },
   {
     "artist": {
       "id": "",
-      "name": "The Pretzel Logic Orchestra",
+      "name": "Claire Coupland",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "Hermann's Jazz Club",
+    "date": "2025-08-05T00:00:00.000Z",
+    "venue": "Cameron Bandshell",
     "isMissing": false,
     "popularity": 43
   },
   {
     "artist": {
       "id": "",
-      "name": "Hot Pot",
+      "name": "Richy Mitch & The Coal Miners",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "Phoenix Bar and Grill",
+    "date": "2025-08-05T00:00:00.000Z",
+    "venue": "Capital Ballroom",
     "isMissing": false,
     "popularity": 44
   },
   {
     "artist": {
       "id": "",
-      "name": "Bu Von Blume",
+      "name": "Bad Rabbit Radio",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "Phoenix Bar and Grill",
+    "date": "2025-08-06T00:00:00.000Z",
+    "venue": "Ship Point",
     "isMissing": false,
     "popularity": 45
   },
   {
     "artist": {
       "id": "",
-      "name": "Tom Morrissey",
+      "name": "Stella White",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "Irish Times Pub",
+    "date": "2025-08-06T00:00:00.000Z",
+    "venue": "Hermann's Jazz Club",
     "isMissing": false,
     "popularity": 46
   },
   {
     "artist": {
       "id": "",
-      "name": "The Choirs YYJ",
+      "name": "The Ashley Wey Trio",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "Cameron Bandshell",
+    "date": "2025-08-06T00:00:00.000Z",
+    "venue": "Hermann's Jazz Club",
     "isMissing": false,
     "popularity": 47
   },
   {
     "artist": {
       "id": "",
-      "name": "Club Detour",
+      "name": "Bagatelle",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "Capital Ballroom",
+    "date": "2025-08-07T00:00:00.000Z",
+    "venue": "Ship Point Marina",
     "isMissing": false,
     "popularity": 48
   },
   {
     "artist": {
       "id": "",
-      "name": "El Balcón",
+      "name": "Wes Carroll Confabulation",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "The Coda",
+    "date": "2025-08-07T00:00:00.000Z",
+    "venue": "Hermann's Jazz Club",
     "isMissing": false,
     "popularity": 49
   },
   {
     "artist": {
       "id": "",
-      "name": "Don Peterson & The Tone Rangers",
+      "name": "Allison Brown",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "The Loft Pub",
+    "date": "2025-08-08T00:00:00.000Z",
+    "venue": "Caffe Fantastico",
     "isMissing": false,
     "popularity": 50
   },
   {
     "artist": {
       "id": "",
-      "name": "Rosebuds",
+      "name": "Misha Piatigorsky Trio",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "Caffe Fantastico",
+    "date": "2025-08-08T00:00:00.000Z",
+    "venue": "Hermann's Jazz Club",
     "isMissing": false,
     "popularity": 51
   },
   {
     "artist": {
       "id": "",
-      "name": "Strangers",
+      "name": "Steluta",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "Bard & Banker",
+    "date": "2025-08-08T00:00:00.000Z",
+    "venue": "Cameron Bandshell",
     "isMissing": false,
     "popularity": 52
   },
   {
     "artist": {
       "id": "",
-      "name": "Neurospazm",
+      "name": "Laura Deviato",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "Lucky Bar",
+    "date": "2025-08-09T00:00:00.000Z",
+    "venue": "Cameron Bandshell",
     "isMissing": false,
     "popularity": 53
   },
   {
     "artist": {
       "id": "",
-      "name": "Gnar Gnars",
+      "name": "Olimpo Ortega",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "Lucky Bar",
+    "date": "2025-08-09T00:00:00.000Z",
+    "venue": "Cameron Bandshell",
     "isMissing": false,
     "popularity": 54
   },
   {
     "artist": {
       "id": "",
-      "name": "Hung Up",
+      "name": "Versa",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "Lucky Bar",
+    "date": "2025-08-09T00:00:00.000Z",
+    "venue": "The Coda",
     "isMissing": false,
     "popularity": 55
   },
   {
     "artist": {
       "id": "",
-      "name": "IQ 78",
+      "name": "Dreamworld Panic",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-12T00:00:00.000Z",
-    "venue": "Lucky Bar",
+    "date": "2025-08-09T00:00:00.000Z",
+    "venue": "The Coda",
     "isMissing": false,
     "popularity": 56
   },
   {
     "artist": {
       "id": "",
-      "name": "SUGAR",
+      "name": "Tal Voda",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-07-13T00:00:00.000Z",
-    "venue": "Irish Times Pub",
+    "date": "2025-08-09T00:00:00.000Z",
+    "venue": "The Coda",
     "isMissing": false,
     "popularity": 57
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Emily Braden Quartet",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-09T00:00:00.000Z",
+    "venue": "Hermann's Jazz Club",
+    "isMissing": false,
+    "popularity": 58
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Daniel Cook & The Radiators",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-10T00:00:00.000Z",
+    "venue": "Cameron Bandshell",
+    "isMissing": false,
+    "popularity": 59
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Cookelidh",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-11T00:00:00.000Z",
+    "venue": "Cameron Bandshell",
+    "isMissing": false,
+    "popularity": 60
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Max Francis",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-12T00:00:00.000Z",
+    "venue": "Ship Point",
+    "isMissing": false,
+    "popularity": 61
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Sarah Osborne",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-12T00:00:00.000Z",
+    "venue": "Cameron Bandshell",
+    "isMissing": false,
+    "popularity": 62
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "California Lullaby",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-13T00:00:00.000Z",
+    "venue": "Ship Point",
+    "isMissing": false,
+    "popularity": 63
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Steve Grebanier Guild",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-14T00:00:00.000Z",
+    "venue": "Hermann's Jazz Club",
+    "isMissing": false,
+    "popularity": 64
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Iminah Kani",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-14T00:00:00.000Z",
+    "venue": "Fort Common",
+    "isMissing": false,
+    "popularity": 65
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Etianne",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-14T00:00:00.000Z",
+    "venue": "Ship Point Marina",
+    "isMissing": false,
+    "popularity": 66
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Elise Boulanger",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-14T00:00:00.000Z",
+    "venue": "Ship Point Marina",
+    "isMissing": false,
+    "popularity": 67
   }
 ]
