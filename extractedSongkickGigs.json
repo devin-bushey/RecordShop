@@ -2,76 +2,6 @@
   {
     "artist": {
       "id": "",
-      "name": "Serena Ryder",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-08-02T00:00:00.000Z",
-    "venue": "Starlight Stadium",
-    "isMissing": false,
-    "popularity": 0
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "The Magic Triangle",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-08-03T00:00:00.000Z",
-    "venue": "Bennett Bay Bistro",
-    "isMissing": false,
-    "popularity": 1
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Richy Mitch & The Coal Miners",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-08-05T00:00:00.000Z",
-    "venue": "Capital Ballroom",
-    "isMissing": false,
-    "popularity": 2
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Econoline Crush",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-08-08T00:00:00.000Z",
-    "venue": "Fred Milne Park",
-    "isMissing": false,
-    "popularity": 3
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "The New Groovement",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-08-10T00:00:00.000Z",
-    "venue": "Cadboro-Gyro Park",
-    "isMissing": false,
-    "popularity": 4
-  },
-  {
-    "artist": {
-      "id": "",
       "name": "Jim Cuddy",
       "topTracks": [],
       "uri": "",
@@ -81,7 +11,7 @@
     "date": "2025-08-13T00:00:00.000Z",
     "venue": "Butchart Gardens",
     "isMissing": false,
-    "popularity": 5
+    "popularity": 0
   },
   {
     "artist": {
@@ -93,9 +23,23 @@
       "link": ""
     },
     "date": "2025-08-16T00:00:00.000Z",
-    "venue": "",
+    "venue": "Rebel Company Garage",
     "isMissing": false,
-    "popularity": 6
+    "popularity": 1
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Bob Sumner",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-08-16T00:00:00.000Z",
+    "venue": "Wheelies Motorcycles",
+    "isMissing": false,
+    "popularity": 2
   },
   {
     "artist": {
@@ -109,7 +53,7 @@
     "date": "2025-08-24T00:00:00.000Z",
     "venue": "Butchart Gardens",
     "isMissing": false,
-    "popularity": 7
+    "popularity": 3
   },
   {
     "artist": {
@@ -123,7 +67,7 @@
     "date": "2025-08-24T00:00:00.000Z",
     "venue": "Cameron Bandshell, Beacon Hill Park",
     "isMissing": false,
-    "popularity": 8
+    "popularity": 4
   },
   {
     "artist": {
@@ -137,7 +81,7 @@
     "date": "2025-08-28T00:00:00.000Z",
     "venue": "Lucky Bar",
     "isMissing": false,
-    "popularity": 9
+    "popularity": 5
   },
   {
     "artist": {
@@ -151,7 +95,7 @@
     "date": "2025-08-28T00:00:00.000Z",
     "venue": "Lucky Bar",
     "isMissing": false,
-    "popularity": 10
+    "popularity": 6
   },
   {
     "artist": {
@@ -165,7 +109,7 @@
     "date": "2025-09-05T00:00:00.000Z",
     "venue": "Farquhar Auditorium, University of Victoria",
     "isMissing": false,
-    "popularity": 11
+    "popularity": 7
   },
   {
     "artist": {
@@ -179,7 +123,7 @@
     "date": "2025-09-11T00:00:00.000Z",
     "venue": "Ship Point (Inner Harbour)",
     "isMissing": false,
-    "popularity": 12
+    "popularity": 8
   },
   {
     "artist": {
@@ -193,7 +137,7 @@
     "date": "2025-09-12T00:00:00.000Z",
     "venue": "Rifflandia Festival",
     "isMissing": false,
-    "popularity": 13
+    "popularity": 9
   },
   {
     "artist": {
@@ -207,7 +151,7 @@
     "date": "2025-09-12T00:00:00.000Z",
     "venue": "Rifflandia Festival",
     "isMissing": false,
-    "popularity": 14
+    "popularity": 10
   },
   {
     "artist": {
@@ -221,7 +165,21 @@
     "date": "2025-09-12T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 15
+    "popularity": 11
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "the steadies",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-09-12T00:00:00.000Z",
+    "venue": "Lucky Bar",
+    "isMissing": false,
+    "popularity": 12
   },
   {
     "artist": {
@@ -235,21 +193,7 @@
     "date": "2025-09-13T00:00:00.000Z",
     "venue": "Save on Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 16
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Billianne",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-09-13T00:00:00.000Z",
-    "venue": "Rifflandia Festival",
-    "isMissing": false,
-    "popularity": 17
+    "popularity": 13
   },
   {
     "artist": {
@@ -263,7 +207,7 @@
     "date": "2025-09-14T00:00:00.000Z",
     "venue": "Save-On-Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 18
+    "popularity": 14
   },
   {
     "artist": {
@@ -277,7 +221,7 @@
     "date": "2025-09-14T00:00:00.000Z",
     "venue": "Save-On-Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 19
+    "popularity": 15
   },
   {
     "artist": {
@@ -291,7 +235,7 @@
     "date": "2025-09-17T00:00:00.000Z",
     "venue": "Charlie White Theatre, Mary Winspear Centre",
     "isMissing": false,
-    "popularity": 20
+    "popularity": 16
   },
   {
     "artist": {
@@ -305,7 +249,7 @@
     "date": "2025-09-18T00:00:00.000Z",
     "venue": "Royal Athletic Park",
     "isMissing": false,
-    "popularity": 21
+    "popularity": 17
   },
   {
     "artist": {
@@ -319,7 +263,7 @@
     "date": "2025-09-18T00:00:00.000Z",
     "venue": "The Coda",
     "isMissing": false,
-    "popularity": 22
+    "popularity": 18
   },
   {
     "artist": {
@@ -333,7 +277,7 @@
     "date": "2025-09-19T00:00:00.000Z",
     "venue": "Lucky Bar",
     "isMissing": false,
-    "popularity": 23
+    "popularity": 19
   },
   {
     "artist": {
@@ -347,7 +291,7 @@
     "date": "2025-09-21T00:00:00.000Z",
     "venue": "McPherson Playhouse",
     "isMissing": false,
-    "popularity": 24
+    "popularity": 20
   },
   {
     "artist": {
@@ -361,7 +305,7 @@
     "date": "2025-09-23T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 25
+    "popularity": 21
   },
   {
     "artist": {
@@ -375,7 +319,7 @@
     "date": "2025-09-25T00:00:00.000Z",
     "venue": "Upstairs Cabaret",
     "isMissing": false,
-    "popularity": 26
+    "popularity": 22
   },
   {
     "artist": {
@@ -389,7 +333,7 @@
     "date": "2025-09-27T00:00:00.000Z",
     "venue": "Lucky Bar",
     "isMissing": false,
-    "popularity": 27
+    "popularity": 23
   },
   {
     "artist": {
@@ -403,7 +347,7 @@
     "date": "2025-10-01T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 28
+    "popularity": 24
   },
   {
     "artist": {
@@ -417,7 +361,7 @@
     "date": "2025-10-02T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 29
+    "popularity": 25
   },
   {
     "artist": {
@@ -431,7 +375,7 @@
     "date": "2025-10-03T00:00:00.000Z",
     "venue": "The Upstairs",
     "isMissing": false,
-    "popularity": 30
+    "popularity": 26
   },
   {
     "artist": {
@@ -445,7 +389,7 @@
     "date": "2025-10-04T00:00:00.000Z",
     "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 31
+    "popularity": 27
   },
   {
     "artist": {
@@ -459,7 +403,21 @@
     "date": "2025-10-04T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 32
+    "popularity": 28
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Marc McLaughlin",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-10-04T00:00:00.000Z",
+    "venue": "Victoria House",
+    "isMissing": false,
+    "popularity": 29
   },
   {
     "artist": {
@@ -473,7 +431,7 @@
     "date": "2025-10-09T00:00:00.000Z",
     "venue": "Save-On-Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 33
+    "popularity": 30
   },
   {
     "artist": {
@@ -487,7 +445,7 @@
     "date": "2025-10-09T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 34
+    "popularity": 31
   },
   {
     "artist": {
@@ -501,7 +459,7 @@
     "date": "2025-10-10T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 35
+    "popularity": 32
   },
   {
     "artist": {
@@ -515,7 +473,7 @@
     "date": "2025-10-15T00:00:00.000Z",
     "venue": "Save-On-Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 36
+    "popularity": 33
   },
   {
     "artist": {
@@ -529,7 +487,7 @@
     "date": "2025-10-15T00:00:00.000Z",
     "venue": "Save-On-Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 37
+    "popularity": 34
   },
   {
     "artist": {
@@ -543,7 +501,21 @@
     "date": "2025-10-16T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 38
+    "popularity": 35
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Cristoph",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-10-17T00:00:00.000Z",
+    "venue": "The Upstairs",
+    "isMissing": false,
+    "popularity": 36
   },
   {
     "artist": {
@@ -557,7 +529,21 @@
     "date": "2025-10-19T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 39
+    "popularity": 37
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Baths",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-10-21T00:00:00.000Z",
+    "venue": "Lucky Bar",
+    "isMissing": false,
+    "popularity": 38
   },
   {
     "artist": {
@@ -571,7 +557,7 @@
     "date": "2025-10-24T00:00:00.000Z",
     "venue": "Save-On-Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 40
+    "popularity": 39
   },
   {
     "artist": {
@@ -585,7 +571,7 @@
     "date": "2025-10-24T00:00:00.000Z",
     "venue": "Save-On-Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 41
+    "popularity": 40
   },
   {
     "artist": {
@@ -599,7 +585,7 @@
     "date": "2025-10-24T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 42
+    "popularity": 41
   },
   {
     "artist": {
@@ -613,6 +599,104 @@
     "date": "2025-10-24T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
+    "popularity": 42
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Pissed Jeans",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-10-24T00:00:00.000Z",
+    "venue": "The Upstairs",
+    "isMissing": false,
     "popularity": 43
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Elliott Brood",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-10-24T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 44
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Geordie Kieffer",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-10-24T00:00:00.000Z",
+    "venue": "McPherson Playhouse",
+    "isMissing": false,
+    "popularity": 45
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "The Deep Dark Woods",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-10-25T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 46
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Paula Cole",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-10-30T00:00:00.000Z",
+    "venue": "McPherson Playhouse",
+    "isMissing": false,
+    "popularity": 47
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Sophie B. Hawkins",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-10-30T00:00:00.000Z",
+    "venue": "McPherson Playhouse",
+    "isMissing": false,
+    "popularity": 48
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Born Ruffians",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-11-02T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 49
   }
 ]
