@@ -2,86 +2,44 @@
   {
     "artist": {
       "id": "",
-      "name": "The Strumbellas",
+      "name": "Adam Dobres",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-12-04T00:00:00.000Z",
-    "venue": "Royal Theatre",
+    "date": "2025-12-10T00:00:00.000Z",
+    "venue": "Knox Presbyterian Church",
     "isMissing": false,
     "popularity": 0
   },
   {
     "artist": {
       "id": "",
-      "name": "MPH",
+      "name": "Scott White",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-12-04T00:00:00.000Z",
-    "venue": "The Upstairs",
+    "date": "2025-12-10T00:00:00.000Z",
+    "venue": "Knox Presbyterian Church",
     "isMissing": false,
     "popularity": 1
   },
   {
     "artist": {
       "id": "",
-      "name": "Hotel Mira",
+      "name": "Adrian Dolan",
       "topTracks": [],
       "uri": "",
       "albumArtUrl": "",
       "link": ""
     },
-    "date": "2025-12-05T00:00:00.000Z",
-    "venue": "Capital Ballroom",
+    "date": "2025-12-10T00:00:00.000Z",
+    "venue": "Knox Presbyterian Church",
     "isMissing": false,
     "popularity": 2
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Mindil Beach",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-05T00:00:00.000Z",
-    "venue": "Lucky Bar",
-    "isMissing": false,
-    "popularity": 3
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Dead Summer",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-05T00:00:00.000Z",
-    "venue": "Centennial Square",
-    "isMissing": false,
-    "popularity": 4
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Jake Vaadeland",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-07T00:00:00.000Z",
-    "venue": "Capital Ballroom",
-    "isMissing": false,
-    "popularity": 5
   },
   {
     "artist": {
@@ -95,7 +53,7 @@
     "date": "2025-12-11T00:00:00.000Z",
     "venue": "McPherson Playhouse",
     "isMissing": false,
-    "popularity": 6
+    "popularity": 3
   },
   {
     "artist": {
@@ -109,7 +67,7 @@
     "date": "2025-12-11T00:00:00.000Z",
     "venue": "The Coda",
     "isMissing": false,
-    "popularity": 7
+    "popularity": 4
   },
   {
     "artist": {
@@ -123,7 +81,7 @@
     "date": "2025-12-12T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 8
+    "popularity": 5
   },
   {
     "artist": {
@@ -137,7 +95,21 @@
     "date": "2025-12-12T00:00:00.000Z",
     "venue": "Knox Presbyterian Church",
     "isMissing": false,
-    "popularity": 9
+    "popularity": 6
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Dakha Brakha",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-12-12T00:00:00.000Z",
+    "venue": "University Centre Farquhar Auditorium",
+    "isMissing": false,
+    "popularity": 7
   },
   {
     "artist": {
@@ -151,7 +123,7 @@
     "date": "2025-12-13T00:00:00.000Z",
     "venue": "",
     "isMissing": false,
-    "popularity": 10
+    "popularity": 8
   },
   {
     "artist": {
@@ -165,21 +137,7 @@
     "date": "2025-12-13T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 11
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Winter Harp",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-13T00:00:00.000Z",
-    "venue": "Alix Goolden Performance Hall",
-    "isMissing": false,
-    "popularity": 12
+    "popularity": 9
   },
   {
     "artist": {
@@ -193,7 +151,21 @@
     "date": "2025-12-13T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 13
+    "popularity": 10
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Winter Harp",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-12-13T00:00:00.000Z",
+    "venue": "Alix Goolden Performance Hall",
+    "isMissing": false,
+    "popularity": 11
   },
   {
     "artist": {
@@ -207,7 +179,7 @@
     "date": "2025-12-13T00:00:00.000Z",
     "venue": "Hermann's Jazz Club",
     "isMissing": false,
-    "popularity": 14
+    "popularity": 12
   },
   {
     "artist": {
@@ -221,7 +193,7 @@
     "date": "2025-12-19T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 15
+    "popularity": 13
   },
   {
     "artist": {
@@ -235,7 +207,7 @@
     "date": "2025-12-19T00:00:00.000Z",
     "venue": "Upstairs Entertainment",
     "isMissing": false,
-    "popularity": 16
+    "popularity": 14
   },
   {
     "artist": {
@@ -249,7 +221,105 @@
     "date": "2025-12-20T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
+    "popularity": 15
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Tor and Murge",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-12-21T00:00:00.000Z",
+    "venue": "Lucky Bar",
+    "isMissing": false,
+    "popularity": 16
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Adrian Dolan",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-12-21T00:00:00.000Z",
+    "venue": "James Bay United Church",
+    "isMissing": false,
     "popularity": 17
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Adam Dobres",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-12-21T00:00:00.000Z",
+    "venue": "James Bay United Church",
+    "isMissing": false,
+    "popularity": 18
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Scott White",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-12-21T00:00:00.000Z",
+    "venue": "James Bay United Church",
+    "isMissing": false,
+    "popularity": 19
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Adam Dobres",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-12-21T00:00:00.000Z",
+    "venue": "James Bay United Church",
+    "isMissing": false,
+    "popularity": 20
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Scott White",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-12-21T00:00:00.000Z",
+    "venue": "James Bay United Church",
+    "isMissing": false,
+    "popularity": 21
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Adrian Dolan",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-12-21T00:00:00.000Z",
+    "venue": "James Bay United Church",
+    "isMissing": false,
+    "popularity": 22
   },
   {
     "artist": {
@@ -263,7 +333,7 @@
     "date": "2025-12-22T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 18
+    "popularity": 23
   },
   {
     "artist": {
@@ -277,7 +347,35 @@
     "date": "2025-12-23T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 19
+    "popularity": 24
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "George Canyon",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-12-23T00:00:00.000Z",
+    "venue": "Charlie White Theatre, Mary Winspear Centre",
+    "isMissing": false,
+    "popularity": 25
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Aaron Pritchett",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2025-12-23T00:00:00.000Z",
+    "venue": "Charlie White Theatre, Mary Winspear Centre",
+    "isMissing": false,
+    "popularity": 26
   },
   {
     "artist": {
@@ -291,7 +389,7 @@
     "date": "2026-01-09T00:00:00.000Z",
     "venue": "The Upstairs",
     "isMissing": false,
-    "popularity": 20
+    "popularity": 27
   },
   {
     "artist": {
@@ -305,21 +403,7 @@
     "date": "2026-01-09T00:00:00.000Z",
     "venue": "Quadra House",
     "isMissing": false,
-    "popularity": 21
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Phil Hanley",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-01-10T00:00:00.000Z",
-    "venue": "McPherson Playhouse",
-    "isMissing": false,
-    "popularity": 22
+    "popularity": 28
   },
   {
     "artist": {
@@ -333,7 +417,7 @@
     "date": "2026-01-16T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 23
+    "popularity": 29
   },
   {
     "artist": {
@@ -347,7 +431,7 @@
     "date": "2026-01-17T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 24
+    "popularity": 30
   },
   {
     "artist": {
@@ -359,9 +443,9 @@
       "link": ""
     },
     "date": "2026-01-22T00:00:00.000Z",
-    "venue": "Save-On-Foods Memorial Centre",
+    "venue": "Save on Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 25
+    "popularity": 31
   },
   {
     "artist": {
@@ -373,9 +457,51 @@
       "link": ""
     },
     "date": "2026-01-22T00:00:00.000Z",
-    "venue": "Save-On-Foods Memorial Centre",
+    "venue": "Save on Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 26
+    "popularity": 32
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Unfaithful Servants",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-01-23T00:00:00.000Z",
+    "venue": "Charlie White Theatre, Mary Winspear Centre",
+    "isMissing": false,
+    "popularity": 33
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Oliver Swain",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-01-23T00:00:00.000Z",
+    "venue": "Charlie White Theatre, Mary Winspear Centre",
+    "isMissing": false,
+    "popularity": 34
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "The Planets",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-01-25T00:00:00.000Z",
+    "venue": "Royal Theatre",
+    "isMissing": false,
+    "popularity": 35
   },
   {
     "artist": {
@@ -389,7 +515,7 @@
     "date": "2026-01-30T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 27
+    "popularity": 36
   },
   {
     "artist": {
@@ -403,7 +529,7 @@
     "date": "2026-01-31T00:00:00.000Z",
     "venue": "Dave Dunnet Community Theatre",
     "isMissing": false,
-    "popularity": 28
+    "popularity": 37
   },
   {
     "artist": {
@@ -417,7 +543,7 @@
     "date": "2026-01-31T00:00:00.000Z",
     "venue": "First Church Of Christ",
     "isMissing": false,
-    "popularity": 29
+    "popularity": 38
   },
   {
     "artist": {
@@ -431,7 +557,7 @@
     "date": "2026-01-31T00:00:00.000Z",
     "venue": "First Church Of Christ",
     "isMissing": false,
-    "popularity": 30
+    "popularity": 39
   },
   {
     "artist": {
@@ -445,7 +571,7 @@
     "date": "2026-02-01T00:00:00.000Z",
     "venue": "Dave Dunnet Community Theatre",
     "isMissing": false,
-    "popularity": 31
+    "popularity": 40
   },
   {
     "artist": {
@@ -459,7 +585,35 @@
     "date": "2026-02-04T00:00:00.000Z",
     "venue": "Wicket Hall",
     "isMissing": false,
-    "popularity": 32
+    "popularity": 41
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Big Sugar",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-07T00:00:00.000Z",
+    "venue": "Upstairs Cabaret",
+    "isMissing": false,
+    "popularity": 42
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "April Wine",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-13T00:00:00.000Z",
+    "venue": "McPherson Playhouse",
+    "isMissing": false,
+    "popularity": 43
   },
   {
     "artist": {
@@ -473,7 +627,7 @@
     "date": "2026-02-14T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 33
+    "popularity": 44
   },
   {
     "artist": {
@@ -485,9 +639,9 @@
       "link": ""
     },
     "date": "2026-02-15T00:00:00.000Z",
-    "venue": "Save-On-Foods Memorial Centre",
+    "venue": "Save on Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 34
+    "popularity": 45
   },
   {
     "artist": {
@@ -499,9 +653,23 @@
       "link": ""
     },
     "date": "2026-02-15T00:00:00.000Z",
-    "venue": "Save-On-Foods Memorial Centre",
+    "venue": "Save on Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 35
+    "popularity": 46
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Fox Stevenson",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-27T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 47
   },
   {
     "artist": {
@@ -515,7 +683,7 @@
     "date": "2026-02-28T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 36
+    "popularity": 48
   },
   {
     "artist": {
@@ -529,7 +697,7 @@
     "date": "2026-03-02T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 37
+    "popularity": 49
   },
   {
     "artist": {
@@ -543,7 +711,7 @@
     "date": "2026-03-02T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 38
+    "popularity": 50
   },
   {
     "artist": {
@@ -557,7 +725,7 @@
     "date": "2026-03-03T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 39
+    "popularity": 51
   },
   {
     "artist": {
@@ -571,7 +739,7 @@
     "date": "2026-03-03T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 40
+    "popularity": 52
   },
   {
     "artist": {
@@ -585,7 +753,7 @@
     "date": "2026-03-06T00:00:00.000Z",
     "venue": "Strathcona Hotel",
     "isMissing": false,
-    "popularity": 41
+    "popularity": 53
   },
   {
     "artist": {
@@ -599,7 +767,21 @@
     "date": "2026-03-07T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 42
+    "popularity": 54
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Black Pistol Fire",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-03-07T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 55
   },
   {
     "artist": {
@@ -613,7 +795,7 @@
     "date": "2026-03-08T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 43
+    "popularity": 56
   },
   {
     "artist": {
@@ -627,7 +809,7 @@
     "date": "2026-03-09T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 44
+    "popularity": 57
   },
   {
     "artist": {
@@ -641,7 +823,7 @@
     "date": "2026-03-11T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 45
+    "popularity": 58
   },
   {
     "artist": {
@@ -655,7 +837,7 @@
     "date": "2026-03-13T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 46
+    "popularity": 59
   },
   {
     "artist": {
@@ -669,90 +851,6 @@
     "date": "2026-03-14T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 47
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Jeremy Dutcher",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-03-15T00:00:00.000Z",
-    "venue": "Royal Theatre",
-    "isMissing": false,
-    "popularity": 48
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Josh Ritter",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-03-19T00:00:00.000Z",
-    "venue": "Charlie White Theatre, Mary Winspear Centre",
-    "isMissing": false,
-    "popularity": 49
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "GOO GOO DOLLS",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-03-19T00:00:00.000Z",
-    "venue": "Save-On-Foods Memorial Centre",
-    "isMissing": false,
-    "popularity": 50
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Colony House",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-03-21T00:00:00.000Z",
-    "venue": "Capital Ballroom",
-    "isMissing": false,
-    "popularity": 51
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Christian Löffler",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-03-22T00:00:00.000Z",
-    "venue": "Capital Ballroom",
-    "isMissing": false,
-    "popularity": 52
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Goldie Boutilier",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-03-24T00:00:00.000Z",
-    "venue": "Capital Ballroom",
-    "isMissing": false,
-    "popularity": 53
+    "popularity": 60
   }
 ]
