@@ -2,328 +2,6 @@
   {
     "artist": {
       "id": "",
-      "name": "Mac DeMarco",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-19T00:00:00.000Z",
-    "venue": "Royal Theatre",
-    "isMissing": false,
-    "popularity": 0
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "RUMPUS",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-19T00:00:00.000Z",
-    "venue": "Upstairs Entertainment",
-    "isMissing": false,
-    "popularity": 1
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Tor",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-21T00:00:00.000Z",
-    "venue": "Lucky Bar",
-    "isMissing": false,
-    "popularity": 2
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Murge",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-21T00:00:00.000Z",
-    "venue": "Lucky Bar",
-    "isMissing": false,
-    "popularity": 3
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Adrian Dolan",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-21T00:00:00.000Z",
-    "venue": "James Bay United Church",
-    "isMissing": false,
-    "popularity": 4
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Adam Dobres",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-21T00:00:00.000Z",
-    "venue": "James Bay United Church",
-    "isMissing": false,
-    "popularity": 5
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Scott White",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-21T00:00:00.000Z",
-    "venue": "James Bay United Church",
-    "isMissing": false,
-    "popularity": 6
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Adam Dobres",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-21T00:00:00.000Z",
-    "venue": "James Bay United Church",
-    "isMissing": false,
-    "popularity": 7
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Scott White",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-21T00:00:00.000Z",
-    "venue": "James Bay United Church",
-    "isMissing": false,
-    "popularity": 8
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Adrian Dolan",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-21T00:00:00.000Z",
-    "venue": "James Bay United Church",
-    "isMissing": false,
-    "popularity": 9
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Johnny Reid",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-22T00:00:00.000Z",
-    "venue": "Royal Theatre",
-    "isMissing": false,
-    "popularity": 10
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "The Tenors",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-23T00:00:00.000Z",
-    "venue": "Royal Theatre",
-    "isMissing": false,
-    "popularity": 11
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "George Canyon",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-23T00:00:00.000Z",
-    "venue": "Charlie White Theatre, Mary Winspear Centre",
-    "isMissing": false,
-    "popularity": 12
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Aaron Pritchett",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2025-12-23T00:00:00.000Z",
-    "venue": "Charlie White Theatre, Mary Winspear Centre",
-    "isMissing": false,
-    "popularity": 13
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "AYYBO",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-01-09T00:00:00.000Z",
-    "venue": "The Upstairs",
-    "isMissing": false,
-    "popularity": 14
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Greg Rekus",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-01-09T00:00:00.000Z",
-    "venue": "Quadra House",
-    "isMissing": false,
-    "popularity": 15
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Supersonic",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-01-16T00:00:00.000Z",
-    "venue": "Capital Ballroom",
-    "isMissing": false,
-    "popularity": 16
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Jade LeMac",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-01-17T00:00:00.000Z",
-    "venue": "Capital Ballroom",
-    "isMissing": false,
-    "popularity": 17
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "The Offspring",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-01-22T00:00:00.000Z",
-    "venue": "Save on Foods Memorial Centre",
-    "isMissing": false,
-    "popularity": 18
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Bad Religion",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-01-22T00:00:00.000Z",
-    "venue": "Save on Foods Memorial Centre",
-    "isMissing": false,
-    "popularity": 19
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Unfaithful Servants",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-01-23T00:00:00.000Z",
-    "venue": "Charlie White Theatre, Mary Winspear Centre",
-    "isMissing": false,
-    "popularity": 20
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Oliver Swain",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-01-23T00:00:00.000Z",
-    "venue": "Charlie White Theatre, Mary Winspear Centre",
-    "isMissing": false,
-    "popularity": 21
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "The Planets",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-01-25T00:00:00.000Z",
-    "venue": "Royal Theatre",
-    "isMissing": false,
-    "popularity": 22
-  },
-  {
-    "artist": {
-      "id": "",
       "name": "Merkules",
       "topTracks": [],
       "uri": "",
@@ -333,7 +11,21 @@
     "date": "2026-01-30T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 23
+    "popularity": 0
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Dead Summer",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-01-30T00:00:00.000Z",
+    "venue": "Vinyl Envy",
+    "isMissing": false,
+    "popularity": 1
   },
   {
     "artist": {
@@ -347,7 +39,7 @@
     "date": "2026-01-31T00:00:00.000Z",
     "venue": "Dave Dunnet Community Theatre",
     "isMissing": false,
-    "popularity": 24
+    "popularity": 2
   },
   {
     "artist": {
@@ -361,7 +53,7 @@
     "date": "2026-01-31T00:00:00.000Z",
     "venue": "First Church Of Christ",
     "isMissing": false,
-    "popularity": 25
+    "popularity": 3
   },
   {
     "artist": {
@@ -375,7 +67,7 @@
     "date": "2026-01-31T00:00:00.000Z",
     "venue": "First Church Of Christ",
     "isMissing": false,
-    "popularity": 26
+    "popularity": 4
   },
   {
     "artist": {
@@ -389,7 +81,7 @@
     "date": "2026-02-01T00:00:00.000Z",
     "venue": "Dave Dunnet Community Theatre",
     "isMissing": false,
-    "popularity": 27
+    "popularity": 5
   },
   {
     "artist": {
@@ -401,9 +93,37 @@
       "link": ""
     },
     "date": "2026-02-04T00:00:00.000Z",
-    "venue": "Wicket Hall",
+    "venue": "Studio 919",
     "isMissing": false,
-    "popularity": 28
+    "popularity": 6
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Caleb Hart",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-04T00:00:00.000Z",
+    "venue": "Lucky Bar",
+    "isMissing": false,
+    "popularity": 7
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Elephante",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-06T00:00:00.000Z",
+    "venue": "Union Hall",
+    "isMissing": false,
+    "popularity": 8
   },
   {
     "artist": {
@@ -417,7 +137,77 @@
     "date": "2026-02-07T00:00:00.000Z",
     "venue": "Upstairs Cabaret",
     "isMissing": false,
-    "popularity": 29
+    "popularity": 9
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Black Pontiac",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-07T00:00:00.000Z",
+    "venue": "Phoenix Bar & Grill",
+    "isMissing": false,
+    "popularity": 10
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Chase The Bear",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-07T00:00:00.000Z",
+    "venue": "The Open Studios",
+    "isMissing": false,
+    "popularity": 11
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "vogue villains",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-07T00:00:00.000Z",
+    "venue": "The Open Studios",
+    "isMissing": false,
+    "popularity": 12
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Hawksley Workman",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-10T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 13
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Living Hour",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-12T00:00:00.000Z",
+    "venue": "Lucky Bar",
+    "isMissing": false,
+    "popularity": 14
   },
   {
     "artist": {
@@ -431,7 +221,7 @@
     "date": "2026-02-13T00:00:00.000Z",
     "venue": "McPherson Playhouse",
     "isMissing": false,
-    "popularity": 30
+    "popularity": 15
   },
   {
     "artist": {
@@ -445,7 +235,63 @@
     "date": "2026-02-14T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 31
+    "popularity": 16
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "The Sylvia Platters",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-14T00:00:00.000Z",
+    "venue": "Fort Tectoria",
+    "isMissing": false,
+    "popularity": 17
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Slugger",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-14T00:00:00.000Z",
+    "venue": "Fort Tectoria",
+    "isMissing": false,
+    "popularity": 18
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Corduroy Aspect",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-14T00:00:00.000Z",
+    "venue": "Fort Tectoria",
+    "isMissing": false,
+    "popularity": 19
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Lily Fawn",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-14T00:00:00.000Z",
+    "venue": "The Other Guise Theatre Society",
+    "isMissing": false,
+    "popularity": 20
   },
   {
     "artist": {
@@ -457,9 +303,9 @@
       "link": ""
     },
     "date": "2026-02-15T00:00:00.000Z",
-    "venue": "Save on Foods Memorial Centre",
+    "venue": "Save-On-Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 32
+    "popularity": 21
   },
   {
     "artist": {
@@ -471,9 +317,79 @@
       "link": ""
     },
     "date": "2026-02-15T00:00:00.000Z",
-    "venue": "Save on Foods Memorial Centre",
+    "venue": "Save-On-Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 33
+    "popularity": 22
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Braxton Glass",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-15T00:00:00.000Z",
+    "venue": "The Mint",
+    "isMissing": false,
+    "popularity": 23
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Rebecca Sichon",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-21T00:00:00.000Z",
+    "venue": "",
+    "isMissing": false,
+    "popularity": 24
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Lindsay Bryan",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-21T00:00:00.000Z",
+    "venue": "",
+    "isMissing": false,
+    "popularity": 25
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Joan Bessie",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-21T00:00:00.000Z",
+    "venue": "",
+    "isMissing": false,
+    "popularity": 26
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Junk (Canada)",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-02-26T00:00:00.000Z",
+    "venue": "Lucky Bar",
+    "isMissing": false,
+    "popularity": 27
   },
   {
     "artist": {
@@ -487,7 +403,7 @@
     "date": "2026-02-27T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 34
+    "popularity": 28
   },
   {
     "artist": {
@@ -501,7 +417,7 @@
     "date": "2026-02-28T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 35
+    "popularity": 29
   },
   {
     "artist": {
@@ -515,7 +431,7 @@
     "date": "2026-02-28T00:00:00.000Z",
     "venue": "The Upstairs",
     "isMissing": false,
-    "popularity": 36
+    "popularity": 30
   },
   {
     "artist": {
@@ -529,7 +445,7 @@
     "date": "2026-02-28T00:00:00.000Z",
     "venue": "Ambrosia Banquet Hall",
     "isMissing": false,
-    "popularity": 37
+    "popularity": 31
   },
   {
     "artist": {
@@ -543,7 +459,7 @@
     "date": "2026-02-28T00:00:00.000Z",
     "venue": "Ambrosia Banquet Hall",
     "isMissing": false,
-    "popularity": 38
+    "popularity": 32
   },
   {
     "artist": {
@@ -557,7 +473,7 @@
     "date": "2026-03-02T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 39
+    "popularity": 33
   },
   {
     "artist": {
@@ -571,7 +487,7 @@
     "date": "2026-03-02T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 40
+    "popularity": 34
   },
   {
     "artist": {
@@ -585,7 +501,7 @@
     "date": "2026-03-03T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 41
+    "popularity": 35
   },
   {
     "artist": {
@@ -599,7 +515,7 @@
     "date": "2026-03-03T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 42
+    "popularity": 36
   },
   {
     "artist": {
@@ -613,7 +529,7 @@
     "date": "2026-03-04T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 43
+    "popularity": 37
   },
   {
     "artist": {
@@ -627,7 +543,7 @@
     "date": "2026-03-06T00:00:00.000Z",
     "venue": "Strathcona Hotel",
     "isMissing": false,
-    "popularity": 44
+    "popularity": 38
   },
   {
     "artist": {
@@ -641,7 +557,21 @@
     "date": "2026-03-06T00:00:00.000Z",
     "venue": "Hermann's Jazz Club",
     "isMissing": false,
-    "popularity": 45
+    "popularity": 39
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Samantha Martin & Delta Sugar",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-03-06T00:00:00.000Z",
+    "venue": "Chief and Petty Officer's Mess",
+    "isMissing": false,
+    "popularity": 40
   },
   {
     "artist": {
@@ -655,7 +585,7 @@
     "date": "2026-03-07T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 46
+    "popularity": 41
   },
   {
     "artist": {
@@ -669,7 +599,21 @@
     "date": "2026-03-07T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 47
+    "popularity": 42
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Chase The Bear",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-03-07T00:00:00.000Z",
+    "venue": "Vinyl Envy",
+    "isMissing": false,
+    "popularity": 43
   },
   {
     "artist": {
@@ -683,7 +627,7 @@
     "date": "2026-03-08T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 48
+    "popularity": 44
   },
   {
     "artist": {
@@ -697,7 +641,7 @@
     "date": "2026-03-09T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 49
+    "popularity": 45
   },
   {
     "artist": {
@@ -711,7 +655,21 @@
     "date": "2026-03-11T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 50
+    "popularity": 46
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "Kasador",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-03-12T00:00:00.000Z",
+    "venue": "Capital Ballroom",
+    "isMissing": false,
+    "popularity": 47
   },
   {
     "artist": {
@@ -725,7 +683,7 @@
     "date": "2026-03-13T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 51
+    "popularity": 48
   },
   {
     "artist": {
@@ -739,7 +697,7 @@
     "date": "2026-03-14T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 52
+    "popularity": 49
   },
   {
     "artist": {
@@ -753,7 +711,7 @@
     "date": "2026-03-15T00:00:00.000Z",
     "venue": "Royal Theatre",
     "isMissing": false,
-    "popularity": 53
+    "popularity": 50
   },
   {
     "artist": {
@@ -765,23 +723,9 @@
       "link": ""
     },
     "date": "2026-03-19T00:00:00.000Z",
-    "venue": "Save on Foods Memorial Centre",
+    "venue": "Save-On-Foods Memorial Centre",
     "isMissing": false,
-    "popularity": 54
-  },
-  {
-    "artist": {
-      "id": "",
-      "name": "Dashboard Confessional",
-      "topTracks": [],
-      "uri": "",
-      "albumArtUrl": "",
-      "link": ""
-    },
-    "date": "2026-03-19T00:00:00.000Z",
-    "venue": "Save on Foods Memorial Centre",
-    "isMissing": false,
-    "popularity": 55
+    "popularity": 51
   },
   {
     "artist": {
@@ -795,7 +739,7 @@
     "date": "2026-03-19T00:00:00.000Z",
     "venue": "Charlie White Theatre, Mary Winspear Centre",
     "isMissing": false,
-    "popularity": 56
+    "popularity": 52
   },
   {
     "artist": {
@@ -809,7 +753,35 @@
     "date": "2026-03-20T00:00:00.000Z",
     "venue": "Charlie White Theatre, Mary Winspear Centre",
     "isMissing": false,
-    "popularity": 57
+    "popularity": 53
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "ALEX CUBA TRIO",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-03-20T00:00:00.000Z",
+    "venue": "White Eagle Polish Hall",
+    "isMissing": false,
+    "popularity": 54
+  },
+  {
+    "artist": {
+      "id": "",
+      "name": "TK the Artist",
+      "topTracks": [],
+      "uri": "",
+      "albumArtUrl": "",
+      "link": ""
+    },
+    "date": "2026-03-20T00:00:00.000Z",
+    "venue": "White Eagle Polish Hall",
+    "isMissing": false,
+    "popularity": 55
   },
   {
     "artist": {
@@ -823,6 +795,6 @@
     "date": "2026-03-21T00:00:00.000Z",
     "venue": "Capital Ballroom",
     "isMissing": false,
-    "popularity": 58
+    "popularity": 56
   }
 ]
