@@ -6,61 +6,61 @@ on:
     - cron: "0 2 * * 3" # 7pm PDT every tuesday
 
 jobs:
-  direct_jambase_db_update:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+  # direct_jambase_db_update:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout code
+  #       uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "20.12.1"
+  #     - name: Set up Node.js
+  #       uses: actions/setup-node@v3
+  #       with:
+  #         node-version: "20.12.1"
 
-      - name: Install dependencies
-        working-directory: scripts
-        run: npm install
+  #     - name: Install dependencies
+  #       working-directory: scripts
+  #       run: npm install
 
-      - name: Run script (victoria)
-        working-directory: scripts
-        env:
-          ATLAS_URI: ${{ secrets.ATLAS_URI }}
-          API_KEY_JAMBASE: ${{ secrets.API_KEY_JAMBASE }}
-          SP_REFRESH_TOKEN: ${{ secrets.SP_REFRESH_TOKEN }}
-          SP_CLIENT_ID: ${{ secrets.SP_CLIENT_ID }}
-          SP_CLIENT_S: ${{ secrets.SP_CLIENT_S }}
-        run: npx ts-node ./src/fetchAndAddGigsToDB.ts victoria
+  #     - name: Run script (victoria)
+  #       working-directory: scripts
+  #       env:
+  #         ATLAS_URI: ${{ secrets.ATLAS_URI }}
+  #         API_KEY_JAMBASE: ${{ secrets.API_KEY_JAMBASE }}
+  #         SP_REFRESH_TOKEN: ${{ secrets.SP_REFRESH_TOKEN }}
+  #         SP_CLIENT_ID: ${{ secrets.SP_CLIENT_ID }}
+  #         SP_CLIENT_S: ${{ secrets.SP_CLIENT_S }}
+  #       run: npx ts-node ./src/fetchAndAddGigsToDB.ts victoria
 
-      - name: Run script (vancouver)
-        working-directory: scripts
-        env:
-          ATLAS_URI: ${{ secrets.ATLAS_URI }}
-          API_KEY_JAMBASE: ${{ secrets.API_KEY_JAMBASE }}
-          SP_REFRESH_TOKEN: ${{ secrets.SP_REFRESH_TOKEN }}
-          SP_CLIENT_ID: ${{ secrets.SP_CLIENT_ID }}
-          SP_CLIENT_S: ${{ secrets.SP_CLIENT_S }}
-        run: npx ts-node ./src/fetchAndAddGigsToDB.ts vancouver
+  #     - name: Run script (vancouver)
+  #       working-directory: scripts
+  #       env:
+  #         ATLAS_URI: ${{ secrets.ATLAS_URI }}
+  #         API_KEY_JAMBASE: ${{ secrets.API_KEY_JAMBASE }}
+  #         SP_REFRESH_TOKEN: ${{ secrets.SP_REFRESH_TOKEN }}
+  #         SP_CLIENT_ID: ${{ secrets.SP_CLIENT_ID }}
+  #         SP_CLIENT_S: ${{ secrets.SP_CLIENT_S }}
+  #       run: npx ts-node ./src/fetchAndAddGigsToDB.ts vancouver
 
-      - name: Run script (calgary)
-        working-directory: scripts
-        env:
-          ATLAS_URI: ${{ secrets.ATLAS_URI }}
-          API_KEY_JAMBASE: ${{ secrets.API_KEY_JAMBASE }}
-          SP_REFRESH_TOKEN: ${{ secrets.SP_REFRESH_TOKEN }}
-          SP_CLIENT_ID: ${{ secrets.SP_CLIENT_ID }}
-          SP_CLIENT_S: ${{ secrets.SP_CLIENT_S }}
-        run: npx ts-node ./src/fetchAndAddGigsToDB.ts calgary
+  #     - name: Run script (calgary)
+  #       working-directory: scripts
+  #       env:
+  #         ATLAS_URI: ${{ secrets.ATLAS_URI }}
+  #         API_KEY_JAMBASE: ${{ secrets.API_KEY_JAMBASE }}
+  #         SP_REFRESH_TOKEN: ${{ secrets.SP_REFRESH_TOKEN }}
+  #         SP_CLIENT_ID: ${{ secrets.SP_CLIENT_ID }}
+  #         SP_CLIENT_S: ${{ secrets.SP_CLIENT_S }}
+  #       run: npx ts-node ./src/fetchAndAddGigsToDB.ts calgary
 
-      - name: Update Record Shop spotify playlist
-        working-directory: scripts
-        env:
-          ATLAS_URI: ${{ secrets.ATLAS_URI }}
-          SP_REFRESH_TOKEN: ${{ secrets.SP_REFRESH_TOKEN }}
-          SP_CLIENT_ID: ${{ secrets.SP_CLIENT_ID }}
-          SP_CLIENT_S: ${{ secrets.SP_CLIENT_S }}
-          VITE_SITE_URL_DB: ${{ secrets.VITE_SITE_URL_DB }}
-          SP_RECORDSHOP_USER_ID: ${{ secrets.SP_RECORDSHOP_USER_ID }}
-        run: npx ts-node ./src/playlists/updatePlaylist.ts
+  #     - name: Update Record Shop spotify playlist
+  #       working-directory: scripts
+  #       env:
+  #         ATLAS_URI: ${{ secrets.ATLAS_URI }}
+  #         SP_REFRESH_TOKEN: ${{ secrets.SP_REFRESH_TOKEN }}
+  #         SP_CLIENT_ID: ${{ secrets.SP_CLIENT_ID }}
+  #         SP_CLIENT_S: ${{ secrets.SP_CLIENT_S }}
+  #         VITE_SITE_URL_DB: ${{ secrets.VITE_SITE_URL_DB }}
+  #         SP_RECORDSHOP_USER_ID: ${{ secrets.SP_RECORDSHOP_USER_ID }}
+  #       run: npx ts-node ./src/playlists/updatePlaylist.ts
         
   extract_gigs_and_create_pr:
     runs-on: ubuntu-latest
