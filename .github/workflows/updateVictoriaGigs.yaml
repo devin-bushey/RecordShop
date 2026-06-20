@@ -2,8 +2,9 @@ name: Weekly Victoria Gigs Update
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 2 * * 3" # 7pm PDT every tuesday
+  # Weekly schedule disabled
+  # schedule:
+  #   - cron: "0 2 * * 3" # 7pm PDT every tuesday
 
 jobs:
   # direct_jambase_db_update:
